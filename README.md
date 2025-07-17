@@ -1,1 +1,14 @@
 # awxes-formable-nations
+
+RESTRICTIVE LICENSE AGREEMENT
+© Ali/awxe 2025. ALL RIGHTS RESERVED.
+
+This mod is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License and CC0 1.0 Universal.
+
+Copying, reinstalling or using any part of this mod by AWXE without explicit permission is strictly prohibited. Unauthorized use may result in legal action.
+
+Please respect the work put into this project and contact me before using any content.
+
+By downloading this mod, you agree to these terms.
+
+Thank you.
