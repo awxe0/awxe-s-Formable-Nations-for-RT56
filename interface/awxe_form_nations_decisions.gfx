@@ -588,23 +588,43 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_formable_nations_zaidi.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_formable_ostrogothic"
-		texturefile = "gfx/interface/decisions/decision_formable_nations_ostrogothic.tga"
+		name = "GFX_decision_formable_nations_ostrogothic"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_franco_ostrogothic.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_formable_visigothic"
+		name = "GFX_decision_formable_nations_visigothic"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_visigothic.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_formable_andalus"
+		name = "GFX_decision_formable_nations_andalus"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_andalus.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_formable_vandal"
+		name = "GFX_decision_formable_nations_vandal"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_vandal.tga"
 	}
 	spriteType = {
-		name = "GFX_decision_formable_romano_gothia"
+		name = "GFX_decision_formable_nations_romano_gothia"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_romano_gothia.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_bulgaria_romania"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_bulgaria_romania.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_austro_slovakia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_austro_slovakia.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_polish_swedish"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_polish_swedish.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_franco_spanish"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_franco_spanish.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_fennoscandia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_fennoscandia.tga"
 	}
 }
