@@ -1,5 +1,33 @@
 # awxe's Formable Nations for RT56
 
+This is the well-known and beloved Formable Nations mod, fully overhauled and now 100% compatible with the Road to 56 mod. Expanded, translated, optimized and packed with brand-new formable content never seen before.
+
+FORMABLE NATION LIST
+
+Abbasid Caliphate - Abyssinia - Adriatic - Afsharid Dynasty - Akhand Bharat - Al-Andalus (NEW) - Alpine Federation - Americas - Andes - Angevin Empire - Anglosphere - Arabia - Asia - Assyria - Australasia - Austria-Hungary - Babylonian Empire - Balkans - Baltic States - Bani Khalid Emirate - Bantu Kingdom - Benelux - Bengal Empire - Bulgarian Empire - Byzantium - Carpathia - Caribbean - Carthage - Celtic Union - Central America - Chile-Argentina - China - Commonwealth - Cossack Hosts - Danubian Federation - Danish Colonial Empire - Denmark-Norway Union - Dutch Colonial Empire - Durrani Empire - East Africa - Empire of Srivijaya - Eurasia - Europe - European Hun Empire - European Unity - First Turkic Khaganate - Frankish Empire - German Colonial Empire - Ghaznavid Empire - Golden Circle - Golden Horde - Gran Colombia - Great Moravia - Great Nordic Union - Great Ottoman Empire - Greater Albania - Greater Austria - Greater Canada - Greater Croatia - Greater Egypt - Greater Finland - Greater Georgia - Greater Greece - Greater Israel - Greater Italy - Greater Japan - Greater Korea - Greater Russian Empire - Greater Serbia - Greater Tibet - Greater Yugoslavia - Großdeutschland - Hellenoturkism - Hispaniola - Hispanic America - Holy Roman Empire - Hungarian Kingdom - Iberia - Illyrian Kingdom - Inca Empire - Indochina - Intermarium - Italy - Khazar Khaganate - Kievan Rus - Khmer Empire - Kingdom of Aksum - Kingdom of Jerusalem - Kingdom of Pontus - Kingdom of Prussia (NEW) - Kingdom of Thrace - La Plata - Latin Union - Levant - Macedonian Empire - Maghreb - Mali Empire - Mamluk Sultanate - Mexican Empire - Middle East - Ming Dynasty - Mongol Empire - Mughal Empire - North America - North German Federation - North Sea Empire - Oceanian - Ostrogothic Kingdom (NEW) - Ottoman Empire - Outremer - Pala Empire - Pan-Slavic Federation - Persian Empire - Peru-Bolivia - Philippine Empire - Phoenicia - Poland-Hungary - Portuguese Colonial Empire - Qajar Empire - Qing Dynasty - Republic of Pirates - Roman Empire - Romano-Gothia Empire (NEW) - Sahel - Sasanian Empire - Scandinavia - Seljuk Empire - Skibidi San Ma - South America - South German Federation - Southeast Asia - Spanish Empire - Swedish Empire - The World - Timurid Empire - Transcaucasia - Turan - Umayyad Caliphate - Unified Silla & Balhae - United British Isles - United Guyana - Vandal Kingdom (NEW) - Visigothic Kingdom (NEW) - Visegrad - West Rome - Xiongnu - Zapadoslavia - Zaidi Kingdom of Yemen (NEW)
+
+FEATURES
+
+• +140 Formable Nations
+• Full integration with Road to 56
+• Custom flags, colors, decisions, and cores
+• Accurate historical & cultural naming
+• Regular updates, new content monthly
+• Performance-optimized for both Singleplayer and Multiplayer
+• The borders needed for the formable will highlighted white when you hover over its name or icon.
+
+LANGUAGES
+
+• English - ✅ 100%
+• French / Français - ✅ 100%
+• German / Deutsch - ✅ 100%
+• Spanish / Español - ✅ 100%
+• Russian / Русский - ✅ 100%
+• Polish / Dialekt - ✅ 100%
+• Chinese / 中文 - ✅ 100% (by 鸢一折纸)
+• Portuguese / Português - Work in Progress
+• Japanese / 日本語 - Work in Progress
+
 RESTRICTIVE LICENSE AGREEMENT
 © Ali/awxe 2025. ALL RIGHTS RESERVED.
 
