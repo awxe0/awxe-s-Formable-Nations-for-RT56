@@ -8,25 +8,25 @@ Abbasid Caliphate - Abyssinia - Adriatic - Afsharid Dynasty - Akhand Bharat - Al
 
 FEATURES
 
-• +140 Formable Nations
-• Full integration with Road to 56
-• Custom flags, colors, decisions, and cores
-• Accurate historical & cultural naming
-• Regular updates, new content monthly
-• Performance-optimized for both Singleplayer and Multiplayer
-• The borders needed for the formable will highlighted white when you hover over its name or icon.
+• +140 Formable Nations  
+• Full integration with Road to 56  
+• Custom flags, colors, decisions, and cores  
+• Accurate historical & cultural naming  
+• Regular updates, new content monthly  
+• Performance-optimized for both Singleplayer and Multiplayer  
+• The borders needed for the formable will highlighted white when you hover over its name or icon.  
 
 LANGUAGES
 
-• English - ✅ 100%
-• French / Français - ✅ 100%
-• German / Deutsch - ✅ 100%
-• Spanish / Español - ✅ 100%
-• Russian / Русский - ✅ 100%
-• Polish / Dialekt - ✅ 100%
-• Chinese / 中文 - ✅ 100% (by 鸢一折纸)
-• Portuguese / Português - Work in Progress
-• Japanese / 日本語 - Work in Progress
+• English - ✅ 100%  
+• French / Français - ✅ 100%  
+• German / Deutsch - ✅ 100%  
+• Spanish / Español - ✅ 100%  
+• Russian / Русский - ✅ 100%  
+• Polish / Dialekt - ✅ 100%  
+• Chinese / 中文 - ✅ 100% (by 鸢一折纸)  
+• Portuguese / Português - Work in Progress  
+• Japanese / 日本語 - Work in Progress  
 
 RESTRICTIVE LICENSE AGREEMENT
 © Ali/awxe 2025. ALL RIGHTS RESERVED.
