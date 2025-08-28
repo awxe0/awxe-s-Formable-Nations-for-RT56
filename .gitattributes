@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
+*.lua linguist-language=Lua
 * text=auto
+vendor/* linguist-vendored
+docs/* linguist-documentation
