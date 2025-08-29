@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 *.yml linguist-language=Lua
 * text=auto
+descriptor.mod.yml linguist-language=AMPL
