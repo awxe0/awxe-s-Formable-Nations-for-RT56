@@ -589,7 +589,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_decision_formable_nations_ostrogothic"
-		texturefile = "gfx/interface/decisions/decision_formable_nations_franco_ostrogothic.tga"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_ostrogothic.tga"
 	}
 	spriteType = {
 		name = "GFX_decision_formable_nations_visigothic"

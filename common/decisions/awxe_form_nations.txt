@@ -28508,7 +28508,7 @@ formable_nations_mod_category = {
 		cost = 0 days_re_enable = 0
 		
 		visible = {
-			NOT = { has_country_flag = unform_available }
+			#NOT = { has_country_flag = unform_available }
 			NOT = { has_global_flag = hide_formable_nations }
 			OR = { 
 				has_global_flag = no_limit
@@ -29182,7 +29182,7 @@ formable_nations_mod_category = {
 		icon = formable_nations_polish_swedish
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_PSU
-			add_stability = 0.1
+			add_stability = 0.15
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				10 = { add_core_of = ROOT }
@@ -29336,7 +29336,6 @@ formable_nations_mod_category = {
 				state = 31
 				state = 32
 				state = 33
-				state = 114
 				state = 735
 				state = 785
 				state = 806
@@ -29394,7 +29393,6 @@ formable_nations_mod_category = {
 						31 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
 						32 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
 						33 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
-						114 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
 						735 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
 						785 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
 						806 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
@@ -29458,7 +29456,6 @@ formable_nations_mod_category = {
 				31 = { add_core_of = ROOT }
 				32 = { add_core_of = ROOT }
 				33 = { add_core_of = ROOT }
-				114 = { add_core_of = ROOT }
 				735 = { add_core_of = ROOT }
 				785 = { add_core_of = ROOT }
 				806 = { add_core_of = ROOT }

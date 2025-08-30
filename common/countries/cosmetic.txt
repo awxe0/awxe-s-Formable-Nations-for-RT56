@@ -2997,3 +2997,28 @@ AFN_RGE = {
 	color = rgb { 184 148 2 }
 	color_ui = rgb { 184 148 2 }
 }
+
+AFN_BRU = {
+	color = rgb { 213 15 40 }
+	color_ui = rgb { 213 15 40 }
+}
+
+AFN_ASU = {
+	color = rgb { 3 77 163 }
+	color_ui = rgb { 3 77 163 }
+}
+
+AFN_PSU = {
+	color = rgb { 221 192 232 }
+	color_ui = rgb { 221 192 232 }
+}
+
+AFN_FSU = {
+	color = rgb { 193 180 189 }
+	color_ui = rgb { 193 180 189 }
+}
+
+AFN_FSA = {
+	color = rgb { 12 61 99 }
+	color_ui = rgb { 12 61 99 }
+}
