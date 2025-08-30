@@ -1013,7 +1013,6 @@ formable_nations_mod_category = {
 				1049 = { add_core_of = ROOT }
 				1075 = { add_core_of = ROOT }
 				1093 = { add_core_of = ROOT }
-						
 			}
 		}
 	}
@@ -1042,7 +1041,34 @@ formable_nations_mod_category = {
 		on_map_mode = decision_view_only
 		highlight_states = {
 			highlight_states_trigger = {
+			    OR = {
 				is_on_continent = europe	
+				state = 406
+				state = 407
+				state = 236
+				state = 401
+				state = 829
+				state = 239
+				state = 255
+				state = 250
+				state = 251
+				state = 652
+				state = 651
+				state = 249
+				state = 252
+				state = 256
+				state = 833
+				state = 398
+				state = 399
+				state = 351
+				state = 400
+				state = 880
+				state = 262
+				state = 825
+				state = 397
+				state = 351
+				state = 1076
+				}
 			}
 		}
 		available = {
@@ -1077,6 +1103,8 @@ formable_nations_mod_category = {
 									state = 262
 									state = 825
 									state = 397
+									state = 351
+									state = 1076
 								}
 								NOT = {
 									OR = {
@@ -6099,7 +6127,10 @@ formable_nations_mod_category = {
 		on_map_mode = decision_view_only
 		highlight_states = {
 			highlight_states_trigger = {
+				OR = {
 				is_on_continent = south_america	
+				state = 649
+				}
 			}
 		}
 		available = {
@@ -6130,7 +6161,6 @@ formable_nations_mod_category = {
 									state = 317
 									state = 299
 									state = 720
-									state = 649
 								}
 							}
 							NOT = {
@@ -6155,7 +6185,6 @@ formable_nations_mod_category = {
 								state = 317
 								state = 299
 								state = 720
-								state = 649
 							}
 						}
 					}
@@ -8459,7 +8488,17 @@ formable_nations_mod_category = {
 		on_map_mode = decision_view_only
 		highlight_states = {
 			highlight_states_trigger = {
+			    OR = {
 				is_on_continent = north_america	
+				state = 311
+				state = 313
+				state = 312
+				state = 314
+				state = 316
+				state = 317
+				state = 685
+				state = 304
+				}
 			}
 		}
 		available = {
@@ -10836,6 +10875,8 @@ formable_nations_mod_category = {
 											state = 262
 											state = 825
 											state = 397
+											state = 698
+								            state = 1076
 										}
 									}
 									is_controlled_by = ROOT
@@ -10891,6 +10932,8 @@ formable_nations_mod_category = {
 								state = 262
 								state = 825
 								state = 397
+								state = 698
+							    state = 1076
 							}
 						}
 					}
@@ -13422,7 +13465,19 @@ formable_nations_mod_category = {
 		on_map_mode = decision_view_only
 		highlight_states = {
 			highlight_states_trigger = {
+			    OR {
 				is_on_continent = middle_east	
+				state = 341
+				state = 797
+				state = 907
+				state = 447
+				state = 452
+				state = 456
+				state = 457
+				state = 552
+				state = 911
+				state = 995
+				}
 			}
 		}
 		available = {
@@ -13442,6 +13497,9 @@ formable_nations_mod_category = {
 									state = 456
 									state = 457
 									state = 552
+									state = 183
+									state = 911
+									state = 995
 								}
 								NOT = {
 									OR = {
@@ -13450,6 +13508,7 @@ formable_nations_mod_category = {
 										state = 231 
 										state = 826
 										state = 415
+										state = 1010
 									}
 								}
 								is_controlled_by = ROOT
@@ -13465,6 +13524,9 @@ formable_nations_mod_category = {
 									state = 456
 									state = 457
 									state = 552
+									state = 183
+									state = 911
+									state = 995
 								}
 							}
 							state = 230
@@ -13472,6 +13534,7 @@ formable_nations_mod_category = {
 							state = 231 
 							state = 826
 							state = 415
+							state = 1010
 						}
 					}
 					AND = {
@@ -13502,6 +13565,9 @@ formable_nations_mod_category = {
 							state = 456
 							state = 457
 							state = 552
+							state = 183
+							state = 911
+							state = 995
 						}
 						NOT = {
 							OR = {
@@ -13510,6 +13576,7 @@ formable_nations_mod_category = {
 								state = 231 
 								state = 826
 								state = 415
+								state = 1010
 							}
 						}
 						NOT = { is_core_of = ROOT }
@@ -13942,6 +14009,7 @@ formable_nations_mod_category = {
 				OR = {
 					is_on_continent = north_america
 					is_on_continent = south_america
+					state = 649
 				}
 			}
 		}
@@ -18375,6 +18443,10 @@ formable_nations_mod_category = {
 				original_tag = SLV
 				original_tag = SER
 			}
+			AND = {
+			has_global_flag = no_limit
+            NOT = { tag = ALG }
+			}
 		}
 
 		highlight_states = {
@@ -18424,8 +18496,6 @@ formable_nations_mod_category = {
 				        961 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
 				        962 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
 				        963 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
-					
-						
 					}
 					AND = {
 						has_global_flag = debug_mode
