@@ -1,5 +1,7 @@
 # awxe's Formable Nations for RT56
 
+MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=3531061069
+
 This is the well-known and beloved Formable Nations mod, fully overhauled and now 100% compatible with the Road to 56 mod. Expanded, translated, optimized and packed with brand-new formable content never seen before.
 
 FORMABLE NATION LIST
