@@ -2929,8 +2929,8 @@ AFN_HCE = {
 }
 
 AFN_PCE = {
-	color = rgb { 6 68 38 }
-	color_ui = rgb { 6 68 38 }
+	color = rgb { 42 76 76 }
+	color_ui = rgb { 42 76 76 }
 }
 
 AFN_PON = {
@@ -2964,8 +2964,8 @@ AFN_PHE = {
 }
 
 AFN_PRS = {
-	color = rgb { 45 45 45 }
-	color_ui = rgb { 45 45 45 }
+	color = rgb { 94 102 107 }
+	color_ui = rgb { 94 102 107 }
 }
 
 AFN_ZKY = {
