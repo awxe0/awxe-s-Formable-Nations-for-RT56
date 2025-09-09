@@ -12097,6 +12097,7 @@ formable_nations_mod_category = {
 				original_tag = SAD
 				original_tag = COR
 				original_tag = SIC
+				original_tag = MLT
 			}
 			NOT = { has_global_flag = modern_country }
 		}
@@ -13419,7 +13420,7 @@ formable_nations_mod_category = {
 		icon = formable_nations_greater_korea
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_GKO
-			add_stability = 0.1
+			add_stability = 0.05
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				525 = { add_core_of = ROOT }
@@ -14575,6 +14576,9 @@ formable_nations_mod_category = {
 				original_tag = SHL
 				original_tag = SIL
 				original_tag = RHI
+				original_tag = DNZ
+				original_tag = THU
+				original_tag = HES
 			}
 		}
 
@@ -20591,7 +20595,7 @@ formable_nations_mod_category = {
 		icon = formable_nations_unified_korea
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = AFN_UKO
-			add_stability = 0.15
+			add_stability = 0.10
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				525 = { add_core_of = ROOT }
@@ -25690,6 +25694,7 @@ formable_nations_mod_category = {
 				original_tag = SAD
 				original_tag = VNZ
 				original_tag = SAN
+				original_tag = TTS
 			}
 		}
 
@@ -27776,6 +27781,7 @@ formable_nations_mod_category = {
 			OR = { 
 				has_global_flag = no_limit
 				original_tag = DNZ
+				original_tag = PRE
 			}
 		}
 
@@ -27989,6 +27995,7 @@ formable_nations_mod_category = {
 				original_tag = SAD
 				original_tag = VNZ
 				original_tag = SAN
+				original_tag = TTS
 			}
 		}
 
@@ -28433,6 +28440,7 @@ formable_nations_mod_category = {
 				original_tag = ALG
 				original_tag = LBA
 				original_tag = COR
+				original_tag = MLT
 			}
 		}
 
@@ -29305,7 +29313,6 @@ formable_nations_mod_category = {
 				original_tag = ADR
 				original_tag = SPR
 				original_tag = SPA
-				original_tag = POR
 				original_tag = GLC
 				original_tag = CAT
 				original_tag = ADR
