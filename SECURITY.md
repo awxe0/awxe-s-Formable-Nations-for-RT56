@@ -6,9 +6,10 @@ The following table shows which versions of the project are currently supported 
 
 | Version | Supported                |
 | ------- | ------------------------ |
-| 1.2.x   | ✅ (Latest, fully supported) |
-| 1.1.x   | ⚠️ Critical fixes only    |
-| 1.0.x   | ❌ Not supported          |
+| 1.3  | ✅ (Latest, fully supported) |
+| 1.2  | ⚠️ Critical fixes only       |
+| 1.1  | ⚠️ Critical fixes only       |
+| 1.0  | ❌ Not supported             |
 
 ## Reporting a Vulnerability
 
