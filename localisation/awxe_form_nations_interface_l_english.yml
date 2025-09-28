@@ -207,6 +207,12 @@
  formable_nations_polish_swedish:0 "Polish-Swedish Union"
  formable_nations_franco_spanish:0 "Franco-Spanish Union"
  formable_nations_fennoscandia:0 "Fennoscandia"
+ formable_nations_aragon:0 "Kingdom of Aragon"
+ formable_nations_burgundy:0 "Kingdom of Burgundy"
+ formable_nations_lotharingia:0 "Kingdom of Lotharingia"
+ formable_nations_gallic:0 "Gallic Empire"
+ formable_nations_carolingian:0 "Carolingian Empire"
+ formable_nations_carolingian_desc:0 "To form the Carolingian Empire, you must first form either the Kingdom of Burgundy or Kingdom of Lotharingia."
  ##############################
 
  #############################
@@ -368,3 +374,8 @@
  formable_nations_polish_swedish_category:0 "Polish-Swedish Union"
  formable_nations_franco_spanish_category:0 "Franco-Spanish Union"
  formable_nations_fennoscandia_category:0 "Fennoscandia"
+ formable_nations_aragon_category:0 "Kingdom of Aragon"
+ formable_nations_burgundy_category:0 "Kingdom of Burgundy"
+ formable_nations_lotharingia_category:0 "Kingdom of Lotharingia"
+ formable_nations_gallic_category:0 "Gallic Empire"
+ formable_nations_carolingian_category:0 "Carolingian Empire"

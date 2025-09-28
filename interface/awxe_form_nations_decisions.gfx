@@ -627,4 +627,24 @@ spriteTypes = {
 		name = "GFX_decision_formable_nations_fennoscandia"
 		texturefile = "gfx/interface/decisions/decision_formable_nations_fennoscandia.tga"
 	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_aragon"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_aragon.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_burgundy"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_burgundy.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_lotharingia"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_lotharingia.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_gallic"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_gallic.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_formable_nations_carolingian"
+		texturefile = "gfx/interface/decisions/decision_formable_nations_carolingian.tga"
+	}
 }
