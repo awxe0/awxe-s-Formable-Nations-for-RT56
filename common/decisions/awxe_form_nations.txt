@@ -29662,4 +29662,918 @@ formable_nations_mod_category = {
 			195 = { add_core_of = ROOT }
 		}
 	}
+	
+	formable_nations_aragon = {
+	
+		priority = 847
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = ADR
+				original_tag = CAT
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1
+				state = 114
+				state = 115
+				state = 117
+				state = 156
+				state = 157
+				state = 165
+				state = 166
+				state = 167
+				state = 177
+				state = 794
+				state = 849
+				state = 973
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+						1 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        114 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						115 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						117 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						156 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						157 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						165 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						166 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						167 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						177 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						794 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						849 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						973 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ARA } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_aragon
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_ARA
+			add_stability = 0.1
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				1 = { add_core_of = ROOT }
+				114 = { add_core_of = ROOT }
+				115 = { add_core_of = ROOT }
+				117 = { add_core_of = ROOT }
+				156 = { add_core_of = ROOT }
+				157 = { add_core_of = ROOT }
+				165 = { add_core_of = ROOT }
+				166 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
+				794 = { add_core_of = ROOT }
+				849 = { add_core_of = ROOT }
+				973 = { add_core_of = ROOT }				
+			}
+			31 = { add_core_of = ROOT }
+			172 = { add_core_of = ROOT }
+			22 = { add_core_of = ROOT }
+			116 = { add_core_of = ROOT }
+			47 = { add_core_of = ROOT }
+		}
+	}
+	
+	formable_nations_burgundy = {
+	
+		priority = 846
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = LUX
+				original_tag = FRA
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 6
+				state = 7
+				state = 8
+				state = 17
+				state = 27
+				state = 28
+				state = 29
+				state = 34
+				state = 35
+				state = 36
+				state = 785
+				state = 965
+				state = 1094
+				state = 1095
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+						6 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        7 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						8 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						17 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						27 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						28 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						29 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						34 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						35 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						36 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						785 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						965 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						1094 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						1095 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_BUR } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_burgundy
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_BUR
+			add_stability = 0.1
+			set_capital = { state = 8 }
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				6 = { add_core_of = ROOT }
+				7 = { add_core_of = ROOT }
+				8 = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
+				27 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				29 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
+				785 = { add_core_of = ROOT }
+				965 = { add_core_of = ROOT }
+				1094 = { add_core_of = ROOT }
+				1095 = { add_core_of = ROOT }				
+			}
+			18 = { add_core_of = ROOT }
+			51 = { add_core_of = ROOT }
+			42 = { add_core_of = ROOT }
+		}
+	}
+	
+	formable_nations_lotharingia = {
+	
+		priority = 845
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = LUX
+				original_tag = FRA
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 7
+				state = 8
+				state = 17
+				state = 18
+				state = 28
+				state = 34
+				state = 35
+				state = 36
+				state = 42
+				state = 51
+				state = 923
+				state = 965
+				state = 989
+				state = 1053
+				state = 1094
+				state = 1095
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+				        7 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						8 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						17 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						18 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+					    28 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						34 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						35 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						36 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						42 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						51 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						923 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						965 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						989 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						1053 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						1094 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						1095 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_LOT } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_lotharingia
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_LOT
+			add_stability = 0.1
+			set_capital = { state = 485 }
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				7 = { add_core_of = ROOT }
+				8 = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
+				18 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
+				42 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				923 = { add_core_of = ROOT }
+				965 = { add_core_of = ROOT }
+				989 = { add_core_of = ROOT }
+				1053 = { add_core_of = ROOT }
+				1094 = { add_core_of = ROOT }
+				1095 = { add_core_of = ROOT }				
+			}
+			6 = { add_core_of = ROOT }
+			56 = { add_core_of = ROOT }
+		}
+	}
+	
+	formable_nations_gallic = {
+	
+		priority = 844
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0  days_re_enable = 0
+		
+		visible = {
+			NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = { 
+				has_global_flag = no_limit
+				original_tag = FRA
+				original_tag = BRI
+				original_tag = NAV
+				original_tag = OCC
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 6
+				state = 8
+				state = 14
+				state = 15
+				state = 16
+				state = 17
+				state = 18
+				state = 19
+				state = 20
+				state = 21
+				state = 22
+				state = 23
+				state = 24
+				state = 25
+				state = 26
+				state = 27
+				state = 28
+				state = 29
+				state = 30
+				state = 31
+				state = 32
+				state = 33
+				state = 34
+				state = 35
+				state = 42
+				state = 50
+				state = 51
+				state = 735
+				state = 785
+				state = 806
+				state = 851
+				state = 922
+				state = 923
+				state = 965
+				state = 973
+				state = 1053
+				state = 1094
+				state = 1095
+				
+				state = 41
+				state = 118
+				state = 165
+				state = 166
+				state = 167
+				state = 168
+				state = 169
+				state = 170
+				state = 171
+				state = 172
+				state = 173
+				state = 174
+				state = 175
+				state = 176
+				state = 788
+				state = 789
+				state = 790
+				state = 791
+				state = 792
+				state = 793
+				state = 794
+				state = 112
+				state = 179
+				state = 180
+				state = 181
+				state = 177
+				state = 795
+				
+				state = 122
+				state = 123
+				state = 125
+				state = 126
+				state = 127
+				state = 128
+				state = 129
+				state = 130
+				state = 131
+				state = 132
+				state = 338
+				state = 1041
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = { 
+				tooltip = highlighted_state_tooltip 
+				OR = {
+					AND = {
+				        6 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        8 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        14 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        15 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        16 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        17 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        18 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        19 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        20 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        21 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        22 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        23 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        24 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        25 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        26 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        27 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        28 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        29 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        30 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        31 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        32 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        33 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        34 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        35 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        42 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        50 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        51 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        735 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        785 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        806 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        851 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        922 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        923 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        965 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        973 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        1053 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        1094 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        1095 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+
+                        41 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        118 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        165 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        166 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        167 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        168 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        169 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        170 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        171 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        172 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        173 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        174 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        175 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        176 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        788 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        789 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        790 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        791 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        792 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        793 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        794 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        112 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        179 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        180 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        181 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        177 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        795 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+
+                        122 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        123 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        125 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        126 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        127 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        128 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        129 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        130 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        131 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        132 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        338 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        1041= { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }						
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GAL } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_gallic
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+			set_cosmetic_tag = AFN_GAL
+			add_stability = 0.15
+			set_capital = { state = 51 }
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				6 = { add_core_of = ROOT }
+				8   = { add_core_of = ROOT }
+				14  = { add_core_of = ROOT }
+				15  = { add_core_of = ROOT }
+				16  = { add_core_of = ROOT }
+				17  = { add_core_of = ROOT }
+				18  = { add_core_of = ROOT }
+				19  = { add_core_of = ROOT }
+				20  = { add_core_of = ROOT }
+				21  = { add_core_of = ROOT }
+				22  = { add_core_of = ROOT }
+				23  = { add_core_of = ROOT }
+				24  = { add_core_of = ROOT }
+				25  = { add_core_of = ROOT }
+				26  = { add_core_of = ROOT }
+				27  = { add_core_of = ROOT }
+				28  = { add_core_of = ROOT }
+				29  = { add_core_of = ROOT }
+				30  = { add_core_of = ROOT }
+				31  = { add_core_of = ROOT }
+				32  = { add_core_of = ROOT }
+				33  = { add_core_of = ROOT }
+				34  = { add_core_of = ROOT }
+				35  = { add_core_of = ROOT }
+				42  = { add_core_of = ROOT }
+				50  = { add_core_of = ROOT }
+				51  = { add_core_of = ROOT }
+				735 = { add_core_of = ROOT }
+				785 = { add_core_of = ROOT }
+				806 = { add_core_of = ROOT }
+				851 = { add_core_of = ROOT }
+				922 = { add_core_of = ROOT }
+				923 = { add_core_of = ROOT }
+				965 = { add_core_of = ROOT }
+				973 = { add_core_of = ROOT }
+				1053= { add_core_of = ROOT }
+				1094= { add_core_of = ROOT }
+				1095= { add_core_of = ROOT }
+
+				41  = { add_core_of = ROOT }
+				118 = { add_core_of = ROOT }
+				165 = { add_core_of = ROOT }
+				166 = { add_core_of = ROOT }
+				167 = { add_core_of = ROOT }
+				168 = { add_core_of = ROOT }
+				169 = { add_core_of = ROOT }
+				170 = { add_core_of = ROOT }
+				171 = { add_core_of = ROOT }
+				172 = { add_core_of = ROOT }
+				173 = { add_core_of = ROOT }
+				174 = { add_core_of = ROOT }
+				175 = { add_core_of = ROOT }
+				176 = { add_core_of = ROOT }
+				788 = { add_core_of = ROOT }
+				789 = { add_core_of = ROOT }
+				790 = { add_core_of = ROOT }
+				791 = { add_core_of = ROOT }
+				792 = { add_core_of = ROOT }
+				793 = { add_core_of = ROOT }
+				794 = { add_core_of = ROOT }
+				112 = { add_core_of = ROOT }
+				179 = { add_core_of = ROOT }
+				180 = { add_core_of = ROOT }
+				181 = { add_core_of = ROOT }
+				177 = { add_core_of = ROOT }
+				795 = { add_core_of = ROOT }
+
+				122 = { add_core_of = ROOT }
+				123 = { add_core_of = ROOT }
+				125 = { add_core_of = ROOT }
+				126 = { add_core_of = ROOT }
+				127 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+				129 = { add_core_of = ROOT }
+				130 = { add_core_of = ROOT }
+				131 = { add_core_of = ROOT }
+				132 = { add_core_of = ROOT }
+				338 = { add_core_of = ROOT }
+				1041= { add_core_of = ROOT }				
+			}
+			1076 = { add_core_of = ROOT }
+		}
+	}
+	
+	formable_nations_carolingian = {
+	
+		priority = 843
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_global_flag = ai_disabled 
+			}
+		}
+		
+		cost = 0 days_re_enable = 0
+		
+		visible = {
+			#NOT = { has_country_flag = unform_available }
+			NOT = { has_global_flag = hide_formable_nations }
+			OR = {
+				has_global_flag = no_limit
+				original_tag = BEL
+				original_tag = HOL
+				original_tag = LUX
+				original_tag = FRA
+			}
+			NOT = { has_global_flag = modern_country }
+			OR = {
+				has_cosmetic_tag = AFN_LOT
+				has_cosmetic_tag = AFN_BUR
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 1
+				state = 15
+				state = 16
+				state = 17
+				state = 18
+				state = 19
+				state = 806
+				state = 20
+				state = 21
+				state = 851
+				state = 22
+				state = 23
+				state = 24
+				state = 25
+				state = 26
+				state = 27
+				state = 28
+				state = 29
+				state = 30
+				state = 31
+				state = 32
+				state = 33
+				state = 735
+				state = 785
+				state = 165
+				state = 6
+				state = 34
+				state = 7
+				state = 35
+				state = 36
+				state = 8
+				state = 158
+				state = 162
+				state = 2
+				state = 42
+				state = 51
+				state = 56
+				
+				state = 922
+				state = 923
+				state = 965
+				state = 973
+				state = 989
+				state = 1012
+				state = 1053
+				state = 1094
+				state = 1095
+				
+				state = 3
+				state = 39
+				state = 151
+				state = 159
+				state = 161
+				state = 845
+				state = 846
+				state = 847
+				state = 850
+				state = 957
+				state = 997
+				state = 1015
+				
+				state = 4
+				state = 50
+				state = 52
+				state = 53
+				state = 54
+				state = 55
+				state = 57
+				state = 58
+				state = 59
+				state = 102
+				state = 152
+				state = 153
+				state = 736
+				state = 848
+				state = 853
+				state = 912
+				state = 998
+				state = 1054
+				state = 1086
+
+			}
+		}
+		
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = highlighted_state_tooltip
+				OR = {
+					AND = {
+						1 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        15 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        16 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        17 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        18 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						19 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        806 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        20 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						21 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						851 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						22 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        23 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        24 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        25 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        26 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        27 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						28 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        29 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        30 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        31 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        32 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        33 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        735 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        785 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        165 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        6 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        34 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						7 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        35 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        36 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        8 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        158 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						162 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        2 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        42 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        51 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        56 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				
+				        922 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        923 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        989 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						1012 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+					    1053 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        1094 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+				        1095 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						
+						3 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        39 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        151 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        159 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        161 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        845 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        846 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        847 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        850 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        957 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        997 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        1015 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+
+                        4 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        50 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        52 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        53 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        54 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        55 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        57 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        58 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        59 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        102 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        152 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        153 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        736 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        848 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        853 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        912 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        998 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        1054 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+                        1086 = { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }
+						
+					}
+					AND = {
+						has_global_flag = debug_mode
+						is_ai = no
+					}
+				}
+			}
+			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_CAR } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+		}
+		icon = formable_nations_carolingian
+		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
+		    set_cosmetic_tag = AFN_CAR
+			add_stability = 0.2
+			set_capital = { state = 28 }
+			custom_effect_tooltip = core_land
+			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				1 = { add_core_of = ROOT }
+				15 = { add_core_of = ROOT }
+				16 = { add_core_of = ROOT }
+				17 = { add_core_of = ROOT }
+				18 = { add_core_of = ROOT }
+				19 = { add_core_of = ROOT }
+				806 = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
+				21 = { add_core_of = ROOT }
+				851 = { add_core_of = ROOT }
+				22 = { add_core_of = ROOT }
+				23 = { add_core_of = ROOT }
+				24 = { add_core_of = ROOT }
+				25 = { add_core_of = ROOT }
+				26 = { add_core_of = ROOT }
+				27 = { add_core_of = ROOT }
+			    28 = { add_core_of = ROOT }
+				29 = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
+				31 = { add_core_of = ROOT }
+				32 = { add_core_of = ROOT }
+				33 = { add_core_of = ROOT }
+				735 = { add_core_of = ROOT }
+				785 = { add_core_of = ROOT }
+				165 = { add_core_of = ROOT }
+				6 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				7 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
+				8 = { add_core_of = ROOT }
+				158 = { add_core_of = ROOT }
+				162 = { add_core_of = ROOT }
+				2 = { add_core_of = ROOT }
+				42 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				
+				922 = { add_core_of = ROOT }
+				923 = { add_core_of = ROOT }
+				989 = { add_core_of = ROOT }
+				1012 = { add_core_of = ROOT }
+				1053 = { add_core_of = ROOT }
+				1094 = { add_core_of = ROOT }
+				1095 = { add_core_of = ROOT }
+				
+				3 = { add_core_of = ROOT }
+				39  = { add_core_of = ROOT }
+				151 = { add_core_of = ROOT }
+				159 = { add_core_of = ROOT }
+				161 = { add_core_of = ROOT }
+				845 = { add_core_of = ROOT }
+				846 = { add_core_of = ROOT }
+				847 = { add_core_of = ROOT }
+				850 = { add_core_of = ROOT }
+				957 = { add_core_of = ROOT }
+				997 = { add_core_of = ROOT }
+				1015 = { add_core_of = ROOT }
+
+				4 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				54 = { add_core_of = ROOT }
+				55 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				58 = { add_core_of = ROOT }
+				59 = { add_core_of = ROOT }
+				102 = { add_core_of = ROOT }
+				152 = { add_core_of = ROOT }
+				153 = { add_core_of = ROOT }
+				736 = { add_core_of = ROOT }
+				848 = { add_core_of = ROOT }
+				853 = { add_core_of = ROOT }
+				912 = { add_core_of = ROOT }
+				998 = { add_core_of = ROOT }
+				1054 = { add_core_of = ROOT }
+				1086 = { add_core_of = ROOT }
+				
+			}
+			14 = { add_core_of = ROOT }
+			1076 = { add_core_of = ROOT }
+			61 = { add_core_of = ROOT }
+			60 = { add_core_of = ROOT }
+			64 = { add_core_of = ROOT }
+			65 = { add_core_of = ROOT }
+			69 = { add_core_of = ROOT }
+			9 = { add_core_of = ROOT }
+			70 = { add_core_of = ROOT }
+			664 = { add_core_of = ROOT }
+			75 = { add_core_of = ROOT }
+			1078 = { add_core_of = ROOT }
+			155 = { add_core_of = ROOT }
+			109 = { add_core_of = ROOT }
+			956 = { add_core_of = ROOT }
+			958 = { add_core_of = ROOT }
+		}
+	}
 }
