@@ -281,6 +281,10 @@ CHI_dictatorship = {
 	color = rgb { 156 159 204}
 	color_ui = rgb { 156 159 204}
 }
+CHI_salvation_gov = {
+	color = hsv { 0.04 0.25 0.95 }
+	color_ui = hsv { 0.04 0.25 0.95 }
+}
 KMT_empire = {
 	color = rgb { 0 0 77 }
 	color_ui = rgb { 0 0 77 }
@@ -1147,7 +1151,7 @@ SWI_alamannia = {
 	color = rgb { 0 153 0 }
 	color_ui = rgb { 0 197 146 }
 }
-GRL = {
+GRN = {
 	color = { 206  211  227 }
 	color_ui = rgb { 206  211  227 }
 }
