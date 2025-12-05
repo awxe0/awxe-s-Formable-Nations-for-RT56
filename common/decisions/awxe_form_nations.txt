@@ -17998,7 +17998,7 @@ formable_nations_mod_category = {
 				original_tag = TML
 				original_tag = EIS
 				original_tag = MLK
-				original_tag = PPA
+				original_tag = WPG
 				original_tag = SGP
 				original_tag = SWK
 				original_tag = FRI
@@ -32330,7 +32330,7 @@ formable_nations_mod_category = {
 				original_tag = BRN
 				original_tag = EIS
 				original_tag = MLK
-				original_tag = PPA
+				original_tag = WPG
 				original_tag = SGP
 				original_tag = SWK
 			}
