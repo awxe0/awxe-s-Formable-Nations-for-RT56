@@ -20,16 +20,16 @@ FEATURES
 
 LANGUAGES
 
-• English - ✅ 100%
-• French / Français - ✅ 100%
-• German / Deutsch - ✅ 100%
-• Spanish / Español - ✅ 100%
-• Russian / Русский - ✅ 100%
-• Polish / Dialekt - ✅ 100%
-• Japanese / 日本語 - ✅ 100%
-• Korean / 韓國語 - ✅ 100%
-• Chinese / 中文 - ✅ 100% (by 鸢一折纸)
-• Portuguese / Português - Work in Progress
+• English - ✅ 100%  
+• French / Français - ✅ 100%  
+• German / Deutsch - ✅ 100%  
+• Spanish / Español - ✅ 100%  
+• Russian / Русский - ✅ 100%  
+• Polish / Dialekt - ✅ 100%  
+• Japanese / 日本語 - ✅ 100%  
+• Korean / 韓國語 - ✅ 100%  
+• Chinese / 中文 - ✅ 100% (by 鸢一折纸)  
+• Portuguese / Português - Work in Progress  
 
 COMPATIBILITY  
 
