@@ -32957,6 +32957,7 @@ formable_nations_mod_category = {
 				state = 606
 				state = 607
 				state = 608
+				state = 613
 				state = 614
 				state = 615
 				state = 620
@@ -33008,6 +33009,7 @@ formable_nations_mod_category = {
 				        606 = { owns_or_subject_of = yes }
 				        607 = { owns_or_subject_of = yes }
 				        608 = { owns_or_subject_of = yes }
+						613 = { owns_or_subject_of = yes }
 				        614 = { owns_or_subject_of = yes }
 				        615 = { owns_or_subject_of = yes }
 				        620 = { owns_or_subject_of = yes }
@@ -33066,6 +33068,7 @@ formable_nations_mod_category = {
 				606 = { add_core_of = ROOT }
 				607 = { add_core_of = ROOT }
 				608 = { add_core_of = ROOT }
+				613 = { add_core_of = ROOT }
 				614 = { add_core_of = ROOT }
 				615 = { add_core_of = ROOT }
 				620 = { add_core_of = ROOT }
