@@ -8389,6 +8389,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_YUG } } }
+			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_yugoslavia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13773,6 +13774,18 @@ formable_nations_mod_category = {
 						525 = { owns_or_subject_of = yes }
 						527 = { owns_or_subject_of = yes }
 						
+						917 = { owns_or_subject_of = yes }
+						918 = { owns_or_subject_of = yes }
+						919 = { owns_or_subject_of = yes }
+						920 = { owns_or_subject_of = yes }
+						941 = { owns_or_subject_of = yes }
+						942 = { owns_or_subject_of = yes }
+						943 = { owns_or_subject_of = yes }
+						944 = { owns_or_subject_of = yes }
+						945 = { owns_or_subject_of = yes }
+						946 = { owns_or_subject_of = yes }
+						947 = { owns_or_subject_of = yes }
+						
 						1105 = { owns_or_subject_of = yes }
 						1106 = { owns_or_subject_of = yes }
 						1107 = { owns_or_subject_of = yes }
@@ -13828,6 +13841,18 @@ formable_nations_mod_category = {
 				409 = { add_core_of = ROOT }
 				611 = { add_core_of = ROOT }
 				612 = { add_core_of = ROOT }
+				
+				917 = { add_core_of = ROOT }
+				918 = { add_core_of = ROOT }
+				919 = { add_core_of = ROOT }
+				920 = { add_core_of = ROOT }
+				941 = { add_core_of = ROOT }
+				942 = { add_core_of = ROOT }
+				943 = { add_core_of = ROOT }
+				944 = { add_core_of = ROOT }
+				945 = { add_core_of = ROOT }
+				946 = { add_core_of = ROOT }
+				947 = { add_core_of = ROOT }
 				
 				1105 = { add_core_of = ROOT }
 				1106 = { add_core_of = ROOT }
@@ -18504,10 +18529,6 @@ formable_nations_mod_category = {
 				original_tag = CRO
 				original_tag = SLV
 				original_tag = SER
-			}
-			AND = {
-			has_global_flag = no_limit
-            NOT = { tag = ALG }
 			}
 		}
 
@@ -30301,7 +30322,7 @@ formable_nations_mod_category = {
                         131 = { owns_or_subject_of = yes }
                         132 = { owns_or_subject_of = yes }
                         338 = { owns_or_subject_of = yes }
-                        1041= { controller = { OR = { tag = ROOT is_subject_of = ROOT } } }						
+                        1041= { owns_or_subject_of = yes }
 					}
 					AND = {
 						has_global_flag = debug_mode
