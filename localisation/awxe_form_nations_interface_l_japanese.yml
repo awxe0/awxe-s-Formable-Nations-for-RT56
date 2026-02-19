@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "アク・コユンル"
  formable_nations_chola:0 "チョーラ朝"
  formable_nations_tang:0 "唐朝"
+ formable_nations_greater_turkey:0 "ミサク・ミッリ"
+ formable_nations_greater_armenia:0 "大アルメニア"
+ formable_nations_akkadian_empire:0 "アッカド帝国"
+ formable_nations_seleucid_empire:0 "セレウコス帝国"
+ formable_nations_greater_azerbaijan:0 "大アゼルバイジャン"
  ##############################
 
  ##############################
@@ -429,3 +434,8 @@
  formable_nations_aq_qoyunlu_category:0 "アク・コユンル"
  formable_nations_chola_category:0 "チョーラ朝"
  formable_nations_tang_category:0 "唐朝"
+ formable_nations_greater_turkey_category:0 "ミサク・ミッリ"
+ formable_nations_greater_armenia_category:0 "大アルメニア"
+ formable_nations_akkadian_empire_category:0 "アッカド帝国"
+ formable_nations_seleucid_empire_category:0 "セレウコス帝国"
+ formable_nations_greater_azerbaijan_category:0 "大アゼルバイジャン"

@@ -247,6 +247,11 @@
  formable_nations_aq_qoyunlu:0 "白羊王朝"
  formable_nations_chola:0 "朱罗王朝"
  formable_nations_tang:0 "唐朝"
+ formable_nations_greater_turkey:0 "米萨克-米利"
+ formable_nations_greater_armenia:0 "大亚美尼亚"
+ formable_nations_akkadian_empire:0 "阿卡德帝国"
+ formable_nations_seleucid_empire:0 "塞琉古帝国"
+ formable_nations_greater_azerbaijan:0 "大阿塞拜疆"
  ##############################
  
  #############################
@@ -431,4 +436,9 @@
  formable_nations_aq_qoyunlu_category:0 "白羊王朝"
  formable_nations_chola_category:0 "朱罗王朝"
  formable_nations_tang_category:0 "唐朝"
+ formable_nations_greater_turkey_category:0 "米萨克-米利"
+ formable_nations_greater_armenia_category:0 "大亚美尼亚"
+ formable_nations_akkadian_empire_category:0 "阿卡德帝国"
+ formable_nations_seleucid_empire_category:0 "塞琉古帝国"
+ formable_nations_greater_azerbaijan_category:0 "大阿塞拜疆"
  
