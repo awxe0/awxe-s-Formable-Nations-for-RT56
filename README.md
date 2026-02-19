@@ -1,16 +1,21 @@
-# awxe's Formable Nations for RT56
+# awxe's Formable Nations for RT56!
 
-MOD: https://steamcommunity.com/sharedfiles/filedetails/?id=3531061069
+![AFN - Steam Showcase - Main - 180](https://github.com/user-attachments/assets/1b54a8d6-ffa4-43b0-927b-b3d484734f1f)
+
+
+<img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
+
+**MOD:** https://steamcommunity.com/sharedfiles/filedetails/?id=3531061069
 
 This is the well-known and beloved Formable Nations mod, fully overhauled and now 100% compatible with the Road to 56 mod. Expanded, translated, optimized and packed with brand-new formable content never seen before.
 
-FORMABLE NATION LIST
+<img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-Abbasid Caliphate - Abyssinia - Adriatic - Afsharid Dynasty - Akhand Bharat - Al-Andalus - Alpine Federation - Americas - Andes - Angevin Empire - Anglosphere - Aq Qoyunlu - Arabia - Asia - Assyria - Australasia - Avar Khanate - Austria-Hungary - Austro-Slovakia Union - Babylonian Empire - Balkans - Baltic States - Bani Khalid Emirate - Bantu Kingdom - Benelux - Bengal Empire - Bulgaria-Romania Union - Bulgarian Empire - Byzantium - Carpathia - Caribbean - Carolingian Empire - Carthage - Celtic Union - Central America - Chagatai Khanate - Chile-Argentina - China - Chola Dynasty - Commonwealth - Cossack Hosts - Crimean Khanate - Danubian Federation - Danish Colonial Empire - Denmark-Norway Union - Druk - Dutch Colonial Empire - Durrani Empire - East Africa - Empire of Srivijaya - Eurasia - Europe - European Hun Empire - European Unity - Fennoscandia - First Turkic Khaganate - Franco-Spanish Union - Frankish Empire - Gallic Empire - German Colonial Empire - Ghaznavid Empire - Goguryeo - Golden Circle - Golden Horde - Gran Colombia - Great Moravia - Great Nordic Union - Great Ottoman Empire - Greater Albania - Greater Austria - Greater Canada - Greater Croatia - Greater Egypt - Greater Finland - Greater Georgia - Greater Greece - Greater Israel - Greater Italy - Greater Japan - Greater Korea - Greater Russian Empire - Greater Serbia - Greater Tibet - Greater Yugoslavia - Großdeutschland - Hellenoturkism - Himalayas - Hispaniola - Hispanic America - Holy Roman Empire - Hungarian Kingdom - Iberia - Ilkhanate - Illyrian Kingdom - Inca Empire - Indochina - Intermarium - Italy - Khazar Khaganate - Khmer Empire - Kievan Rus - Kingdom of Aksum - Kingdom of Aragon - Kingdom of Burgundy - Kingdom of Jerusalem - Kingdom of Lotharingia - Kingdom of Pontus - Kingdom of Prussia - Kingdom of Thrace - Kyrgyz Khanate - La Plata - Latin Union - Levant - Liao Dynasty - Macedonian Empire - Maghreb - Mali Empire - Mamluk Sultanate - Mexican Empire - Middle East - Ming Dynasty - Mongol Empire - Mughal Empire - North America - North German Federation - North Sea Empire - Oceanian - Ostrogothic Kingdom - Ottoman Empire - Outremer - Pala Empire - Pan-Malay Confederation - Pan-Slavic Federation - Persian Empire - Peru-Bolivia - Philippine Empire - Phoenicia - Poland-Hungary - Polish-Swedish Union - Portuguese Colonial Empire - Qajar Empire - Qara Qoyunlu - Qing Dynasty - Republic of Pirates - Roman Empire - Romano-Gothia Empire - Sahel - Sasanian Empire - Scandinavia - Seljuk Empire - Skibidi San Ma - South America - South German Federation - Southeast Asia - Spanish Empire - Swedish Empire - Tang Dynasty - The World - Timurid Empire - Transcaucasia - Turan - Umayyad Caliphate - Unified Silla & Balhae - United British Isles - United Guyana - Uyghur Khanate - Vandal Kingdom - Visigothic Kingdom - Visegrad - West Rome - Xiongnu - Yuan Dynasty - Zapadoslavia - Zaidi Kingdom of Yemen
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 6" src="https://github.com/user-attachments/assets/2787af2a-d435-4b08-a4dd-40d08d3693e8" />
 
-FEATURES
+<img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
-• +170 Formable Nations  
+• +180 Formable Nations  
 • Full integration with Road to 56  
 • Custom flags, colors, decisions, and cores  
 • Accurate historical & cultural naming  
@@ -18,7 +23,7 @@ FEATURES
 • Performance-optimized for both Singleplayer and Multiplayer  
 • The borders needed for the formable will highlighted white when you hover over its name or icon.  
 
-LANGUAGES
+<img width="600" height="75" alt="AFN - Steam Banners - Languages v2" src="https://github.com/user-attachments/assets/84f34e63-25d9-4b0d-9563-af871783eb2b" />
 
 • English - ✅ 100%  
 • French / Français - ✅ 100%  
@@ -31,13 +36,28 @@ LANGUAGES
 • Chinese / 中文 - ✅ 100% (by 鸢一折纸)  
 • Portuguese / Português - Work in Progress  
 
-COMPATIBILITY  
+<img width="600" height="75" alt="AFN - Steam Banners - Compatibility v2" src="https://github.com/user-attachments/assets/2e012a64-d573-45fe-8c27-b64033faa107" />
 
-Compatible with other mods that do not overwrite the same files and use the current version of Road to 56.
+Compatible with other mods that do not overwrite the same files and use the current version **(FEBRUARY Update) of Road to 56.**
 
 It may not be compatible with mods that add or modify states.
 
 The mod is not compatible with Vanilla, but i am working on a Vanilla version in my free time.
+
+<img width="600" height="75" alt="AFN - Steam Banners - Feedback v2" src="https://github.com/user-attachments/assets/a59cd5f1-0305-4e7b-ab2c-0cf6bf63d6a0" />
+
+Have a suggestion for a new formable nation? Found a bug? Noticed a localization issue?
+
+Feel free to leave a comment but for detailed suggestions and bug reports, please use the [b]Discussion[/b] section on the Workshop page. It helps keep things organized and ensures your feedback isn’t missed!
+
+Your ideas matter! Want to see more formable nations? Let me know!
+I'm always working to improve and expand this mod.
+Let’s shape the future of this mod together.
+
+*All reported bugs and localization issues can be viewed publicly on the GitHub Issues page. You can check ongoing fixes, confirmed reports and closed issues there.*
+
+https://github.com/awxe0/awxe-s-Formable-Nations-for-RT56/issues]
+
 
 RESTRICTIVE LICENSE AGREEMENT
 © Ali/awxe 2025. ALL RIGHTS RESERVED.
