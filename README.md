@@ -48,7 +48,7 @@ The mod is not compatible with Vanilla, but i am working on a Vanilla version in
 
 Have a suggestion for a new formable nation? Found a bug? Noticed a localization issue?
 
-Feel free to leave a comment but for detailed suggestions and bug reports, please use the [b]Discussion[/b] section on the Workshop page. It helps keep things organized and ensures your feedback isn’t missed!
+Feel free to leave a comment but for detailed suggestions and bug reports, please use the **Discussion** section on the Workshop page. It helps keep things organized and ensures your feedback isn’t missed!
 
 Your ideas matter! Want to see more formable nations? Let me know!
 I'm always working to improve and expand this mod.
