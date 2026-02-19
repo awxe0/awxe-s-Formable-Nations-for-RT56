@@ -33574,7 +33574,7 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
                         amount = 50 "72 states"
