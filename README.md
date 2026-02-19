@@ -1,5 +1,3 @@
-# awxe's Formable Nations for RT56!
-
 ![AFN - Steam Showcase - Main - 180](https://github.com/user-attachments/assets/1b54a8d6-ffa4-43b0-927b-b3d484734f1f)
 
 
@@ -56,7 +54,7 @@ Let’s shape the future of this mod together.
 
 *All reported bugs and localization issues can be viewed publicly on the GitHub Issues page. You can check ongoing fixes, confirmed reports and closed issues there.*
 
-https://github.com/awxe0/awxe-s-Formable-Nations-for-RT56/issues]
+https://github.com/awxe0/awxe-s-Formable-Nations-for-RT56/issues
 
 
 RESTRICTIVE LICENSE AGREEMENT
