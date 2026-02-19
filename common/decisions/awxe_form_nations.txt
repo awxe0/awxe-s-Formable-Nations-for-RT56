@@ -33362,7 +33362,6 @@ formable_nations_mod_category = {
 				tooltip = highlighted_state_tooltip
 				OR = {
 					AND = {
-						230 = { owns_or_subject_of = yes }
 						291 = { owns_or_subject_of = yes }
 						344 = { owns_or_subject_of = yes }
 						350 = { owns_or_subject_of = yes }
@@ -33406,7 +33405,6 @@ formable_nations_mod_category = {
 			set_province_name = { id = 2097 name = "New Akkad" }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
-				230 = { add_core_of = ROOT }
 				291 = { add_core_of = ROOT }
 				344 = { add_core_of = ROOT }
 				350 = { add_core_of = ROOT }
