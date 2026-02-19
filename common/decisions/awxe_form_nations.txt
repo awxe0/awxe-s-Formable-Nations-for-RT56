@@ -453,9 +453,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip 
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 26 "291 state" 
 						330 = { owns_or_subject_of = yes }
 						817 = { owns_or_subject_of = yes }
 						818 = { owns_or_subject_of = yes }
@@ -1670,9 +1671,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 63 "83 states"
 						41 = { owns_or_subject_of = yes }
 						165 = { owns_or_subject_of = yes }
 						166 = { owns_or_subject_of = yes }
@@ -3107,9 +3109,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 52 "65 states"
 						42 = { owns_or_subject_of = yes }
 						50 = { owns_or_subject_of = yes }
 						51 = { owns_or_subject_of = yes }
@@ -26194,9 +26197,10 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 35 "46 states"
 						5 = { owns_or_subject_of = yes }
 				        42 = { owns_or_subject_of = yes }
 				        50 = { owns_or_subject_of = yes }
@@ -33572,7 +33576,8 @@ formable_nations_mod_category = {
 			custom_trigger_tooltip = {
 				tooltip = highlighted_state_tooltip
 				OR = {
-					AND = {
+					count_triggers = {
+                        amount = 50 "72 states"
 					    49 = { owns_or_subject_of = yes }
 						266 = { owns_or_subject_of = yes }
 						267 = { owns_or_subject_of = yes }
@@ -33660,7 +33665,7 @@ formable_nations_mod_category = {
 		set_cosmetic_tag = AFN_SEE
 			add_stability = 0.20
 			set_capital = { state = 799 }
-			add_victory_points = 15
+			set_province_name = { id = 12029 name = "Antioch" }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
