@@ -1674,7 +1674,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount = 63 "83 states"
+                        amount = 61 "83 states"
 						41 = { owns_or_subject_of = yes }
 						165 = { owns_or_subject_of = yes }
 						166 = { owns_or_subject_of = yes }
