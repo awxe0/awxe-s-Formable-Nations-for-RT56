@@ -12101,7 +12101,7 @@ formable_nations_mod_category = {
 			}
 			537 = { add_core_of = ROOT }
 			463 = { add_core_of = ROOT }
-			#341 = { add_claim_by = ROOT }
+			354 = { add_claim_by = ROOT }
 			797 = { add_claim_by = ROOT }
 			287 = { add_claim_by = ROOT }
 			617 = { add_claim_by = ROOT }
@@ -23512,7 +23512,6 @@ formable_nations_mod_category = {
 			637 = { add_core_of = ROOT }
 			822 = { add_core_of = ROOT }
 			68 = { add_claim_by = ROOT }
-			354 = { add_claim_by = ROOT }
 		}
 	}
 	
