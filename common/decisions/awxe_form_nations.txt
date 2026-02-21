@@ -8487,11 +8487,11 @@ formable_nations_mod_category = {
 						841 = { owns_or_subject_of = yes }
 						842 = { owns_or_subject_of = yes }
 						908 = { owns_or_subject_of = yes }
-						843 = { owns_or_subject_of = yes }						
+						843 = { owns_or_subject_of = yes }
 						269 = { owns_or_subject_of = yes }
 						559 = { owns_or_subject_of = yes }
 						844 = { owns_or_subject_of = yes }
-						550 = { owns_or_subject_of = yes }						
+						550 = { owns_or_subject_of = yes }
 						268 = { owns_or_subject_of = yes }
 					}
 					AND = {
@@ -8524,6 +8524,7 @@ formable_nations_mod_category = {
 				842 = { add_core_of = ROOT }
 				908 = { add_core_of = ROOT }
 				843 = { add_core_of = ROOT }
+				268 = { add_core_of = ROOT }
 			}
 		}
 	}
