@@ -82,7 +82,7 @@ formable_nations_mod_category = {
 											state = 906
 										}
 									}
-									is_controlled_by = ROOT
+									is_controlled_by_ROOT_or_subject = yes
 								}
 								NOT = { is_on_continent = africa }
 								state = 697
@@ -1189,7 +1189,7 @@ formable_nations_mod_category = {
 										state = 126
 									}
 								}
-								is_controlled_by = ROOT
+								is_controlled_by_ROOT_or_subject = yes
 							}
 							NOT = { 
 								OR = {
@@ -6237,7 +6237,7 @@ formable_nations_mod_category = {
 						OR = {
 							AND = {
 								is_on_continent = south_america
-								is_controlled_by = ROOT
+								is_controlled_by_ROOT_or_subject = yes
 								NOT = {
 									state = 690
 									state = 693
@@ -8592,7 +8592,7 @@ formable_nations_mod_category = {
 										state = 696
 									}
 								}
-								is_controlled_by = ROOT
+								is_controlled_by_ROOT_or_subject = yes
 							}
 							NOT = { #Make sure non-American states are valid.
 								OR = {
@@ -10936,7 +10936,7 @@ formable_nations_mod_category = {
 								            state = 1076
 										}
 									}
-									is_controlled_by = ROOT
+									is_controlled_by_ROOT_or_subject = yes
 								}
 								NOT = { OR = { is_on_continent = asia  is_on_continent = middle_east } }
 								state = 281
@@ -11129,7 +11129,7 @@ formable_nations_mod_category = {
 											state = 650
 										}
 									}
-									is_controlled_by = ROOT
+									is_controlled_by_ROOT_or_subject = yes
 								}
 								NOT = { OR = { is_on_continent = asia  is_on_continent = middle_east is_on_continent = europe } }
 								
@@ -11609,7 +11609,7 @@ formable_nations_mod_category = {
 						194 = { controls_or_subject_of = yes }
 						195 = { controls_or_subject_of = yes }
 						196 = { controls_or_subject_of = yes }
-						197	= { is_controlled_by = ROOT }
+						197	= { controls_or_subject_of = yes }
 						198 = { controls_or_subject_of = yes }
 						199 = { controls_or_subject_of = yes }
 						200 = { controls_or_subject_of = yes }
@@ -12651,7 +12651,7 @@ formable_nations_mod_category = {
 											state = 543
 										}
 									}
-									is_controlled_by = ROOT
+									is_controlled_by_ROOT_or_subject = yes
 								}
 								NOT = { OR = { is_on_continent = asia  is_on_continent = middle_east is_on_continent = europe is_on_continent = africa } }
 								
@@ -13564,7 +13564,7 @@ formable_nations_mod_category = {
 										state = 1010
 									}
 								}
-								is_controlled_by = ROOT
+								is_controlled_by_ROOT_or_subject = yes
 							}
 							NOT = { 
 								OR = {
@@ -14135,7 +14135,7 @@ formable_nations_mod_category = {
 											state = 730
 										}
 									}
-									is_controlled_by = ROOT
+									is_controlled_by_ROOT_or_subject = yes
 								}
 								NOT = { 
 									OR = {
@@ -14170,7 +14170,7 @@ formable_nations_mod_category = {
 						OR = {
 							AND = {
 								is_on_continent = south_america
-								is_controlled_by = ROOT
+								is_controlled_by_ROOT_or_subject = yes
 								NOT = {
 									state = 690
 									state = 693
