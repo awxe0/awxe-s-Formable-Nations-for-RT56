@@ -40,7 +40,13 @@ Compatible with other mods that do not overwrite the same files and use the curr
 
 It may not be compatible with mods that add or modify states.
 
-The mod is not compatible with Vanilla, but i am working on a Vanilla version in my free time.
+https://steamcommunity.com/sharedfiles/filedetails/?id=3677761082 Vanilla Version - awxe's Formable Nations
+
+**This mod is officially integrated into the following mod packs:**
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3657180693 New Horizons
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3506850939 Road to 56 : Expanded
 
 <img width="600" height="75" alt="AFN - Steam Banners - Feedback v2" src="https://github.com/user-attachments/assets/a59cd5f1-0305-4e7b-ab2c-0cf6bf63d6a0" />
 
