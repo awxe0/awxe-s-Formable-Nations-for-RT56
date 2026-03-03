@@ -5664,7 +5664,7 @@ formable_nations_mod_category = {
 				70 = { add_core_of = ROOT }
 				664 = { add_core_of = ROOT }
 				71 = { add_core_of = ROOT }
-				73 = { controls_or_subject_of = yes }
+				73 = { add_core_of = ROOT }
 				88 = { add_core_of = ROOT }
 				89 = { add_core_of = ROOT }
 				80 = { add_core_of = ROOT }
