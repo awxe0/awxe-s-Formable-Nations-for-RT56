@@ -26125,6 +26125,7 @@ formable_nations_mod_category = {
 		highlight_states = {
 			highlight_state_targets = {
 				state = 5
+				state = 28
 				state = 42
 				state = 50
 				state = 51
@@ -26147,10 +26148,13 @@ formable_nations_mod_category = {
 				state = 68
 				state = 85
 				state = 86
+				state = 188
+				state = 762
 				state = 763
 				state = 807
 				state = 922
 				state = 923
+				state = 964
 				state = 989	
 				state = 998
 				state = 1053
@@ -26179,8 +26183,9 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 35 # "46 states"
+                        amount > 34 # "50 states"
 						5 = { controls_or_subject_of = yes }
+						28 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
 				        50 = { controls_or_subject_of = yes }
 				        51 = { controls_or_subject_of = yes }
@@ -26203,11 +26208,14 @@ formable_nations_mod_category = {
 				        68 = { controls_or_subject_of = yes }
 				        85 = { controls_or_subject_of = yes }
 				        86 = { controls_or_subject_of = yes }
+						188 = { controls_or_subject_of = yes }
+						762 = { controls_or_subject_of = yes }
 				        763 = { controls_or_subject_of = yes }
 				        807 = { controls_or_subject_of = yes }
 				        922 = { controls_or_subject_of = yes }
 				        923 = { controls_or_subject_of = yes }
-				        989	 = { controls_or_subject_of = yes }
+						964 = { controls_or_subject_of = yes }
+				        989	= { controls_or_subject_of = yes }
 				        998 = { controls_or_subject_of = yes }
 				        1053 = { controls_or_subject_of = yes }
 				
@@ -26227,9 +26235,6 @@ formable_nations_mod_category = {
 						894 = { controls_or_subject_of = yes }
 						895 = { controls_or_subject_of = yes }
 						1096 = { controls_or_subject_of = yes }
-						
-						
-						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -26247,6 +26252,7 @@ formable_nations_mod_category = {
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				5 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
 				42 = { add_core_of = ROOT }
 				50 = { add_core_of = ROOT }
 				51 = { add_core_of = ROOT }
@@ -26269,11 +26275,14 @@ formable_nations_mod_category = {
 				68 = { add_core_of = ROOT }
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
+				188 = { add_core_of = ROOT }
+				762 = { add_core_of = ROOT }
 				763 = { add_core_of = ROOT }
 				807 = { add_core_of = ROOT }
 				922 = { add_core_of = ROOT }
 				923 = { add_core_of = ROOT }
-				989	 = { add_core_of = ROOT }
+				964 = { add_core_of = ROOT }
+				989	= { add_core_of = ROOT }
 				998 = { add_core_of = ROOT }
 				1053 = { add_core_of = ROOT }
 		
