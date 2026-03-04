@@ -1410,7 +1410,6 @@ formable_nations_mod_category = {
 				state = 998
 				state = 1053
 				state = 1078
-
 			}
 		}
 
@@ -1664,7 +1663,6 @@ formable_nations_mod_category = {
 				state = 973
 				state = 1012
 				state = 1015
-
 			}
 		}
 		
@@ -1757,7 +1755,6 @@ formable_nations_mod_category = {
 						957 = { controls_or_subject_of = yes }
 						1012 = { controls_or_subject_of = yes }
 				        1015 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -1860,7 +1857,6 @@ formable_nations_mod_category = {
 				957 = { add_core_of = ROOT }
 				1012 = { add_core_of = ROOT }
 				1015 = { add_core_of = ROOT }
-
 			}
 			34 = { add_core_of = ROOT }
 			845 = { add_core_of = ROOT }
@@ -2126,8 +2122,7 @@ formable_nations_mod_category = {
 				        1122 = { controls_or_subject_of = yes }
 				        1123 = { controls_or_subject_of = yes }
 				        1124 = { controls_or_subject_of = yes }
-				        1125 = { controls_or_subject_of = yes }
-						
+				        1125 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -2354,7 +2349,6 @@ formable_nations_mod_category = {
 				state = 1086
 				state = 1094
 				state = 1095
-
 			}
 		}
 
@@ -2441,7 +2435,6 @@ formable_nations_mod_category = {
 				        1086 = { controls_or_subject_of = yes }
 				        1094 = { controls_or_subject_of = yes }
 				        1095 = { controls_or_subject_of = yes }
-						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -2542,7 +2535,6 @@ formable_nations_mod_category = {
 				1086 = { add_core_of = ROOT }
 				1094 = { add_core_of = ROOT }
 				1095 = { add_core_of = ROOT }
-				
 			}
 			165 = { add_core_of = ROOT }
 			102 = { add_core_of = ROOT }
@@ -2624,7 +2616,6 @@ formable_nations_mod_category = {
 				state = 1078
 				state = 1086
 				state = 1104
-
 			}
 		}
 		available = {
@@ -2681,7 +2672,6 @@ formable_nations_mod_category = {
 						1078 = { controls_or_subject_of = yes }
 				        1086 = { controls_or_subject_of = yes }
 				        1104 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -2748,7 +2738,6 @@ formable_nations_mod_category = {
 				1078 = { add_core_of = ROOT }
 				1086 = { add_core_of = ROOT }
 				1104 = { add_core_of = ROOT }
-
 			}
 			80 = { add_core_of = ROOT }
 			104 = { add_core_of = ROOT }
@@ -2908,8 +2897,7 @@ formable_nations_mod_category = {
 						
 						934 = { controls_or_subject_of = yes }
 				        935 = { controls_or_subject_of = yes }
-				        936 = { controls_or_subject_of = yes }
-						
+				        936 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -2976,8 +2964,7 @@ formable_nations_mod_category = {
 				
 				934 = { add_core_of = ROOT }
 				935 = { add_core_of = ROOT }
-				936 = { add_core_of = ROOT }
-				
+				936 = { add_core_of = ROOT }				
 			}
 			5 = { add_core_of = ROOT }
 			763 = { add_core_of = ROOT }
@@ -3100,7 +3087,6 @@ formable_nations_mod_category = {
 				state = 1086
 				state = 1094
 				state = 1095
-
 			}
 		}
 		
@@ -3176,7 +3162,6 @@ formable_nations_mod_category = {
 				        1086 = { controls_or_subject_of = yes }
 						1094 = { controls_or_subject_of = yes }
 				        1095 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -3260,7 +3245,6 @@ formable_nations_mod_category = {
 				1086 = { add_core_of = ROOT }
 				1094 = { add_core_of = ROOT }
 				1095 = { add_core_of = ROOT }
-
 			}
 			102 = { add_core_of = ROOT }
 			853 = { add_core_of = ROOT }
@@ -3470,7 +3454,6 @@ formable_nations_mod_category = {
 				state = 1034
 				state = 1035
 				state = 1043
-
 			}
 		}
 		
@@ -3512,7 +3495,6 @@ formable_nations_mod_category = {
 				        1034 = { controls_or_subject_of = yes }
 				        1035 = { controls_or_subject_of = yes }
 				        1043 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -3564,7 +3546,6 @@ formable_nations_mod_category = {
 				1034 = { add_core_of = ROOT }
 				1035 = { add_core_of = ROOT }
 				1043 = { add_core_of = ROOT }
-
 			}
 			101 = { add_core_of = ROOT }
 			914 = { add_core_of = ROOT }
@@ -3815,7 +3796,6 @@ formable_nations_mod_category = {
                 state = 1078
 				state = 1086
 				state = 1104
-
 			}
 		}
 		
@@ -4007,7 +3987,6 @@ formable_nations_mod_category = {
                 state = 965
 				state = 1094
 				state = 1095
-
 			}
 		}
 		
@@ -4026,7 +4005,6 @@ formable_nations_mod_category = {
 						965 = { controls_or_subject_of = yes }
 						1094 = { controls_or_subject_of = yes }
 						1095 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -4054,7 +4032,6 @@ formable_nations_mod_category = {
                 965 = { add_core_of = ROOT }
 				1094 = { add_core_of = ROOT }
 				1095 = { add_core_of = ROOT }
-
 			}
 		}
 	}
@@ -4270,7 +4247,6 @@ formable_nations_mod_category = {
 				state = 913
 				state = 996
 				state = 1104
-
 			}
 		}
 
@@ -4296,7 +4272,6 @@ formable_nations_mod_category = {
 						913 = { controls_or_subject_of = yes }
 						996 = { controls_or_subject_of = yes }
 				        1104 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -4613,7 +4588,6 @@ formable_nations_mod_category = {
                 state = 950
                 state = 953
 				state = 955
-
 			}
 		}
 		
@@ -4655,7 +4629,6 @@ formable_nations_mod_category = {
                         950 = { controls_or_subject_of = yes }
 						953 = { controls_or_subject_of = yes }
 						955 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -4705,7 +4678,6 @@ formable_nations_mod_category = {
                 950 = { add_core_of = ROOT }
 				953 = { add_core_of = ROOT }
 				955 = { add_core_of = ROOT }
-
 			}
 		}
 	}
@@ -4748,8 +4720,7 @@ formable_nations_mod_category = {
 				
 				state = 948
 				state = 1051
-				state = 1073
-				
+				state = 1073				
 			}
 		}
 		
@@ -4771,8 +4742,7 @@ formable_nations_mod_category = {
 						
 						948 = { controls_or_subject_of = yes }
 						1051 = { controls_or_subject_of = yes }
-						1073 = { controls_or_subject_of = yes }
-						
+						1073 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -4803,8 +4773,7 @@ formable_nations_mod_category = {
 				
 				948 = { add_core_of = ROOT }
 				1051 = { add_core_of = ROOT }
-				1073 = { add_core_of = ROOT }
-				
+				1073 = { add_core_of = ROOT }				
 			}
 			304 = { add_core_of = ROOT }
 			685 = { add_core_of = ROOT }
@@ -4864,8 +4833,7 @@ formable_nations_mod_category = {
 				state = 929
 				state = 930
 				state = 931
-				state = 932
-				
+				state = 932				
 			}
 		}
 		
@@ -4903,8 +4871,7 @@ formable_nations_mod_category = {
 						929 = { controls_or_subject_of = yes }
 				        930 = { controls_or_subject_of = yes }
 				        931 = { controls_or_subject_of = yes }
-				        932 = { controls_or_subject_of = yes }
-						
+				        932 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -4950,8 +4917,7 @@ formable_nations_mod_category = {
 				929 = { add_core_of = ROOT }
 				930 = { add_core_of = ROOT }
 				931 = { add_core_of = ROOT }
-				932 = { add_core_of = ROOT }
-				
+				932 = { add_core_of = ROOT }				
 			}
 		}
 	}
@@ -5123,8 +5089,7 @@ formable_nations_mod_category = {
 				state = 961
 				state = 962
 				state = 963
-				state = 341
-				
+				state = 341				
 			}
 		}
 		
@@ -5183,8 +5148,7 @@ formable_nations_mod_category = {
 				        961 = { controls_or_subject_of = yes }
 				        962 = { controls_or_subject_of = yes }
 						963 = { controls_or_subject_of = yes }
-				        341 = { controls_or_subject_of = yes }
-						
+				        341 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -5364,7 +5328,6 @@ formable_nations_mod_category = {
 				state = 936
 				state = 996
 				state = 1104
-
 			}
 		}
 		
@@ -5446,7 +5409,6 @@ formable_nations_mod_category = {
 				        936 = { controls_or_subject_of = yes }
 				        996 = { controls_or_subject_of = yes }
 				        1104 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -5537,7 +5499,6 @@ formable_nations_mod_category = {
 				936 = { add_core_of = ROOT }
 				996 = { add_core_of = ROOT }
 				1104 = { add_core_of = ROOT }
-
 			}
 			5 = { add_core_of = ROOT }
 			763 = { add_core_of = ROOT }
@@ -26179,7 +26140,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount > 34 # "50 states"
+                        amount > 35 # "50 states"
 						5 = { controls_or_subject_of = yes }
 						28 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
@@ -28003,8 +27964,7 @@ formable_nations_mod_category = {
 				        922 = { controls_or_subject_of = yes }
 				        989 = { controls_or_subject_of = yes }
 				        998 = { controls_or_subject_of = yes }
-				        1053 = { controls_or_subject_of = yes }
-						
+				        1053 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -28097,8 +28057,7 @@ formable_nations_mod_category = {
 				        856 = { controls_or_subject_of = yes }
 						906 = { controls_or_subject_of = yes }
 				        908 = { controls_or_subject_of = yes }
-				        1103 = { controls_or_subject_of = yes }
-						
+				        1103 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -28316,8 +28275,7 @@ formable_nations_mod_category = {
 				997 = { add_core_of = ROOT }
 				1054 = { add_core_of = ROOT }
 				1086 = { add_core_of = ROOT }
-				1104 = { add_core_of = ROOT }
-			
+				1104 = { add_core_of = ROOT }			
 			}
 		}
 	}
@@ -28371,7 +28329,6 @@ formable_nations_mod_category = {
 				state = 795
 				state = 806
 				state = 973
-				
 			}
 		}
 		
@@ -28400,8 +28357,7 @@ formable_nations_mod_category = {
 				        794 = { controls_or_subject_of = yes }
 				        795 = { controls_or_subject_of = yes }
 				        806 = { controls_or_subject_of = yes }
-				        973 = { controls_or_subject_of = yes }
-				        
+				        973 = { controls_or_subject_of = yes }				        
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -28491,8 +28447,7 @@ formable_nations_mod_category = {
 				state = 180
 				state = 181
 				state = 177
-				state = 795
-				
+				state = 795				
 			}
 		}
 		
@@ -28525,8 +28480,6 @@ formable_nations_mod_category = {
 						181 = { controls_or_subject_of = yes }
 						177 = { controls_or_subject_of = yes }
 						795 = { controls_or_subject_of = yes }
-						
-				        
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -28611,8 +28564,7 @@ formable_nations_mod_category = {
 				state = 448
 				state = 458
 				state = 460
-				state = 665
-				
+				state = 665				
 			}
 		}
 		
@@ -28628,8 +28580,7 @@ formable_nations_mod_category = {
 				        448 = { controls_or_subject_of = yes }
 				        458 = { controls_or_subject_of = yes }
 				        460 = { controls_or_subject_of = yes }
-				        665 = { controls_or_subject_of = yes }
-						
+				        665 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -28654,8 +28605,7 @@ formable_nations_mod_category = {
 				448 = { add_core_of = ROOT }
 				458 = { add_core_of = ROOT }
 				460 = { add_core_of = ROOT }
-				665 = { add_core_of = ROOT }
-				
+				665 = { add_core_of = ROOT }				
 			}
 		}
 	}
@@ -28780,8 +28730,7 @@ formable_nations_mod_category = {
 				state = 448
 				state = 458
 				state = 460
-				state = 665
-				
+				state = 665				
 			}
 		}
 		
@@ -29015,8 +28964,7 @@ formable_nations_mod_category = {
 				        79 = { controls_or_subject_of = yes }
 				        80 = { controls_or_subject_of = yes }
 						81 = { controls_or_subject_of = yes }
-						955 = { controls_or_subject_of = yes }
-						
+						955 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -29110,8 +29058,7 @@ formable_nations_mod_category = {
 				        71 = { controls_or_subject_of = yes }
 				        73 = { controls_or_subject_of = yes }
 				        664 = { controls_or_subject_of = yes }
-				        996 = { controls_or_subject_of = yes }
-						
+				        996 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -29332,8 +29279,7 @@ formable_nations_mod_category = {
                         1037 = { controls_or_subject_of = yes }
                         1038 = { controls_or_subject_of = yes }
                         1039 = { controls_or_subject_of = yes }
-                        1040 = { controls_or_subject_of = yes }
-						
+                        1040 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -29714,7 +29660,6 @@ formable_nations_mod_category = {
 				state = 1035
 				state = 1039
 				state = 1040
-
 			}
 		}
 		
@@ -29758,7 +29703,6 @@ formable_nations_mod_category = {
 						1033 = { controls_or_subject_of = yes }
 				        1034 = { controls_or_subject_of = yes }
 				        1035 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -30528,7 +30472,6 @@ formable_nations_mod_category = {
 				state = 998
 				state = 1054
 				state = 1086
-
 			}
 		}
 		
@@ -30615,7 +30558,6 @@ formable_nations_mod_category = {
                         998 = { controls_or_subject_of = yes }
                         1054 = { controls_or_subject_of = yes }
                         1086 = { controls_or_subject_of = yes }
-						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -30710,8 +30652,7 @@ formable_nations_mod_category = {
 				912 = { add_core_of = ROOT }
 				998 = { add_core_of = ROOT }
 				1054 = { add_core_of = ROOT }
-				1086 = { add_core_of = ROOT }
-				
+				1086 = { add_core_of = ROOT }				
 			}
 			14 = { add_core_of = ROOT }
 			1076 = { add_core_of = ROOT }
@@ -30799,7 +30740,6 @@ formable_nations_mod_category = {
 				434 = { add_core_of = ROOT }
 				1013 = { add_core_of = ROOT }
 				1091 = { add_core_of = ROOT }
-
 			}
 			441 = { add_core_of = ROOT }
 			787 = { add_core_of = ROOT }
@@ -30856,8 +30796,7 @@ formable_nations_mod_category = {
 						917 = { controls_or_subject_of = yes }
 						918 = { controls_or_subject_of = yes }
 						941 = { controls_or_subject_of = yes }
-						942 = { controls_or_subject_of = yes }
-			
+						942 = { controls_or_subject_of = yes }			
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -30921,7 +30860,6 @@ formable_nations_mod_category = {
 				state = 758
 				state = 1013
 				state = 1091
-
 			}
 		}
 		
@@ -31596,8 +31534,7 @@ formable_nations_mod_category = {
 						996 = { controls_or_subject_of = yes }
 						1054 = { controls_or_subject_of = yes }
 						1086 = { controls_or_subject_of = yes }
-						1104 = { controls_or_subject_of = yes }
-	
+						1104 = { controls_or_subject_of = yes }	
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -31684,7 +31621,6 @@ formable_nations_mod_category = {
 				state = 218
 				state = 227
 				state = 234
-
 			}
 		}
 		
@@ -31772,7 +31708,6 @@ formable_nations_mod_category = {
 				state = 830
 				state = 1011
 				state = 1121
-
 			}
 		}
 		
@@ -32570,8 +32505,7 @@ formable_nations_mod_category = {
 						1044 = { controls_or_subject_of = yes }	
 						1045 = { controls_or_subject_of = yes }	
 				        1048 = { controls_or_subject_of = yes }	
-				        1049 = { controls_or_subject_of = yes }	
-						
+				        1049 = { controls_or_subject_of = yes }							
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -32852,7 +32786,6 @@ formable_nations_mod_category = {
 				        978 = { controls_or_subject_of = yes }
 				        1020 = { controls_or_subject_of = yes }
 				        1098 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -32974,7 +32907,6 @@ formable_nations_mod_category = {
 				state = 1121
 				state = 1125
 				state = 1075
-
 			}
 		}
 		
