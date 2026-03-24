@@ -58,6 +58,7 @@ formable_nations_mod_category = {
 		available = {
 			custom_trigger_tooltip = { 
 				tooltip = africa_requirement_tooltip 
+				
 				OR = {
 					AND = {
 					    AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
@@ -468,8 +469,16 @@ formable_nations_mod_category = {
 			custom_trigger_tooltip = {
 				tooltip = enough_control_requirement
 				OR = {
-					count_triggers = {
-                        amount = 26 # "291 state" 
+				    AND = {
+						AND = {
+							330 = { controls_or_subject_of = yes } #Ulaanbaatar
+							329 = { controls_or_subject_of = yes } #Tannu Tuva
+							217 = { controls_or_subject_of = yes } #Stalingrad
+							1116 = { controls_or_subject_of = yes } #Chongqing
+							266 = { controls_or_subject_of = yes } #Tehran
+						}
+					count_triggers = { # (yes, we are recounting the previous ones twice)
+                        amount = 250 # "291 state" 
 						330 = { controls_or_subject_of = yes }
 						817 = { controls_or_subject_of = yes }
 						818 = { controls_or_subject_of = yes }
@@ -762,7 +771,8 @@ formable_nations_mod_category = {
 						1122 = { controls_or_subject_of = yes }
 						1123 = { controls_or_subject_of = yes }
 						1124 = { controls_or_subject_of = yes }
-						1125 = { controls_or_subject_of = yes }				
+						1125 = { controls_or_subject_of = yes }	
+                        }						
 					}
 					AND = {
 						is_ai = no
@@ -1141,74 +1151,94 @@ formable_nations_mod_category = {
 		available = {
 			custom_trigger_tooltip = { 
 				tooltip = europe_requirement_tooltip 
+				
 				OR = {
-					all_state = {
-						OR = {
-							AND = {
-								OR = {
-									is_on_continent = europe
-									state = 406
-									state = 407
-									state = 236
-									state = 401
-									state = 829
-									state = 239
-									state = 255
-									state = 250
-									state = 251
-									state = 652
-									state = 651
-									state = 249
-									state = 252
-									state = 256
-									state = 833
-									state = 398
-									state = 399
-									state = 351
-									state = 400
-									state = 880
-									state = 262
-									state = 825
-									state = 397
-									state = 351
-									state = 1076
-								}
-								NOT = {
+					AND = {
+						AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							controls_state = 219 #Moscow
+							controls_state = 217 #Stalingrad
+							controls_state = 195 #Leningrad
+							controls_state = 64 #Berlin
+							controls_state = 2 #Rome
+							controls_state = 16 #Paris
+							controls_state = 141 #Stockolm
+						 	controls_state = 126 #London
+						    controls_state = 46 #Bucharest
+							controls_state = 107 #Belgrade
+							controls_state = 10 #Warsaw
+							controls_state = 43 #Budapest
+						}
+					#	OR = { 
+					#			is_subject = no 
+					#			has_global_flag = puppets_allowed 
+					#		}
+						all_state = {
+							OR = {
+								AND = {
 									OR = {
-										state = 698
-										state = 177
-										state = 1
-										state = 114
-										state = 116
-										state = 183
-										state = 182
-										state = 164
-										state = 337
-										state = 100
-										state = 124
-										state = 113
-										state = 134
-										state = 135
-										state = 119
-										state = 120
-										state = 121
-										state = 133
-										state = 136
-										state = 131
-										state = 130
-										state = 132
-										state = 128
-										state = 122
-										state = 129
-										state = 125
-										state = 338
-										state = 123
-										state = 127
-										state = 126
+										is_on_continent = europe
+										state = 406
+										state = 407
+										state = 236
+										state = 401
+										state = 829
+										state = 239
+										state = 255
+										state = 250
+										state = 251
+										state = 652
+										state = 651
+										state = 249
+										state = 252
+										state = 256
+										state = 833
+										state = 398
+										state = 399
+										state = 351
+										state = 400
+										state = 880
+										state = 262
+										state = 825
+										state = 397
+										state = 351
+										state = 1076
 									}
+									NOT = {
+										OR = {
+											state = 698
+											state = 177
+											state = 1
+											state = 114
+											state = 116
+											state = 183
+											state = 182
+											state = 164
+											state = 337
+											state = 100
+											state = 124
+											state = 113
+											state = 134
+											state = 135
+											state = 119
+											state = 120
+											state = 121
+											state = 133
+											state = 136
+											state = 131
+											state = 130
+											state = 132
+											state = 128
+											state = 122
+											state = 129
+											state = 125
+											state = 338
+											state = 123
+											state = 127
+											state = 126
+										}
+									}
+									is_controlled_by_ROOT_or_subject = yes
 								}
-								is_controlled_by_ROOT_or_subject = yes
-							}
 							NOT = { 
 								OR = {
 									is_on_continent = europe 
@@ -1267,6 +1297,7 @@ formable_nations_mod_category = {
 							state = 123
 							state = 127
 							state = 126
+							}
 						}
 					}
 					AND = {
@@ -3630,6 +3661,8 @@ formable_nations_mod_category = {
 				original_tag = QAT
 				original_tag = BHR
 				original_tag = MPL
+				original_tag = IMO
+				original_tag = FSA
 			}
 		}
 
@@ -5113,6 +5146,7 @@ formable_nations_mod_category = {
 				state = 186
 				state = 187
 				state = 731
+				state = 164
 				state = 76
 				state = 77
 				state = 78
@@ -5136,15 +5170,20 @@ formable_nations_mod_category = {
 				state = 961
 				state = 962
 				state = 963
-				state = 341				
+				
+				#bosforous straight
+				state = 341
+				state = 797
 			}
 		}
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
+						count_triggers = {
+							amount = 46 #total is 53
 						45 = { controls_or_subject_of = yes }
 						102 = { controls_or_subject_of = yes }
 						853 = { controls_or_subject_of = yes }
@@ -5171,7 +5210,8 @@ formable_nations_mod_category = {
 						185 = { controls_or_subject_of = yes }
 						186 = { controls_or_subject_of = yes }
 						187 = { controls_or_subject_of = yes }
-						731 = { controls_or_subject_of = yes }					
+						731 = { controls_or_subject_of = yes }	
+                        164 = { controls_or_subject_of = yes }						
 						76 = { controls_or_subject_of = yes }
 						77 = { controls_or_subject_of = yes }
 						78 = { controls_or_subject_of = yes }
@@ -5195,7 +5235,11 @@ formable_nations_mod_category = {
 				        961 = { controls_or_subject_of = yes }
 				        962 = { controls_or_subject_of = yes }
 						963 = { controls_or_subject_of = yes }
-				        341 = { controls_or_subject_of = yes }						
+						
+				        #bosforous straight
+					    341 = { controls_or_subject_of = yes }
+					    797 = { controls_or_subject_of = yes }
+						}
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -5238,7 +5282,8 @@ formable_nations_mod_category = {
 				185 = { add_core_of = ROOT }
 				186 = { add_core_of = ROOT }
 				187 = { add_core_of = ROOT }
-				731 = { add_core_of = ROOT }						
+				731 = { add_core_of = ROOT }
+				164 = { add_core_of = ROOT }				
 				76 = { add_core_of = ROOT }
 				77 = { add_core_of = ROOT }
 				78 = { add_core_of = ROOT }
@@ -5262,10 +5307,11 @@ formable_nations_mod_category = {
 				961 = { add_core_of = ROOT }
 				962 = { add_core_of = ROOT }
 				963 = { add_core_of = ROOT }
+				
 				341 = { add_core_of = ROOT }
+				797 = { add_core_of = ROOT }
 			}
 			163 = { add_core_of = ROOT }	
-			164 = { add_core_of = ROOT }	
 			797 = { add_claim_by = ROOT }
 			43 = { add_claim_by = ROOT }
 			154 = { add_claim_by = ROOT }
@@ -5613,7 +5659,6 @@ formable_nations_mod_category = {
 				state = 955
 				state = 996
 				state = 1104
-
 			}
 		}
 		
@@ -5647,7 +5692,6 @@ formable_nations_mod_category = {
 				        955 = { controls_or_subject_of = yes }
 				        996 = { controls_or_subject_of = yes }
 				        1104 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -6244,12 +6288,47 @@ formable_nations_mod_category = {
 			custom_trigger_tooltip = { 
 				tooltip = south_america_requirement_tooltip 
 				OR = {
-					all_state = {
-						OR = {
-							AND = {
-								is_on_continent = south_america
-								is_controlled_by_ROOT_or_subject = yes
+					AND = {
+						AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							controls_state = 278 #Buenos Aires
+							controls_state = 500 #Rio De Janeiro
+							controls_state = 307 #Caracas
+							controls_state = 303 #Lima
+						}
+					#	OR = { 
+					#			is_subject = no 
+					#			has_global_flag = puppets_allowed 
+					#		}
+						all_state = {
+							OR = {
+								AND = {
+									is_on_continent = south_america
+									is_controlled_by_ROOT_or_subject = yes
+									NOT = {
+										state = 690
+										state = 693
+										state = 689
+										state = 315
+										state = 318
+										state = 319
+										state = 692
+										state = 694
+										state = 308
+										state = 686
+										state = 311
+										state = 313
+										state = 312
+										state = 314
+										state = 316
+										state = 317
+										state = 299
+										state = 720
+									}
+								}
 								NOT = {
+									is_on_continent = south_america
+								}
+								OR = {
 									state = 690
 									state = 693
 									state = 689
@@ -6269,29 +6348,6 @@ formable_nations_mod_category = {
 									state = 299
 									state = 720
 								}
-							}
-							NOT = {
-								is_on_continent = south_america
-							}
-							OR = {
-								state = 690
-								state = 693
-								state = 689
-								state = 315
-								state = 318
-								state = 319
-								state = 692
-								state = 694
-								state = 308
-								state = 686
-								state = 311
-								state = 313
-								state = 312
-								state = 314
-								state = 316
-								state = 317
-								state = 299
-								state = 720
 							}
 						}
 					}
@@ -6360,9 +6416,8 @@ formable_nations_mod_category = {
 		available = {
 			OR = {
 				AND = {
-					OR = { is_subject = no has_global_flag = puppets_allowed }
-					all_state = { controls_or_subject_of = yes }
-					
+					# OR = { is_subject = no has_global_flag = puppets_allowed }
+					all_state = { controls_or_subject_of = yes }					
 				}
 				AND = {
 					is_ai = no
@@ -6489,7 +6544,6 @@ formable_nations_mod_category = {
 				state = 1047
 				state = 1048
 				state = 1049
-
 			}
 		}
 		
@@ -6579,8 +6633,7 @@ formable_nations_mod_category = {
 				        1046 = { controls_or_subject_of = yes }
 				        1047 = { controls_or_subject_of = yes }
 				        1048 = { controls_or_subject_of = yes }
-				        1049 = { controls_or_subject_of = yes }
-						
+				        1049 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -6913,8 +6966,7 @@ formable_nations_mod_category = {
 						1093 = { controls_or_subject_of = yes }
 						1099 = { controls_or_subject_of = yes }
 						1100 = { controls_or_subject_of = yes }
-						1101 = { controls_or_subject_of = yes }
-						
+						1101 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -7100,8 +7152,7 @@ formable_nations_mod_category = {
 				state = 1047
 				state = 1048
 				state = 1049
-				state = 1093
-				
+				state = 1093				
 			}
 		}
 		
@@ -7214,8 +7265,7 @@ formable_nations_mod_category = {
 				        1047 = { controls_or_subject_of = yes }
 						1048 = { controls_or_subject_of = yes }
 				        1049 = { controls_or_subject_of = yes }
-				        1093 = { controls_or_subject_of = yes }
-						
+				        1093 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						is_ai = no
@@ -7336,8 +7386,7 @@ formable_nations_mod_category = {
 				1047 = { add_core_of = ROOT }
 				1048 = { add_core_of = ROOT }
 				1049 = { add_core_of = ROOT }
-				1093 = { add_core_of = ROOT }
-				
+				1093 = { add_core_of = ROOT }				
 			}
 		}
 	}
@@ -7980,22 +8029,24 @@ formable_nations_mod_category = {
 				tooltip = highlighted_state_tooltip
 				OR = {
 					AND = {
+						# Indochina
 						286 = { controls_or_subject_of = yes }
 						671 = { controls_or_subject_of = yes }						
 						741 = { controls_or_subject_of = yes }						
-						670 = { controls_or_subject_of = yes }						
-						724 = { controls_or_subject_of = yes }
-						289 = { controls_or_subject_of = yes }
-						868 = { controls_or_subject_of = yes }
-						869 = { controls_or_subject_of = yes }						
-						
-						288 = { controls_or_subject_of = yes }
-						640 = { controls_or_subject_of = yes }
+						670 = { controls_or_subject_of = yes }
 						924 = { controls_or_subject_of = yes }
 				        925 = { controls_or_subject_of = yes }
 				        926 = { controls_or_subject_of = yes }
 				        927 = { controls_or_subject_of = yes }
 				        928 = { controls_or_subject_of = yes }
+						# SIAM	
+						724 = { controls_or_subject_of = yes }
+						289 = { controls_or_subject_of = yes }
+						868 = { controls_or_subject_of = yes }
+						869 = { controls_or_subject_of = yes }
+						# Burma
+						288 = { controls_or_subject_of = yes }
+						640 = { controls_or_subject_of = yes }
 						1018 = { controls_or_subject_of = yes }
 						1019 = { controls_or_subject_of = yes }
 						1020 = { controls_or_subject_of = yes }				
@@ -8026,16 +8077,16 @@ formable_nations_mod_category = {
 				671 = { add_core_of = ROOT }
 				336 = { add_core_of = ROOT }
 				
-				288 = { controls_or_subject_of = yes }
-				640 = { controls_or_subject_of = yes }
-				924 = { controls_or_subject_of = yes }
-				925 = { controls_or_subject_of = yes }
-				926 = { controls_or_subject_of = yes }
-				927 = { controls_or_subject_of = yes }
-				928 = { controls_or_subject_of = yes }
-				1018 = { controls_or_subject_of = yes }
-				1019 = { controls_or_subject_of = yes }
-				1020 = { controls_or_subject_of = yes }				
+				288 = { add_core_of = ROOT }
+				640 = { add_core_of = ROOT }
+				924 = { add_core_of = ROOT }
+				925 = { add_core_of = ROOT }
+				926 = { add_core_of = ROOT }
+				927 = { add_core_of = ROOT }
+				928 = { add_core_of = ROOT }
+				1018 = { add_core_of = ROOT }
+				1019 = { add_core_of = ROOT }
+				1020 = { add_core_of = ROOT }				
 			}
 		}
 	}
@@ -8568,6 +8619,17 @@ formable_nations_mod_category = {
 			tooltip = north_america_requirement_tooltip
 			OR = {
 				AND = {
+				    AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+						controls_state = 361 #Maryland
+						controls_state = 276 #Ottawa
+						controls_state = 277 #Mexico City
+						controls_state = 304 #Panama
+						controls_state = 685 #Panama Canal
+					}
+				#	OR = { 
+				#		is_subject = no 
+				#		has_global_flag = puppets_allowed 
+				#	}
 					all_state = {
 						OR = {
 							AND = {
@@ -8711,8 +8773,7 @@ formable_nations_mod_category = {
 				state = 1016
 				state = 1017
 				state = 1021
-				state = 1022
-				
+				state = 1022				
 			}
 		}
 		
@@ -9264,9 +9325,11 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
+					    count_triggers = {
+							amount = 55 # "66 States"
 						361 = { controls_or_subject_of = yes }
 						374 = { controls_or_subject_of = yes }
 						369 = { controls_or_subject_of = yes }
@@ -9333,7 +9396,8 @@ formable_nations_mod_category = {
 				        1082 = { controls_or_subject_of = yes }
 				        1083 = { controls_or_subject_of = yes }
 				        1084 = { controls_or_subject_of = yes }
-				        1085 = { controls_or_subject_of = yes }						
+				        1085 = { controls_or_subject_of = yes }
+                        }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -9417,7 +9481,7 @@ formable_nations_mod_category = {
 				1083 = { add_core_of = ROOT }
 				1084 = { add_core_of = ROOT }
 				1085 = { add_core_of = ROOT }				
-			}		
+			}
 		}
 	}
 
@@ -9536,7 +9600,7 @@ formable_nations_mod_category = {
 			299 = { add_claim_by = ROOT }
 			720 = { add_claim_by = ROOT }
             }		
-		}		
+		}
 
 	formable_nations_greater_canada = {
 	
@@ -10104,35 +10168,50 @@ formable_nations_mod_category = {
 
 		highlight_states = {
 			highlight_state_targets = {
+			    # Swiss
 				state = 3
-				state = 4
 				state = 151
 				state = 845
 				state = 846
 				state = 847
+				
+				# Austria
+				state = 4
 				state = 152
 				state = 153
-				state = 848
+				state = 848				
 				state = 997
+				state = 1054				
+				# Ita
+				state = 39
+				state = 850
 			}
 		}
 		
 		available = {
 			custom_trigger_tooltip = {
-				tooltip = highlighted_state_tooltip
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
-						3 = { controls_or_subject_of = yes }
-						4 = { controls_or_subject_of = yes }
-						151 = { controls_or_subject_of = yes }
-						845 = { controls_or_subject_of = yes }
-						846 = { controls_or_subject_of = yes }
-						847 = { controls_or_subject_of = yes }
-						
-						152 = { controls_or_subject_of = yes }
-						153 = { controls_or_subject_of = yes }
-						848 = { controls_or_subject_of = yes }
-						997 = { controls_or_subject_of = yes }
+					    count_triggers = {
+							amount = 9
+							# Swiss
+						    3 = { controls_or_subject_of = yes }
+						    151 = { controls_or_subject_of = yes }
+						    845 = { controls_or_subject_of = yes }
+						    846 = { controls_or_subject_of = yes }
+						    847 = { controls_or_subject_of = yes }
+						    # Austria
+							4 = { controls_or_subject_of = yes }
+						    152 = { controls_or_subject_of = yes }
+						    153 = { controls_or_subject_of = yes }
+						    848 = { controls_or_subject_of = yes }
+						    997 = { controls_or_subject_of = yes }
+							1054 = { controls_or_subject_of = yes }
+						    # Ita
+						    39 = { controls_or_subject_of = yes }
+						    850 = { controls_or_subject_of = yes }
+							}
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -10151,19 +10230,27 @@ formable_nations_mod_category = {
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
 				3 = { add_core_of = ROOT }
-				4 = { add_core_of = ROOT }
 				151 = { add_core_of = ROOT }
 				845 = { add_core_of = ROOT }
 				846 = { add_core_of = ROOT }
 				847 = { add_core_of = ROOT }
+				4 = { add_core_of = ROOT }
 				152 = { add_core_of = ROOT }
 				153 = { add_core_of = ROOT }
 				848 = { add_core_of = ROOT }
 				997 = { add_core_of = ROOT }
+				1054 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				850 = { add_core_of = ROOT }
 			}
-			39 = { add_core_of = ROOT }
-			850 = { add_core_of = ROOT }
-			52 = { add_core_of = ROOT }
+			52 = { add_claim_by = ROOT }
+			975 = { add_claim_by = ROOT }
+			#ita
+			158 = { add_claim_by = ROOT }
+			#fra
+			735 = { add_claim_by = ROOT }
+			851 = { add_claim_by = ROOT }
+			21 = { add_claim_by = ROOT }
 		}
 	}
 
@@ -10842,6 +10929,20 @@ formable_nations_mod_category = {
 				tooltip = asia_requirement_tooltip 
 				OR = {
 					AND = {
+						AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							controls_state = 292 #Nejd
+							controls_state = 282 #Tokyo
+							controls_state = 439 #Delhi
+							controls_state = 291 #Baghdad
+							controls_state = 554 #Damascus
+							controls_state = 613 #Shanghai
+							controls_state = 266 #Tehran
+							controls_state = 330 #Ulaanbaatar
+						}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
 						all_state = {
 							OR = {
 								AND = {
@@ -11053,6 +11154,35 @@ formable_nations_mod_category = {
 				tooltip = eurasia_requirement_tooltip 
 				OR = {
 					AND = {
+					    AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							# Asia (same as singular formable)
+							controls_state = 292 #Nejd
+							controls_state = 282 #Tokyo
+							controls_state = 439 #Delhi
+							controls_state = 291 #Baghdad
+							controls_state = 554 #Damascus
+							controls_state = 613 #Shanghai
+							controls_state = 266 #Tehran
+							controls_state = 330 #Ulaanbaatar
+
+							# Europe (same as singular formable)
+							controls_state = 219 #Moscow
+							controls_state = 217 #Stalingrad
+							controls_state = 195 #Leningrad
+							controls_state = 64 #Berlin
+							controls_state = 2 #Rome
+							controls_state = 16 #Paris
+							controls_state = 141 #Stockolm
+							controls_state = 126 #London
+							controls_state = 46 #Bucharest
+							controls_state = 107 #Belgrade
+							controls_state = 10 #Warsaw
+							controls_state = 43 #Budapest
+						}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
 						all_state = {
 							OR = {
 								AND = {
@@ -11566,9 +11696,19 @@ formable_nations_mod_category = {
 
 		available = {
 			custom_trigger_tooltip = { 
-				tooltip = highlighted_state_tooltip 
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {	
+					    AND = {
+							219 = { controls_or_subject_of = yes } #Moscow
+							217 = { controls_or_subject_of = yes } #Stalingrad
+							195 = { controls_or_subject_of = yes } #Leningrad
+							563 = { controls_or_subject_of = yes } #Chita
+							810 = { controls_or_subject_of = yes } #Daugavpils
+							150 = { controls_or_subject_of = yes } #Koupio
+						}	
+						count_triggers = {
+							amount = 224 # "234 states"
 						40 = { controls_or_subject_of = yes }
 						137 = { controls_or_subject_of = yes }
 						192 = { controls_or_subject_of = yes }
@@ -11802,7 +11942,8 @@ formable_nations_mod_category = {
 				        1038 = { controls_or_subject_of = yes }
 				        1039 = { controls_or_subject_of = yes }
 			            1040 = { controls_or_subject_of = yes }
-				        1044 = { controls_or_subject_of = yes }						
+				        1044 = { controls_or_subject_of = yes }	
+					    }
 					}
 					AND = {
 						is_ai = no
@@ -12281,7 +12422,7 @@ formable_nations_mod_category = {
 						903 = { controls_or_subject_of = yes }
 						904 = { controls_or_subject_of = yes }
 						905 = { controls_or_subject_of = yes }
-						546 = { controls_or_subject_of = yes }						
+						546 = { controls_or_subject_of = yes }
 						548 = { controls_or_subject_of = yes }						
 						768 = { controls_or_subject_of = yes }
 						769 = { controls_or_subject_of = yes }
@@ -12365,7 +12506,7 @@ formable_nations_mod_category = {
 				state = 557
 				state = 786
 				state = 701
-				state = 272				
+				state = 272
 			}
 		}
 		
@@ -12453,8 +12594,7 @@ formable_nations_mod_category = {
 				state = 887
 				state = 551
 				state = 883
-				state = 886
-				
+				state = 886				
 			}
 		}
 		
@@ -12498,7 +12638,6 @@ formable_nations_mod_category = {
 				557 = { add_core_of = ROOT }
 				786 = { add_core_of = ROOT }
 				556 = { add_core_of = ROOT }
-			    556 = { add_core_of = ROOT }
 				782 = { add_core_of = ROOT }
 				515 = { add_core_of = ROOT }
 				781 = { add_core_of = ROOT }
@@ -12548,10 +12687,61 @@ formable_nations_mod_category = {
 				tooltip = afro_eurasia_requirement_tooltip 
 				OR = {
 					AND = {
+					    AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							# Asia same as singular formable)
+							controls_state = 292 #Nejd
+							controls_state = 282 #Tokyo
+							controls_state = 439 #Delhi
+							controls_state = 291 #Baghdad
+							controls_state = 554 #Damascus
+							controls_state = 613 #Shanghai
+							controls_state = 266 #Tehran
+							controls_state = 330 #Ulaanbaatar
+
+							# Europe (same as singular formable)
+							controls_state = 219 #Moscow
+							controls_state = 217 #Stalingrad
+							controls_state = 195 #Leningrad
+							controls_state = 64 #Berlin
+							controls_state = 2 #Rome
+							controls_state = 16 #Paris
+							controls_state = 141 #Stockolm
+							controls_state = 126 #London
+							controls_state = 46 #Bucharest
+							controls_state = 107 #Belgrade
+							controls_state = 10 #Warsaw
+							controls_state = 43 #Budapest
+
+							# Africa (same as singular formable)
+							controls_state = 275 #Pretoria
+							controls_state = 448 #Tripoli
+							controls_state = 298 #Liberia
+							controls_state = 907 #Cairo
+							controls_state = 907 #Cape Town
+							controls_state = 295 #Leopoldville
+							controls_state = 271 #Addis Ababa
+							controls_state = 558 #Lagos
+
+							# Middle East (same as singular formable)
+							controls_state = 292 #Nejd
+							controls_state = 291 #Baghdad
+							controls_state = 49 #Ankara
+							controls_state = 554 #Damascus
+							controls_state = 266 #Tehran
+						}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
 						all_state = {
 							OR = {
 								AND = {
-									OR = { is_on_continent = asia  is_on_continent = middle_east is_on_continent = europe is_on_continent = africa }
+									OR = { 
+										is_on_continent = asia  
+										is_on_continent = middle_east 
+										is_on_continent = europe 
+										is_on_continent = africa 
+										}
 									NOT = {
 										OR = {				
 											state = 698
@@ -12763,21 +12953,17 @@ formable_nations_mod_category = {
 						4 = { controls_or_subject_of = yes }
 						152 = { controls_or_subject_of = yes }
 						153 = { controls_or_subject_of = yes }
-						848 = { controls_or_subject_of = yes }
-						
+						848 = { controls_or_subject_of = yes }						
 						9 = { controls_or_subject_of = yes }
 						69 = { controls_or_subject_of = yes }
 						74 = { controls_or_subject_of = yes }
-						75 = { controls_or_subject_of = yes }
-						
+						75 = { controls_or_subject_of = yes }						
 						102 = { controls_or_subject_of = yes }
 						853 = { controls_or_subject_of = yes }
-						736 = { controls_or_subject_of = yes }
-						
+						736 = { controls_or_subject_of = yes }						
 						103 = { controls_or_subject_of = yes }
 						163 = { controls_or_subject_of = yes }
-						852 = { controls_or_subject_of = yes }
-						
+						852 = { controls_or_subject_of = yes }						
 						159 = { controls_or_subject_of = yes }
 						160 = { controls_or_subject_of = yes }
 						736 = { controls_or_subject_of = yes }
@@ -12790,8 +12976,7 @@ formable_nations_mod_category = {
 				        958 = { controls_or_subject_of = yes }
 				        1054 = { controls_or_subject_of = yes }
 				        1078 = { controls_or_subject_of = yes }
-						1086 = { controls_or_subject_of = yes }
-				
+						1086 = { controls_or_subject_of = yes }				
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -12836,11 +13021,9 @@ formable_nations_mod_category = {
 				1054 = { add_core_of = ROOT }
 				1078 = { add_core_of = ROOT }
 				1086 = { add_core_of = ROOT }
-
 			}
 			72 = { add_core_of = ROOT }
 			997 = { add_core_of = ROOT }
-			997 = { add_claim_by = ROOT }
 		}
 	}
 
@@ -13445,7 +13628,7 @@ formable_nations_mod_category = {
 				942 = { add_core_of = ROOT }
 				943 = { add_core_of = ROOT }				
 			}
-			745 = { add_core_of = ROOT }
+			745 = { add_claim_by = ROOT }
 		}
 	}
 
@@ -13485,66 +13668,89 @@ formable_nations_mod_category = {
 				state = 552
 				state = 911
 				state = 995
+				state = 415
+				state = 267
+				state = 1008
+				state = 1009
+				state = 1011 
 				}
 			}
 		}
 		available = {
 			custom_trigger_tooltip = { 
 				tooltip = middle_east_requirement_tooltip 
+				
 				OR = {
-					all_state = {
-						OR = {
-							AND = {
-								OR = {
-									is_on_continent = middle_east
-									state = 341
-									state = 797
-									state = 907
-									state = 447
-									state = 452
-									state = 456
-									state = 457
-									state = 552
-									state = 183
-									state = 911
-									state = 995
-								}
-								NOT = {
+				AND = { 
+						AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							controls_state = 292 #Nejd
+							controls_state = 291 #Baghdad
+							controls_state = 49 #Ankara
+							controls_state = 554 #Damascus
+							controls_state = 266 #Tehran
+							}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
+						all_state = {
+							OR = {
+								AND = {
 									OR = {
-										state = 230
-										state = 229
-										state = 231 
-										state = 826
-										state = 415
-										state = 1010
+										is_on_continent = middle_east
+										state = 341
+										state = 797
+										state = 907
+										state = 447
+										state = 452
+										state = 456
+										state = 457
+										state = 552
+										state = 911
+				                        state = 995
+				                        state = 415
+				                        state = 267
+				                        state = 1008
+				                        state = 1009
+				                        state = 1011 
+									}
+									NOT = {
+										OR = {
+											state = 230
+											state = 229
+											state = 231 
+											state = 826
+										}
+									}
+									is_controlled_by_ROOT_or_subject = yes
+								}
+								NOT = { 
+									OR = {
+										is_on_continent = middle_east
+										state = 341
+										state = 797
+										state = 907
+										state = 447
+										state = 452
+										state = 456
+										state = 457
+										state = 552
+										state = 911
+				                        state = 995
+				                        state = 415
+				                        state = 267
+				                        state = 1008
+				                        state = 1009
+				                        state = 1011 
 									}
 								}
-								is_controlled_by_ROOT_or_subject = yes
+								state = 230
+								state = 229
+								state = 231 
+								state = 826
 							}
-							NOT = { 
-								OR = {
-									is_on_continent = middle_east
-									state = 341
-									state = 797
-									state = 907
-									state = 447
-									state = 452
-									state = 456
-									state = 457
-									state = 552
-									state = 183
-									state = 911
-									state = 995
-								}
-							}
-							state = 230
-							state = 229
-							state = 231 
-							state = 826
-							state = 415
-							state = 1010
 						}
-					}
+					}	
 					AND = {
 						is_ai = no
 						has_global_flag = debug_mode
@@ -13577,9 +13783,13 @@ formable_nations_mod_category = {
 							state = 456
 							state = 457
 							state = 552
-							state = 183
 							state = 911
 							state = 995
+							state = 415
+							state = 267
+							state = 1008
+							state = 1009
+							state = 1011 
 						}
 						NOT = {
 							OR = {
@@ -13587,8 +13797,6 @@ formable_nations_mod_category = {
 								state = 229
 								state = 231 
 								state = 826
-								state = 415
-								state = 1010
 							}
 						}
 						NOT = { is_core_of = ROOT }
@@ -13622,6 +13830,7 @@ formable_nations_mod_category = {
 		}
 		highlight_states = {
 			highlight_state_targets = {
+				# Japan & Manchu
 				state = 528
 				state = 530
 				state = 529
@@ -13682,9 +13891,11 @@ formable_nations_mod_category = {
 		
 		available = {
 			custom_trigger_tooltip = { 
-				tooltip = highlighted_state_tooltip 
+				tooltip = enough_control_requirement
 				OR = {
 					AND = {
+						count_triggers = {
+							amount = 40 # "49 States"
 						528 = { controls_or_subject_of = yes }
 						530 = { controls_or_subject_of = yes }
 						529 = { controls_or_subject_of = yes }
@@ -13851,8 +14062,7 @@ formable_nations_mod_category = {
 				state = 869
 				state = 924
 				state = 925
-				state = 926
-				
+				state = 926				
 			}
 		}
 		
@@ -13871,8 +14081,7 @@ formable_nations_mod_category = {
 						869 = { controls_or_subject_of = yes }
 						924 = { controls_or_subject_of = yes }
 						925 = { controls_or_subject_of = yes }
-						926 = { controls_or_subject_of = yes }
-						
+						926 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						is_ai = no
@@ -13899,8 +14108,7 @@ formable_nations_mod_category = {
 				869 = { add_core_of = ROOT }
 				924 = { add_core_of = ROOT }
 				925 = { add_core_of = ROOT }
-				926 = { add_core_of = ROOT }
-				
+				926 = { add_core_of = ROOT }				
 			}
 		}
 	}
@@ -14069,9 +14277,28 @@ formable_nations_mod_category = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = north_america_requirement_tooltip
+				
 				OR = {
 					AND = {
-						OR = { is_subject = no has_global_flag = puppets_allowed }
+					    AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+						
+							# North America (same as singular formable)
+							controls_state = 361 #Maryland
+							controls_state = 276 #Ottawa
+							controls_state = 277 #Mexico City
+							controls_state = 304 #Panama
+							controls_state = 685 #Panama Canal
+
+							# South America (same as singular formable)
+							controls_state = 278 #Buenos Aires
+							controls_state = 500 #Rio De Janeiro
+							controls_state = 307 #Caracas
+							controls_state = 303 #Lima	
+						}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
 						
 						all_state = {
 							OR = {
@@ -14082,13 +14309,19 @@ formable_nations_mod_category = {
 										state = 313
 										state = 312
 										state = 314
+										state = 315
 										state = 316
 										state = 317
+										state = 318
+										state = 319
 										state = 685
 										state = 304
 									}
 									NOT = {
 										OR = {
+											state = 689
+											state = 690
+											state = 693
 											state = 696
 											state = 101
 											state = 739
@@ -14104,12 +14337,18 @@ formable_nations_mod_category = {
 										state = 313
 										state = 312
 										state = 314
+										state = 315
 										state = 316
 										state = 317
+										state = 318
+										state = 319
 										state = 685
 										state = 304
 									}
 								}
+								state = 689
+								state = 690
+								state = 693
 								state = 696
 								state = 101
 								state = 739
@@ -18198,8 +18437,7 @@ formable_nations_mod_category = {
 				state = 1009
 				state = 1010
 				state = 1011
-				state = 1093
-				
+				state = 1093				
 			}
 		}
 		
@@ -19108,8 +19346,7 @@ formable_nations_mod_category = {
 			OR = { 
 				has_global_flag = no_limit
 				original_tag = DEN
-				original_tag = NOR
-				
+				original_tag = NOR				
 			}
 		}
 
@@ -19665,7 +19902,6 @@ formable_nations_mod_category = {
 			            356 = { controls_or_subject_of = yes }
 				        798 = { controls_or_subject_of = yes }
 				        800 = { controls_or_subject_of = yes }
-
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -23511,7 +23747,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_TRC } } }
-			custom_trigger_tooltip = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_thracia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -23527,7 +23763,7 @@ formable_nations_mod_category = {
 				184 = { add_core_of = ROOT }
 				211 = { add_core_of = ROOT }
 				212 = { add_core_of = ROOT }
-				341 = { add_core_of = ROOT }				
+				341 = { add_core_of = ROOT }
 			}
 		}
 	}
@@ -23570,8 +23806,7 @@ formable_nations_mod_category = {
 				state = 843
 				state = 883
 				state = 886
-				state = 908
-				
+				state = 908				
 			}
 		}
 		
