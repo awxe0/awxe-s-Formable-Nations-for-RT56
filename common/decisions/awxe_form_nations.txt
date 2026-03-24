@@ -13831,6 +13831,7 @@ formable_nations_mod_category = {
 		highlight_states = {
 			highlight_state_targets = {
 				# Japan & Manchu
+				state = 524
 				state = 528
 				state = 530
 				state = 529
@@ -13844,8 +13845,6 @@ formable_nations_mod_category = {
 				state = 526
 				state = 537
 				state = 555
-				state = 611
-				state = 612
 				state = 328
 				state = 610
 				state = 714
@@ -13857,19 +13856,8 @@ formable_nations_mod_category = {
 				state = 609
 				state = 716
 				state = 610
-				state = 608
-				state = 614
-				state = 597
 				state = 743
-				state = 598
 				state = 613
-				state = 525
-				state = 527
-				
-				state = 917
-				state = 918
-				state = 919
-				state = 920
 				state = 941
 				state = 942
 				state = 943
@@ -13877,10 +13865,33 @@ formable_nations_mod_category = {
 				state = 945
 				state = 946
 				state = 947
-				
 				state = 1105
 				state = 1106
 				state = 1107
+				
+				# Korea
+				state = 525
+				state = 527
+				state = 917
+				state = 918
+				state = 919
+				state = 920		
+				
+				# Soviet
+				state = 408
+				state = 409
+				state = 655
+				state = 657
+				
+				# China
+				state = 595
+				state = 596
+				state = 598
+				state = 608
+				state = 614
+				state = 597
+				state = 611
+				state = 612
 				state = 1113
 				state = 1114
 				state = 1117
@@ -13895,62 +13906,76 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-							amount = 40 # "49 States"
-						528 = { controls_or_subject_of = yes }
-						530 = { controls_or_subject_of = yes }
-						529 = { controls_or_subject_of = yes }
-						531 = { controls_or_subject_of = yes }
-						532 = { controls_or_subject_of = yes }
-						535 = { controls_or_subject_of = yes }
-						282 = { controls_or_subject_of = yes }
-						534 = { controls_or_subject_of = yes }
-						533 = { controls_or_subject_of = yes }
-						536 = { controls_or_subject_of = yes }
-						526 = { controls_or_subject_of = yes }
-						537 = { controls_or_subject_of = yes }
-						555 = { controls_or_subject_of = yes }						
-						611 = { controls_or_subject_of = yes }
-						612 = { controls_or_subject_of = yes }
-						328 = { controls_or_subject_of = yes }
-						610 = { controls_or_subject_of = yes }
-						714 = { controls_or_subject_of = yes }
-						715 = { controls_or_subject_of = yes }
-						716 = { controls_or_subject_of = yes }
-						717 = { controls_or_subject_of = yes }
-						761 = { controls_or_subject_of = yes }						
-						745 = { controls_or_subject_of = yes }
-						609 = { controls_or_subject_of = yes }
-						716 = { controls_or_subject_of = yes }
-						610 = { controls_or_subject_of = yes }
-						608 = { controls_or_subject_of = yes }
-						614 = { controls_or_subject_of = yes }
-						597 = { controls_or_subject_of = yes }
-						743 = { controls_or_subject_of = yes }
-						598 = { controls_or_subject_of = yes }
-						613 = { controls_or_subject_of = yes }						
-						525 = { controls_or_subject_of = yes }
-						527 = { controls_or_subject_of = yes }
-						
-						917 = { controls_or_subject_of = yes }
-						918 = { controls_or_subject_of = yes }
-						919 = { controls_or_subject_of = yes }
-						920 = { controls_or_subject_of = yes }
-						941 = { controls_or_subject_of = yes }
-						942 = { controls_or_subject_of = yes }
-						943 = { controls_or_subject_of = yes }
-						944 = { controls_or_subject_of = yes }
-						945 = { controls_or_subject_of = yes }
-						946 = { controls_or_subject_of = yes }
-						947 = { controls_or_subject_of = yes }
-						
-						1105 = { controls_or_subject_of = yes }
-						1106 = { controls_or_subject_of = yes }
-						1107 = { controls_or_subject_of = yes }
-						1113 = { controls_or_subject_of = yes }
-						1114 = { controls_or_subject_of = yes }
-						1117 = { controls_or_subject_of = yes }
-						1118 = { controls_or_subject_of = yes }
-						1122 = { controls_or_subject_of = yes }
+							amount = 44 # "60 States"
+							
+							# Japan & Manchu (37)
+							524 = { controls_or_subject_of = yes }
+							528 = { controls_or_subject_of = yes }
+							530 = { controls_or_subject_of = yes }
+							529 = { controls_or_subject_of = yes }
+							531 = { controls_or_subject_of = yes }
+							532 = { controls_or_subject_of = yes }
+							535 = { controls_or_subject_of = yes }
+							282 = { controls_or_subject_of = yes }
+							534 = { controls_or_subject_of = yes }
+							533 = { controls_or_subject_of = yes }
+							536 = { controls_or_subject_of = yes }
+							526 = { controls_or_subject_of = yes }
+							537 = { controls_or_subject_of = yes }
+							555 = { controls_or_subject_of = yes }
+							328 = { controls_or_subject_of = yes }
+							610 = { controls_or_subject_of = yes }
+							714 = { controls_or_subject_of = yes }
+							715 = { controls_or_subject_of = yes }
+							716 = { controls_or_subject_of = yes }
+							717 = { controls_or_subject_of = yes }
+							761 = { controls_or_subject_of = yes }
+							745 = { controls_or_subject_of = yes }
+							609 = { controls_or_subject_of = yes }
+							716 = { controls_or_subject_of = yes }
+							610 = { controls_or_subject_of = yes }
+							743 = { controls_or_subject_of = yes }
+							613 = { controls_or_subject_of = yes }
+							941 = { controls_or_subject_of = yes }
+							942 = { controls_or_subject_of = yes }
+							943 = { controls_or_subject_of = yes }
+							944 = { controls_or_subject_of = yes }
+							945 = { controls_or_subject_of = yes }
+							946 = { controls_or_subject_of = yes }
+							947 = { controls_or_subject_of = yes }
+							1105 = { controls_or_subject_of = yes }
+							1106 = { controls_or_subject_of = yes }
+							1107 = { controls_or_subject_of = yes }
+							
+							# Korea (6)
+							525 = { controls_or_subject_of = yes }
+							527 = { controls_or_subject_of = yes }
+							917 = { controls_or_subject_of = yes }
+							918 = { controls_or_subject_of = yes }
+							919 = { controls_or_subject_of = yes }
+							920 = { controls_or_subject_of = yes }
+							
+							# Soviet (4)
+							408 = { controls_or_subject_of = yes }
+							409 = { controls_or_subject_of = yes } 
+							655 = { controls_or_subject_of = yes }
+							657 = { controls_or_subject_of = yes }
+							
+							# China (13)
+							595 = { controls_or_subject_of = yes }
+							596 = { controls_or_subject_of = yes }
+							598 = { controls_or_subject_of = yes }
+							608 = { controls_or_subject_of = yes }
+							614 = { controls_or_subject_of = yes }
+							597 = { controls_or_subject_of = yes }
+							611 = { controls_or_subject_of = yes }
+							612 = { controls_or_subject_of = yes }
+							1113 = { controls_or_subject_of = yes }
+							1114 = { controls_or_subject_of = yes }
+							1117 = { controls_or_subject_of = yes }
+							1118 = { controls_or_subject_of = yes }
+							1122 = { controls_or_subject_of = yes }
+						}
 					}
 					AND = {
 						is_ai = no
@@ -13967,6 +13992,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+				524 = { add_core_of = ROOT }
 				528 = { add_core_of = ROOT }
 				530 = { add_core_of = ROOT }
 				529 = { add_core_of = ROOT }
@@ -13977,32 +14003,22 @@ formable_nations_mod_category = {
 				534 = { add_core_of = ROOT }
 				533 = { add_core_of = ROOT }
 				536 = { add_core_of = ROOT }
-				555 = { add_core_of = ROOT }
-				537 = { add_core_of = ROOT }
-				655 = { add_core_of = ROOT }
 				526 = { add_core_of = ROOT }
-				525 = { add_core_of = ROOT }
-				527 = { add_core_of = ROOT }
-				524 = { add_core_of = ROOT }
-				645 = { add_core_of = ROOT }
-				761 = { add_core_of = ROOT }
-				714 = { add_core_of = ROOT }
-				610 = { add_core_of = ROOT }
+				537 = { add_core_of = ROOT }
+				555 = { add_core_of = ROOT }
 				328 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
+				714 = { add_core_of = ROOT }
 				715 = { add_core_of = ROOT }
 				716 = { add_core_of = ROOT }
 				717 = { add_core_of = ROOT }
+				761 = { add_core_of = ROOT }
 				745 = { add_core_of = ROOT }
 				609 = { add_core_of = ROOT }
-				408 = { add_core_of = ROOT }
-				409 = { add_core_of = ROOT }
-				611 = { add_core_of = ROOT }
-				612 = { add_core_of = ROOT }
-				
-				917 = { add_core_of = ROOT }
-				918 = { add_core_of = ROOT }
-				919 = { add_core_of = ROOT }
-				920 = { add_core_of = ROOT }
+				716 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
+				743 = { add_core_of = ROOT }
+				613 = { add_core_of = ROOT }
 				941 = { add_core_of = ROOT }
 				942 = { add_core_of = ROOT }
 				943 = { add_core_of = ROOT }
@@ -14010,16 +14026,44 @@ formable_nations_mod_category = {
 				945 = { add_core_of = ROOT }
 				946 = { add_core_of = ROOT }
 				947 = { add_core_of = ROOT }
-				
 				1105 = { add_core_of = ROOT }
 				1106 = { add_core_of = ROOT }
-				1107 = { add_core_of = ROOT }
+				1107 = { add_core_of = ROOT }				
+				# Korea
+				525 = { add_core_of = ROOT }
+				527 = { add_core_of = ROOT }
+				917 = { add_core_of = ROOT }
+				918 = { add_core_of = ROOT }
+				919 = { add_core_of = ROOT }
+				920 = { add_core_of = ROOT }				
+				# Soviet
+				408 = { add_core_of = ROOT }
+				409 = { add_core_of = ROOT } 
+				655 = { add_core_of = ROOT }
+				657 = { add_core_of = ROOT }				
+				# China
+				595 = { add_core_of = ROOT }
+				596 = { add_core_of = ROOT }
+				598 = { add_core_of = ROOT }
+				608 = { add_core_of = ROOT }
+				614 = { add_core_of = ROOT }
+				597 = { add_core_of = ROOT }
+				611 = { add_core_of = ROOT }
+				612 = { add_core_of = ROOT }
 				1113 = { add_core_of = ROOT }
 				1114 = { add_core_of = ROOT }
 				1117 = { add_core_of = ROOT }
 				1118 = { add_core_of = ROOT }
 				1122 = { add_core_of = ROOT }
 			}
+			# China
+			743 = { add_core_of = ROOT }
+			# Soviets
+			560 = { add_claim_by = ROOT }
+			637 = { add_claim_by = ROOT }
+			# USA
+			650 = { add_claim_by = ROOT } #attu island
+			638 = { add_claim_by = ROOT } # Guam
 		}
 	}
 
@@ -20827,7 +20871,7 @@ formable_nations_mod_category = {
 				408 = { controls_or_subject_of = yes }
 				409 = { controls_or_subject_of = yes }				
 			}
-			745 = { add_core_of = ROOT }
+			745 = { add_claim_by = ROOT }
 		}
 	}
 	
