@@ -60,6 +60,20 @@ formable_nations_mod_category = {
 				tooltip = africa_requirement_tooltip 
 				OR = {
 					AND = {
+					    AND = { # this is to make the "checking" behind some key States (performance upgrade) - GIAMPIERX3
+							controls_state = 275 #Pretoria
+							controls_state = 448 #Tripoli
+							controls_state = 298 #Liberia
+							controls_state = 907 #Cairo
+							controls_state = 907 #Cape Town
+							controls_state = 295 #Leopoldville
+							controls_state = 271 #Addis Ababa
+							controls_state = 558 #Lagos
+						}
+					#	OR = { 
+					#		is_subject = no 
+					#		has_global_flag = puppets_allowed 
+					#	}
 						all_state = {
 							OR = {
 								AND = {
@@ -109,7 +123,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_AFR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_africa
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -757,7 +771,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_MOE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 
 		icon = formable_nations_mongol_empire
@@ -1292,7 +1306,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_EUR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_europe
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -1491,7 +1505,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GRO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_grossdeutschland
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -1771,7 +1785,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_LAU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_latin_union
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -2144,7 +2158,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_QIN } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_chinese_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -2460,7 +2474,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_FRE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_frankish_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -2697,7 +2711,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_AUH } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_austria_hungary
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -2923,7 +2937,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_COM } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_commonwealth
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -3187,7 +3201,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_HRE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_hre
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -3371,7 +3385,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_IBE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_iberia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -3524,7 +3538,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_SCA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_scandinavia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -3715,7 +3729,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ARA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_arabia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -3869,7 +3883,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GMO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_great_moravia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -3962,7 +3976,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_CAU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_transcaucasia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4046,7 +4060,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BEN } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_benelux
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4138,7 +4152,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BAL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_baltic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4217,7 +4231,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_CEN } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_central_america
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4313,7 +4327,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_HUK } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_hungarian_kingdom
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4495,7 +4509,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_KIE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_kievan_rus
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4670,7 +4684,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BUE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_bulgarian_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4784,7 +4798,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GCO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_gran_colombia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -4913,7 +4927,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_MEE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_mexican_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -5014,7 +5028,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GAL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_albania
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -5190,7 +5204,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BAK } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_balkan
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -5450,7 +5464,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_POH } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_poland_hungary
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -5642,7 +5656,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_CAP } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_carpathia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -5772,7 +5786,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ANE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_angevin_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -6074,7 +6088,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_MAC } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_macedonian_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -6288,7 +6302,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_SOU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_south_america
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -6356,7 +6370,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_WOR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_world
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -6575,7 +6589,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_OTT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 
 		icon = formable_nations_ottomans
@@ -6760,7 +6774,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GIS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_israel
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -6909,7 +6923,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_MUG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_mughals
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -7210,7 +7224,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_PEE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_persian_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -7424,7 +7438,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_NSE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_north_sea_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -7531,7 +7545,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_INC } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_inca_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -7633,7 +7647,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GFI } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_finland
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -7840,7 +7854,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_TKS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_turkestan
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -7993,7 +8007,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ICH } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_indochina
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8118,7 +8132,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_SEP } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_swedish_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8225,7 +8239,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GTI } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_tibet
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8362,7 +8376,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_YUG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_yugoslavia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8484,7 +8498,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ABY } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_abyssinia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8603,7 +8617,7 @@ formable_nations_mod_category = {
 			}
 		}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_NOA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_north_america
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8744,7 +8758,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GEG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_egypt
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8835,7 +8849,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_HIS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_hispaniola
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8915,7 +8929,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_PRB } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_peru_bolivia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -8995,7 +9009,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_CAB } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_caribbean
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -9107,7 +9121,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_AAS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_australasia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -9328,7 +9342,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GOL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_golden_circle
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -9489,7 +9503,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_MAG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_maghreb
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -9632,7 +9646,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GCA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_canada
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -9803,7 +9817,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_VIS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_visegrad
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -9940,7 +9954,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_PLA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_la_plata
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10041,7 +10055,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_CEL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_celtic_union
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10127,7 +10141,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ALP } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_alpine_federation
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10221,7 +10235,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GCR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_croatia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10316,7 +10330,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GSE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_serbia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10448,7 +10462,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GLI } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_lithuania
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10576,7 +10590,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_CHG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_chile_argentina
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10739,7 +10753,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ASS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_assyria
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -10953,7 +10967,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ASI } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_asia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -11137,7 +11151,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_EUA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_eurasia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -11252,7 +11266,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BRI } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_great_britain
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -11797,7 +11811,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_RUE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_russia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -12174,7 +12188,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_CAR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_carthage
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -12287,7 +12301,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_EAF } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_east_africa
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -12376,7 +12390,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_MAE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_mali_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -12473,7 +12487,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_SAH } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_sahel
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -12658,7 +12672,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_AEA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_afro_eurasia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -12786,7 +12800,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GAU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_austria
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13100,7 +13114,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_AGL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_anglosphere
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13310,7 +13324,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_LEV } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_levant
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13409,7 +13423,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GKO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_korea
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13538,7 +13552,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_MID } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_middle_east
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13734,7 +13748,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GJA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_japan
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13867,7 +13881,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_KHM } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_khmer_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -13937,7 +13951,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BEE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_bengal_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -14000,7 +14014,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GUY } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_guyanas
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -14172,7 +14186,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_AME } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_americas
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -14285,7 +14299,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_AND } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_andes
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -14437,7 +14451,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ZAP } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_zapadoslavia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -14556,7 +14570,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_SGF } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_south_german_federation
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -14689,7 +14703,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_NGF } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_north_german_federation
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -15092,7 +15106,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BYZ } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_byzantium
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -15472,7 +15486,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_BYZ } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_west_rome
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -16101,7 +16115,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_ROE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_roman_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -16622,7 +16636,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_LAU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_intermarium
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -16837,7 +16851,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = FORM_GAU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_italy
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -17041,7 +17055,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_FRA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_france
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -17255,7 +17269,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AKH } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_akhand_bharat
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -17388,7 +17402,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_DUR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_durrani_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -17754,7 +17768,7 @@ formable_nations_mod_category = {
 			}
 
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_UMA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_umayyad_caliphate
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -18068,7 +18082,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SEA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_southeast_asia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -18219,7 +18233,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GHE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_ghaznavid_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -18366,7 +18380,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AFD } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_afsharid_dynasty
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -18506,7 +18520,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ILL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_illyrian_kingdom
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -18651,7 +18665,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_BNT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_bantu
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -18827,7 +18841,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_OCE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_oceania
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -18967,7 +18981,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PRT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_pirates
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -19054,7 +19068,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PLE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_pala_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -19153,7 +19167,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_DNU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_denmark_norway
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -19317,7 +19331,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_MAM } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_mamluk
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -19436,7 +19450,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GGE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_georgia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -19532,7 +19546,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GGR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_megali_idea
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -19660,7 +19674,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_HTM } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_hellenoturkism
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -20046,7 +20060,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GOT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 
 		icon = formable_nations_great_ottomans
@@ -20401,7 +20415,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GHO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_golden_horde
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -20552,7 +20566,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_UKO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_unified_korea
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -20650,7 +20664,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_BKE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_bani_khalid
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -20925,7 +20939,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SAS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_sasanian_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -21174,7 +21188,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_QAJ } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_qajar_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -21419,7 +21433,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SEL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_seljuk_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -21710,7 +21724,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_EUU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_europe_unity
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -21999,7 +22013,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_MNG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_ming
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -22224,7 +22238,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_XIO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_xiongnu
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -22379,7 +22393,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_BAB } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_babylonian
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -22629,7 +22643,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_HPA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_hispanic_america
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -22828,7 +22842,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PHO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_phoenicia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -23242,7 +23256,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PSF } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_pan_slavic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -23583,7 +23597,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AKS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_aksum
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -23686,7 +23700,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SRV } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_srivijaya
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -23866,7 +23880,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_DNF } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_danubian
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -24102,7 +24116,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GNU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_great_nordic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -24547,7 +24561,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_EHE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_hun_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -24881,7 +24895,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_FTK } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_gokturk
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -25211,7 +25225,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SPI } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_spanish_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -25521,7 +25535,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_TIM } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_timurid
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -25687,7 +25701,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SKB } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_skibidi
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -25852,7 +25866,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GIT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_italy
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -25995,7 +26009,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_CSK } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_cossack
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -26190,7 +26204,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GCE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_german_colonial
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -26349,7 +26363,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_DCE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_danish_colonial
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -26523,7 +26537,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_HCE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_dutch_colonial
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -26727,7 +26741,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PCE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_portuguese_colonial
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -26907,7 +26921,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PON } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_pontus
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -27231,7 +27245,7 @@ formable_nations_mod_category = {
 			}
 
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ABB } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_abbasid_caliphate
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -27400,7 +27414,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_JRS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_jerusalem
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -27510,7 +27524,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ADT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_adriatic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -27665,7 +27679,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_OUT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_outremer
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -27826,7 +27840,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PHE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_philippine_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -27975,7 +27989,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PRS } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_prussia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -28068,7 +28082,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ZKY } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_zaidi
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -28225,7 +28239,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_OST } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_ostrogothic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -28372,7 +28386,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_VIK } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_visigothic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -28494,7 +28508,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AND } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_andalus
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -28595,7 +28609,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_VAN } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_vandal
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -28828,7 +28842,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_RGE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_romano_gothia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -28983,7 +28997,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_BRU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_bulgaria_romania
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -29077,7 +29091,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ASU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_austro_slovakia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -29298,7 +29312,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PSU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_polish_swedish
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -29547,7 +29561,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_FSU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_franco_spanish
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -29721,7 +29735,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_FSA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_fennoscandia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -29840,7 +29854,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ARA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_aragon
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -29941,7 +29955,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_BUR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_burgundy
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -30050,7 +30064,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_LOT } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_lotharingia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -30286,7 +30300,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GAL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_gallic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -30588,7 +30602,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_CAR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_carolingian
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -30752,7 +30766,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_HIM } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_himalayas
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -30831,7 +30845,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GOG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_goguryeo
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -30911,7 +30925,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_DRU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_druk
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -31204,7 +31218,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_YUA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_yuan
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -31410,7 +31424,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_LIA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_liao
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -31574,7 +31588,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AVA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_avar
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -31674,7 +31688,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_CRM } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_crimea
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -31773,7 +31787,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_CHA } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_chagatai
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -31878,7 +31892,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_KYZ } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_kyrgyz
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -32018,7 +32032,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_UYG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_uyghur
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -32210,7 +32224,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_ILK } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_ilkhanate
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -32399,7 +32413,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PML } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_pan_malay
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -32552,7 +32566,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_QAR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_qara_qoyunlu
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -32704,7 +32718,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AQQ } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_aq_qoyunlu
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -32840,7 +32854,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_CHO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_chola
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -33012,7 +33026,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_TNG } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_tang
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -33182,7 +33196,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GTU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_turkey
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -33279,7 +33293,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GAR } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_armenia
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -33386,7 +33400,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_AKE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_akkadian_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -33626,7 +33640,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SEE } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_seleucid_empire
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -33768,7 +33782,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GAZ } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_azerbaijan
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -33861,7 +33875,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_TEU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_teutonic
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -34102,7 +34116,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GRL } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_grossdeutschland_losung
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -34283,7 +34297,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_SNU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_sweden_norway
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -34431,7 +34445,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_PRU } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_poland_romania
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
@@ -34556,7 +34570,7 @@ formable_nations_mod_category = {
 				}
 			}
 			custom_trigger_tooltip = { tooltip = not_already_existing_tt NOT = { any_country = { has_cosmetic_tag = AFN_GNO } } }
-			custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
+			# custom_trigger_tooltip  = { tooltip = is_puppet_tooltip OR = { is_subject = no has_global_flag = puppets_allowed } }
 		}
 		icon = formable_nations_greater_norway
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
