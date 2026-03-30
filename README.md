@@ -1,4 +1,4 @@
-![AFN - Steam Showcase - Main - 180](https://github.com/user-attachments/assets/1b54a8d6-ffa4-43b0-927b-b3d484734f1f)
+![AFN - Steam Showcase - Main - 190](https://github.com/user-attachments/assets/237e656a-f5e3-432e-97f0-edd9d131e2f4)
 
 
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
@@ -9,11 +9,11 @@ This is the well-known and beloved Formable Nations mod, fully overhauled and no
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-<img width="616" height="2107" alt="AFN - Steam Panel - List 1 7" src="https://github.com/user-attachments/assets/5e9b2a3c-277e-4685-844b-cf9afd8cf3b6" />
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 8" src="https://github.com/user-attachments/assets/a15aa756-49a8-4f23-9bef-7cf70d0bbbe4" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
-• +180 Formable Nations  
+• +190 Formable Nations  
 • Full integration with Road to 56  
 • Custom flags, colors, decisions, and cores  
 • Accurate historical & cultural naming  
@@ -40,7 +40,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled and no
 
 Compatible with other mods that do not overwrite the same files and use the current version **(FEBRUARY Update) of Road to 56.**
 
-It may not be compatible with mods that add or modify states.
+Not compatible with mods that add, modify, or remove states, or include cosmetic (color) files.
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=3677761082 Vanilla Version - awxe's Formable Nations
 
