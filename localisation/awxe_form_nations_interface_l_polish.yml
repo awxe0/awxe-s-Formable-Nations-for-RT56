@@ -1,6 +1,6 @@
 ﻿l_polish:
  formable_nations_mod_category:0 "Utwórz Nową Nację"
- formable_nations_mod_category_desc:0 "§CPrzed utworzeniem nacji, wybierz swoją ścieżkę!\n\n§!Te formowalne nacje nie są zależne od żadnych formowalnych nacji z Vanilla lub RT56.\n\nGranice potrzebne do utworzenia nacji będą podświetlone na biało po najechaniu na jej nazwę lub ikonę."
+ formable_nations_mod_category_desc:0 "§CPrzed utworzeniem nacji, wybierz swoją ścieżkę!\n\n§!Te formowalne nie zależą od żadnych vanillowych formowalnych.\n\nGranice potrzebne do utworzenia nacji będą podświetlone na biało po najechaniu na jej nazwę lub ikonę."
  ############################## Copyrighted by awxe
  extra_ideas:0 "Decyzje"
  form_nation:0 "Utwórz Nową Nację"
@@ -98,7 +98,7 @@
  formable_nations_great_moravia:0 "Wielkie Morawy"
  formable_nations_greece_tt:0 "§YGrecja§!: Kontrolowana przez §Y[From.GetName]§!"
  formable_nations_grossdeutschland:0 "Wielkie Niemcy"
- formable_nations_grossdeutschland_desc:0 "Aby utworzyć §9Wielkoniemieckie Rozwiązanie§!, musisz najpierw utworzyć albo §9Wielkie Niemcy§! albo §9Austro-Węgry§!."
+ formable_nations_grossdeutschland_desc:0 "Aby utworzyć §9Rzesza Wielkoniemiecka§!, musisz najpierw utworzyć albo §9Wielkie Niemcy§! albo §9Austro-Węgry§!."
  formable_nations_guyanas:0 "Zjednoczona Gujana"
  formable_nations_hispaniola:0 "Hispaniola"
  formable_nations_hre:0 "Święte Cesarstwo Rzymskie"
@@ -255,12 +255,19 @@
  formable_nations_seleucid_empire:0 "Imperium Seleucydów"
  formable_nations_greater_azerbaijan:0 "Wielki Azerbejdżan"
  formable_nations_teutonic:0 "Zakon Krzyżacki"
- formable_nations_grossdeutschland_losung:0 "Wielkoniemieckie Rozwiązanie"
+ formable_nations_grossdeutschland_losung:0 "Rzesza Wielkoniemiecka"
  formable_nations_sweden_norway:0 "Unia Szwecji-Norwegii"
  formable_nations_poland_romania:0 "Unia Polski-Rumunii"
  formable_nations_greater_norway:0 "Wielka Norwegia"
+ formable_nations_greater_brazil:0 "Wielka Brazylia"
+ formable_nations_maya:0 "Imperium Majów"
+ formable_nations_chibchan:0 "Państwo Chibcha"
+ formable_nations_greater_usa:0 "Wielkie Zjednoczone Stany"
+ formable_nations_guarani:0 "Państwo Guaranów"
+ formable_nations_viceroyalty_new_spain:0 "Wicekrólestwo Nowej Hiszpanii"
  ##############################
-
+ 
+ ##############################
  formable_nations_abyssinia_category:0 "Abisynia"
  formable_nations_africa_category:0 "Afryka"
  formable_nations_afro_eurasia_category:0 "Afro-Eurazja"
@@ -446,7 +453,13 @@
  formable_nations_seleucid_empire_category:0 "Imperium Seleucydów"
  formable_nations_greater_azerbaijan_category:0 "Wielki Azerbejdżan"
  formable_nations_teutonic_category:0 "Zakon Krzyżacki"
- formable_nations_grossdeutschland_losung_category:0 "Wielkoniemieckie Rozwiązanie"
+ formable_nations_grossdeutschland_losung_category:0 "Rzesza Wielkoniemiecka"
  formable_nations_sweden_norway_category:0 "Unia Szwecji-Norwegii"
  formable_nations_poland_romania_category:0 "Unia Polski-Rumunii"
  formable_nations_greater_norway_category:0 "Wielka Norwegia"
+ formable_nations_greater_brazil_category:0 "Wielka Brazylia"
+ formable_nations_maya_category:0 "Imperium Majów"
+ formable_nations_chibchan_category:0 "Państwo Chibcha"
+ formable_nations_greater_usa_category:0 "Wielkie Zjednoczone Stany"
+ formable_nations_guarani_category:0 "Państwo Guaranów"
+ formable_nations_viceroyalty_new_spain_category:0 "Wicekrólestwo Nowej Hiszpanii"

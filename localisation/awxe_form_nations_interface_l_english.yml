@@ -1,6 +1,6 @@
 ﻿l_english:
  formable_nations_mod_category:0 "Form New Nation"
- formable_nations_mod_category_desc:0 "§CBefore form a nation, choose your path!\n\n§!These formables are not dependent on any Vanilla or RT56 formable.\n\nThe borders needed for the formable will highlighted white when you hover over its name or icon."
+ formable_nations_mod_category_desc:0 "§CBefore form a nation, choose your path!\n\n§!These formables are not dependent on any Vanilla formable.\n\nThe borders needed for the formable will highlighted white when you hover over its name or icon."
  ############################## Copyrighted by awxe
  extra_ideas:0 "Decisions"
  form_nation:0 "Form New Nation"
@@ -259,6 +259,12 @@
  formable_nations_sweden_norway:0 "Sweden-Norway Union"
  formable_nations_poland_romania:0 "Poland-Romania Union"
  formable_nations_greater_norway:0 "Greater Norway"
+ formable_nations_greater_brazil:0 "Greater Brazil"
+ formable_nations_maya:0 "Maya Empire"
+ formable_nations_chibchan:0 "Chibchan State"
+ formable_nations_greater_usa:0 "Greater United States"
+ formable_nations_guarani:0 "Guaraní State"
+ formable_nations_viceroyalty_new_spain:0 "Viceroyalty of the New Spain"
  ##############################
 
  #############################
@@ -451,3 +457,9 @@
  formable_nations_sweden_norway_category:0 "Sweden-Norway Union"
  formable_nations_poland_romania_category:0 "Poland-Romania Union"
  formable_nations_greater_norway_category:0 "Greater Norway"
+ formable_nations_greater_brazil_category:0 "Greater Brazil"
+ formable_nations_maya_category:0 "Maya Empire"
+ formable_nations_chibchan_category:0 "Chibchan State"
+ formable_nations_greater_usa_category:0 "Greater United States"
+ formable_nations_guarani_category:0 "Guaraní State"
+ formable_nations_viceroyalty_new_spain_category:0 "Viceroyalty of the New Spain"
