@@ -2994,8 +2994,8 @@ FORM_GCO = {
 }
 
 FORM_MEE = {
-    color = rgb { 45 58 12 }
-	color_ui = rgb { 45 58 12 }
+    color = rgb { 20 85 63 }
+	color_ui = rgb { 20 85 63 }
 }
 
 FORM_GAL = {
@@ -3074,13 +3074,13 @@ FORM_GSE = {
 }
 
 FORM_CHG = {
-    color = rgb { 66 54 86 }
-	color_ui = rgb { 66 54 86 }
+    color = rgb { 73 102 97 }
+	color_ui = rgb { 73 102 97 }
 }
 
 FORM_RUE = {
-    color = rgb { 98 104 30 }
-	color_ui = rgb { 98 104 30 }
+    color = rgb { 35 56 40 }
+	color_ui = rgb { 35 56 40 }
 }
 
 FORM_CAR = {
@@ -3108,12 +3108,43 @@ FORM_INT = {
 	color_ui = rgb { 236 240 58 }
 }
 
+FORM_GAU = {
+    color = rgb { 205 184 63 }
+	color_ui = rgb { 205 184 63 }
+}
+
+FORM_HUK = {
+    color = rgb { 129 104 105 }
+	color_ui = rgb { 129 104 105 }
+}
+
+FORM_CAP = {
+    color = rgb { 208 189 100 }
+	color_ui = rgb { 208 189 100 }
+}
+
+FORM_YUG = {
+    color = rgb { 33 66 119 }
+	color_ui = rgb { 33 66 119 }
+}
+
+FORM_GJA = {
+    color = rgb { 246 197 181 }
+	color_ui = rgb { 246 197 181 }
+}
+
+FORM_HIS = {
+    color = rgb { 27 58 95 }
+	color_ui = rgb { 27 58 95 }
+}
+
 ###AWXE TAGS### Copyrighted by awxe
 
 AFN_FRA = {
 	color = rgb { 62 80 110 }
 	color_ui = rgb { 62 80 110 }
 }
+
 AFN_AKH = {
 	color = rgb { 151 97 81 }
 	color_ui = rgb { 255 79 0 }
@@ -3270,8 +3301,8 @@ AFN_TRC = {
 }
 
 AFN_AKS = {
-	color = rgb { 82 78 86 }
-	color_ui = rgb { 82 78 86 }
+	color = rgb { 126 120 103 }
+	color_ui = rgb { 126 120 103 }
 }
 
 AFN_SRV = {
@@ -3340,8 +3371,8 @@ AFN_HCE = {
 }
 
 AFN_PCE = {
-	color = rgb { 42 76 76 }
-	color_ui = rgb { 42 76 76 }
+	color = rgb { 65 113 245 }
+	color_ui = rgb { 65 113 245 }
 }
 
 AFN_PON = {
@@ -3564,4 +3595,34 @@ AFN_PRU = {
 AFN_GNO = {
 	color = rgb { 132 19 23 }
 	color_ui = rgb { 132 19 23 }
+}
+
+AFN_GBR = {
+	color = rgb { 40 102 5 }
+	color_ui = rgb { 40 102 5 }
+}
+
+AFN_MYA = {
+	color = rgb { 23 77 178 }
+	color_ui = rgb { 23 77 178 }
+}
+
+AFN_CHB = {
+	color = rgb { 151 61 58 }
+	color_ui = rgb { 151 61 58 }
+}
+
+AFN_GUS = {
+	color = rgb { 21 79 150 }
+	color_ui = rgb { 21 79 150 }
+}
+
+AFN_GUI = {
+	color = rgb { 146 201 66 }
+	color_ui = rgb { 146 201 66 }
+}
+
+AFN_VNS = {
+	color = rgb { 206 82 20 }
+	color_ui = rgb { 206 82 20 }
 }
