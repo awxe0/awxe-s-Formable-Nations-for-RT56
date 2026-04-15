@@ -4351,6 +4351,7 @@ formable_nations_mod_category = {
 			}
 			304 = { add_core_of = ROOT }
 			685 = { add_core_of = ROOT }
+			937 = { add_core_of = ROOT }
 			311 = { add_core_of = ROOT }
 			474 = { add_core_of = ROOT }
 			475 = { add_core_of = ROOT }
