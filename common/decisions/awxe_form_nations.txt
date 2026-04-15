@@ -26782,6 +26782,8 @@ formable_nations_mod_category = {
 				state = 684
 				state = 725
 				state = 737
+				state = 768
+				state = 769
 				state = 773
 				state = 777
 				state = 893
@@ -26797,7 +26799,7 @@ formable_nations_mod_category = {
 				tooltip = enough_control_requirement
 				OR = {
 					count_triggers = {
-                        amount = 40 # "50 states"
+                        amount = 38 # "52 states"
 						# Germany (27)
 				        5 = { controls_or_subject_of = yes }
 				        42 = { controls_or_subject_of = yes }
@@ -26839,7 +26841,7 @@ formable_nations_mod_category = {
 						# France (1)
                         28 = { controls_or_subject_of = yes }
 
-				        # Colonial Provinces (17)
+				        # Colonial Provinces (19)
 				        541 = { controls_or_subject_of = yes }
 				        546 = { controls_or_subject_of = yes }
 				        633 = { controls_or_subject_of = yes }
@@ -26850,6 +26852,8 @@ formable_nations_mod_category = {
 				        684 = { controls_or_subject_of = yes }
 				        725 = { controls_or_subject_of = yes }
 				        737 = { controls_or_subject_of = yes }
+						768 = { controls_or_subject_of = yes }
+						769 = { controls_or_subject_of = yes }
 				        773 = { controls_or_subject_of = yes }
 				        777 = { controls_or_subject_of = yes }
 				        893 = { controls_or_subject_of = yes }
@@ -26922,6 +26926,8 @@ formable_nations_mod_category = {
 				684 = { add_core_of = ROOT }
 				725 = { add_core_of = ROOT }
 				737 = { add_core_of = ROOT }
+				768 = { add_core_of = ROOT }
+				769 = { add_core_of = ROOT }
 				773 = { add_core_of = ROOT }
 				777 = { add_core_of = ROOT }
 				893 = { add_core_of = ROOT }
