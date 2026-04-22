@@ -1,4 +1,4 @@
-version="1.8 - American Dawn"
+version="1.9 - Crownlands Reborn"
 picture="thumbnail"
 tags={
 	"Alternative History"
@@ -12,5 +12,5 @@ dependencies={
 	"The Road to 56"
 }
 name="awxe's Formable Nations for RT56"
-supported_version="1.17.*"
+supported_version="1.18.*"
 remote_file_id="3531061069"
