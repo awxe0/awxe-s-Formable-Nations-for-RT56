@@ -131,7 +131,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_AFR
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = { 
 						is_on_continent = africa
@@ -794,7 +794,7 @@ formable_nations_mod_category = {
 					value = 15
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				330 = { add_core_of = ROOT }
 				817 = { add_core_of = ROOT }
 				818 = { add_core_of = ROOT }
@@ -1349,7 +1349,7 @@ formable_nations_mod_category = {
 					value = 35
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = { 
 						OR = {
@@ -1544,7 +1544,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 64 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
 				5 = { add_core_of = ROOT }
 				42 = { add_core_of = ROOT }
@@ -1849,7 +1849,7 @@ formable_nations_mod_category = {
 					value = 50
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Spain
 				41 = { add_core_of = ROOT }
 				165 = { add_core_of = ROOT }
@@ -2226,7 +2226,7 @@ formable_nations_mod_category = {
 					value = 35
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				615 = { add_core_of = ROOT }
 				621 = { add_core_of = ROOT }
 				622 = { add_core_of = ROOT }
@@ -2538,7 +2538,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 16 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				3 = { add_core_of = ROOT }
 				151 = { add_core_of = ROOT }
 				845 = { add_core_of = ROOT }
@@ -2775,7 +2775,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 4 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
 				152 = { add_core_of = ROOT }
 				153 = { add_core_of = ROOT }
@@ -3001,7 +3001,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 10 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				188 = { add_core_of = ROOT }
 				12 = { add_core_of = ROOT }
 				190 = { add_core_of = ROOT }
@@ -3304,7 +3304,7 @@ formable_nations_mod_category = {
 					value = 40
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Germany
 				42 = { add_core_of = ROOT }
 				50 = { add_core_of = ROOT }
@@ -3494,7 +3494,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 41 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				41 = { add_core_of = ROOT }
 				165 = { add_core_of = ROOT }
 				166 = { add_core_of = ROOT }
@@ -3651,7 +3651,7 @@ formable_nations_mod_category = {
 					value = 25
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
 				337 = { add_core_of = ROOT }
@@ -3844,7 +3844,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				292 = { add_core_of = ROOT }
 				678 = { add_core_of = ROOT }
 				679 = { add_core_of = ROOT }
@@ -3995,7 +3995,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 75 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
 				9 = { add_core_of = ROOT }
 				69 = { add_core_of = ROOT }
@@ -4092,7 +4092,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
 				230 = { add_core_of = ROOT }
 				231 = { add_core_of = ROOT }
@@ -4172,7 +4172,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 7 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				6 = { add_core_of = ROOT }
 				7 = { add_core_of = ROOT }
 				8 = { add_core_of = ROOT }
@@ -4263,7 +4263,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_BAL
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				11 = { add_core_of = ROOT }
 				814 = { add_core_of = ROOT }
 				815 = { add_core_of = ROOT }
@@ -4342,7 +4342,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_CEN
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				313 = { add_core_of = ROOT }
 				312 = { add_core_of = ROOT }
 				314 = { add_core_of = ROOT }
@@ -4439,7 +4439,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_HUK
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				43 = { add_core_of = ROOT }
 				154 = { add_core_of = ROOT }
 				155 = { add_core_of = ROOT }
@@ -4622,7 +4622,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 202 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				94 = { add_core_of = ROOT }
 				95 = { add_core_of = ROOT }
 				96 = { add_core_of = ROOT }
@@ -4796,7 +4796,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_BUE
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				211 = { add_core_of = ROOT }
 				212 = { add_core_of = ROOT }
 				801 = { add_core_of = ROOT }
@@ -4911,7 +4911,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 306 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				306 = { add_core_of = ROOT }
 				486 = { add_core_of = ROOT }
 				493 = { add_core_of = ROOT }
@@ -5039,7 +5039,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_MEE
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				277 = { add_core_of = ROOT }
 				474 = { add_core_of = ROOT }
 				475 = { add_core_of = ROOT }
@@ -5140,7 +5140,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GAL
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				44 = { add_core_of = ROOT }
 				805 = { add_core_of = ROOT }
 				802 = { add_core_of = ROOT }
@@ -5347,7 +5347,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_BAK
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Yugoslavia
 				45 = { add_core_of = ROOT }	
 				102 = { add_core_of = ROOT }		
@@ -5614,7 +5614,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_POH
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				188 = { add_core_of = ROOT }
 				12 = { add_core_of = ROOT }
 				190 = { add_core_of = ROOT }
@@ -5803,7 +5803,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 43 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				43 = { add_core_of = ROOT }
 				154 = { add_core_of = ROOT }
 				155 = { add_core_of = ROOT }
@@ -5933,7 +5933,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 126 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				131 = { add_core_of = ROOT }
 				130 = { add_core_of = ROOT }
 				132 = { add_core_of = ROOT }
@@ -6239,7 +6239,7 @@ formable_nations_mod_category = {
 					value = 30
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				47 = { add_core_of = ROOT }
 				185 = { add_core_of = ROOT }
 				731 = { add_core_of = ROOT }
@@ -6458,7 +6458,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_SOU
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = {
 						is_on_continent = south_america
@@ -6525,7 +6525,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_WOR
 			add_stability = 0.5
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = { add_core_of = ROOT }
 			}
 		}
@@ -6748,7 +6748,7 @@ formable_nations_mod_category = {
 					value = 35
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
 				798 = { add_core_of = ROOT }
 				339 = { add_core_of = ROOT }
@@ -6932,7 +6932,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				454 = { add_core_of = ROOT }
 				455 = { add_core_of = ROOT }
 				453 = { add_core_of = ROOT }
@@ -7095,7 +7095,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 439 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# India
 				320 = { add_core_of = ROOT } 
 				321 = { add_core_of = ROOT }	
@@ -7397,7 +7397,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_PEE
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				266 = { add_core_of = ROOT }
 				410 = { add_core_of = ROOT }
 				411 = { add_core_of = ROOT }
@@ -7610,7 +7610,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_NSE
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
 				125 = { add_core_of = ROOT }
@@ -7717,7 +7717,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_INC
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				302 = { add_core_of = ROOT }
 				506 = { add_core_of = ROOT }
 				508 = { add_core_of = ROOT }
@@ -7819,7 +7819,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GFI
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				111 = { add_core_of = ROOT }
 				145 = { add_core_of = ROOT }
 				146 = { add_core_of = ROOT }
@@ -8031,7 +8031,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
 				798 = { add_core_of = ROOT }
 				339 = { add_core_of = ROOT }
@@ -8182,7 +8182,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 289 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				289 = { add_core_of = ROOT }
 				868 = { add_core_of = ROOT }
 				869 = { add_core_of = ROOT }
@@ -8306,7 +8306,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_SEP
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				38 = { add_core_of = ROOT }
 				111 = { add_core_of = ROOT }
 				124 = { add_core_of = ROOT }
@@ -8413,7 +8413,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GTI
 			add_stability = 0.10
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				322 = { add_core_of = ROOT }
 				434 = { add_core_of = ROOT }
 				601 = { add_core_of = ROOT }
@@ -8551,7 +8551,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 107 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				104 = { add_core_of = ROOT }
 				804 = { add_core_of = ROOT }
 				107 = { add_core_of = ROOT }
@@ -8672,7 +8672,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_ABY
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				271 = { add_core_of = ROOT }
 				550 = { add_core_of = ROOT }
 				269 = { add_core_of = ROOT }
@@ -8803,7 +8803,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 358 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = {
 						OR = {
@@ -8942,7 +8942,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GEG
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				551 = { add_core_of = ROOT }
 				767 = { add_core_of = ROOT }
 				549 = { add_core_of = ROOT }
@@ -9038,7 +9038,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				318 = { add_core_of = ROOT }
 				319 = { add_core_of = ROOT }
 			}
@@ -9113,7 +9113,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_PRB
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				490 = { add_core_of = ROOT }
 				491 = { add_core_of = ROOT }
 				303 = { add_core_of = ROOT }
@@ -9198,7 +9198,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				315 = { add_core_of = ROOT }
 				318 = { add_core_of = ROOT }
 				319 = { add_core_of = ROOT }				
@@ -9305,7 +9305,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_AAS
 			add_stability = 0.05
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				285 = { add_core_of = ROOT }
 				517 = { add_core_of = ROOT }
 				518 = { add_core_of = ROOT }
@@ -9588,7 +9588,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GOL
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# USA
 				361 = { add_core_of = ROOT }
 				374 = { add_core_of = ROOT }
@@ -9755,7 +9755,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 461 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				448 = { add_core_of = ROOT }
 				661 = { add_core_of = ROOT }
 				449 = { add_core_of = ROOT }
@@ -9898,7 +9898,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GCA
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				276 = { add_core_of = ROOT }
 				464 = { add_core_of = ROOT }
 				465 = { add_core_of = ROOT }
@@ -10070,7 +10070,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 43 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				10 = { add_core_of = ROOT }
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
@@ -10207,7 +10207,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 278 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				278 = { add_core_of = ROOT }
 				508 = { add_core_of = ROOT }
 				509 = { add_core_of = ROOT }
@@ -10307,7 +10307,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_CEL
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				113 = { add_core_of = ROOT }
 				119 = { add_core_of = ROOT }
 				134 = { add_core_of = ROOT }
@@ -10417,7 +10417,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 4 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Switzerland
 				3 = { add_core_of = ROOT }
 				151 = { add_core_of = ROOT }
@@ -10522,7 +10522,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GCR
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				103 = { add_core_of = ROOT }
 				104 = { add_core_of = ROOT }
 				804 = { add_core_of = ROOT }
@@ -10617,7 +10617,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GSE
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				45 = { add_core_of = ROOT }
 				107 = { add_core_of = ROOT }
 				108 = { add_core_of = ROOT }
@@ -10749,7 +10749,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GLI
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				11 = { add_core_of = ROOT }
 				814 = { add_core_of = ROOT }
 				815 = { add_core_of = ROOT }
@@ -10876,7 +10876,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 278 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				507 = { add_core_of = ROOT }
 				279 = { add_core_of = ROOT }
 				506 = { add_core_of = ROOT }
@@ -11041,7 +11041,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				291 = { add_core_of = ROOT }
 				675 = { add_core_of = ROOT }
 				676 = { add_core_of = ROOT }
@@ -11268,7 +11268,7 @@ formable_nations_mod_category = {
 					value = 40
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = { 
 						OR = { 
@@ -11477,7 +11477,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 219 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = {
 						OR = {
@@ -11591,7 +11591,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_BRI
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				113 = { add_core_of = ROOT }
 				134 = { add_core_of = ROOT }
 				135 = { add_core_of = ROOT }
@@ -12170,7 +12170,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_RUE
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Russia
 				40 = { add_core_of = ROOT }
 				137 = { add_core_of = ROOT }
@@ -12545,7 +12545,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_CAR
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				458 = { add_core_of = ROOT }
 				665 = { add_core_of = ROOT }
 				459 = { add_core_of = ROOT }
@@ -12663,7 +12663,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available		
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available		
 				547 = { add_core_of = ROOT }
 				903 = { add_core_of = ROOT }
 				904 = { add_core_of = ROOT }
@@ -12747,7 +12747,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_MAE
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				556 = { add_core_of = ROOT }
 				782 = { add_core_of = ROOT }
 				786 = { add_core_of = ROOT }
@@ -12843,7 +12843,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_SAH
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				557 = { add_core_of = ROOT }
 				786 = { add_core_of = ROOT }
 				556 = { add_core_of = ROOT }
@@ -13084,7 +13084,7 @@ formable_nations_mod_category = {
 				}
 			set_province_name = { id = 9833 name = "The City" }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = {
 						OR = {
@@ -13201,7 +13201,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GAU
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
 				152 = { add_core_of = ROOT }
 				153 = { add_core_of = ROOT }
@@ -13523,7 +13523,7 @@ formable_nations_mod_category = {
 				else = { set_capital = { state = 126 } }
 			}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				285 = { add_core_of = ROOT }
 				517 = { add_core_of = ROOT }
 				519 = { add_core_of = ROOT }
@@ -13728,7 +13728,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				454 = { add_core_of = ROOT }
 				455 = { add_core_of = ROOT }
 				553 = { add_core_of = ROOT }
@@ -13822,7 +13822,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GKO
 			add_stability = 0.05
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				525 = { add_core_of = ROOT }
 				527 = { add_core_of = ROOT }
 				328 = { add_core_of = ROOT }
@@ -13979,7 +13979,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = { 
 						OR = {
@@ -14200,7 +14200,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_GJA
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Japan & Manchu
 				524 = { add_core_of = ROOT }
 				528 = { add_core_of = ROOT }
@@ -14351,7 +14351,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_KHM
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				741 = { add_core_of = ROOT }
 				670 = { add_core_of = ROOT }
 				286 = { add_core_of = ROOT }
@@ -14420,7 +14420,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_BEE
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				430 = { add_core_of = ROOT }
 				431 = { add_core_of = ROOT }
 				432 = { add_core_of = ROOT }
@@ -14488,7 +14488,7 @@ formable_nations_mod_category = {
 					value = 5
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				309 = { add_core_of = ROOT }
 				310 = { add_core_of = ROOT }
 				687 = { add_core_of = ROOT }
@@ -14691,7 +14691,7 @@ formable_nations_mod_category = {
 					value = 15
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				every_state = {
 					limit = {
 						OR = { is_on_continent = north_america is_on_continent = south_america }
@@ -14800,7 +14800,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 303 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				507 = { add_core_of = ROOT }
 				279 = { add_core_of = ROOT }
 				506 = { add_core_of = ROOT }
@@ -14952,7 +14952,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 88 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
 				87 = { add_core_of = ROOT }
@@ -15071,7 +15071,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 52 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				52 = { add_core_of = ROOT }
 				53 = { add_core_of = ROOT }
 				54 = { add_core_of = ROOT }
@@ -15204,7 +15204,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 64 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				64 = { add_core_of = ROOT }
 				5 = { add_core_of = ROOT }
 				59 = { add_core_of = ROOT }
@@ -15351,7 +15351,7 @@ formable_nations_mod_category = {
 		}
 		icon = formable_nations_germany
 		complete_effect = {
-			hidden_effect = { sound_effect = complete_focus
+			hidden_effect = { sound_effect = formable_complete
 				ROOT = {
 					GER = {
 						set_politics = {
@@ -15612,7 +15612,7 @@ formable_nations_mod_category = {
 				}
 			set_province_name = { id = 9833 name = "Konstantinoúpolis"}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				47 = { add_core_of = ROOT }
 				182 = { add_core_of = ROOT }
 				184 = { add_core_of = ROOT }
@@ -15987,7 +15987,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 2 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available	
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available	
 				2 = { add_core_of = ROOT }
 				39 = { add_core_of = ROOT }
 				850 = { add_core_of = ROOT }
@@ -16615,7 +16615,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_ROE
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				2 = { add_core_of = ROOT }
 				39 = { add_core_of = ROOT }
 				850 = { add_core_of = ROOT }
@@ -17136,7 +17136,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = FORM_INT
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				10 = { add_core_of = ROOT }
 				102 = { add_core_of = ROOT }
 				103 = { add_core_of = ROOT }
@@ -17352,7 +17352,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 2 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				ROOT = {
 					ITA = {
 						set_politics = {
@@ -17555,7 +17555,7 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_FRA
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }
 				14 = { add_core_of = ROOT }
 				15 = { add_core_of = ROOT }
@@ -17764,7 +17764,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 439 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available					
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available					
 				440 = { add_core_of = ROOT }
 				787 = { add_core_of = ROOT }
 				442 = { add_core_of = ROOT }
@@ -17903,7 +17903,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				267 = { add_core_of = ROOT }
 				415 = { add_core_of = ROOT }
 				440 = { add_core_of = ROOT }
@@ -18269,7 +18269,7 @@ formable_nations_mod_category = {
 					value = 25
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available				
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available				
 				267 = { add_core_of = ROOT }
 				415 = { add_core_of = ROOT }
 				552 = { add_core_of = ROOT }
@@ -18583,7 +18583,7 @@ formable_nations_mod_category = {
 					value = 15
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				286 = { add_core_of = ROOT }
 				671 = { add_core_of = ROOT }
 				741 = { add_core_of = ROOT }
@@ -18733,7 +18733,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				267 = { add_core_of = ROOT }
 				410 = { add_core_of = ROOT }
 				415 = { add_core_of = ROOT }
@@ -18880,7 +18880,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
 				230 = { add_core_of = ROOT }
 				231 = { add_core_of = ROOT }
@@ -19015,7 +19015,7 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_ILL
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				102 = { add_core_of = ROOT }
 				103 = { add_core_of = ROOT }
 				104 = { add_core_of = ROOT }
@@ -19165,7 +19165,7 @@ formable_nations_mod_category = {
 					value = 5
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				275 = { add_core_of = ROOT }
 				295 = { add_core_of = ROOT }
 				297 = { add_core_of = ROOT }
@@ -19337,7 +19337,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 285 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				284 = { add_core_of = ROOT }
 				285 = { add_core_of = ROOT }
 				517 = { add_core_of = ROOT }
@@ -19476,7 +19476,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PRT
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				308 = { add_core_of = ROOT }
 				319 = { add_core_of = ROOT }
 				686 = { add_core_of = ROOT }
@@ -19563,7 +19563,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PLE
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				323 = { add_core_of = ROOT }
 				430 = { add_core_of = ROOT }
 				431 = { add_core_of = ROOT }
@@ -19661,7 +19661,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_DNU
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
 				110 = { add_core_of = ROOT }
@@ -19825,7 +19825,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_MAM
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				183 = { add_core_of = ROOT }
 				344 = { add_core_of = ROOT }
 				350 = { add_core_of = ROOT }
@@ -19944,7 +19944,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GGE
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
 				230 = { add_core_of = ROOT }
 				231 = { add_core_of = ROOT }
@@ -20040,7 +20040,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GGR
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				47 = { add_core_of = ROOT }
 				164 = { add_core_of = ROOT }
 				182 = { add_core_of = ROOT }
@@ -20168,7 +20168,7 @@ formable_nations_mod_category = {
 			add_stability = 0.10
 			set_capital = { state = 797 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				47 = { add_core_of = ROOT }
 				182 = { add_core_of = ROOT }
 				184 = { add_core_of = ROOT }
@@ -20559,7 +20559,7 @@ formable_nations_mod_category = {
 					value = 35
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				44 = { add_core_of = ROOT }
 				47 = { add_core_of = ROOT }
 				48 = { add_core_of = ROOT }
@@ -20909,7 +20909,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 249 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				137 = { add_core_of = ROOT }
 				192 = { add_core_of = ROOT }
 				193 = { add_core_of = ROOT }
@@ -21059,7 +21059,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_UKO
 			add_stability = 0.10
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				525 = { add_core_of = ROOT }
 				527 = { add_core_of = ROOT }
 				328 = { add_core_of = ROOT }
@@ -21157,7 +21157,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_BKE
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				292 = { add_core_of = ROOT }
 				294 = { add_core_of = ROOT }
 				656 = { add_core_of = ROOT }
@@ -21432,7 +21432,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_SAS
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
 				183 = { add_core_of = ROOT }
 				229 = { add_core_of = ROOT }
@@ -21686,7 +21686,7 @@ formable_nations_mod_category = {
 					value = 15
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }	
 				230 = { add_core_of = ROOT }	
 				231 = { add_core_of = ROOT }	
@@ -21931,7 +21931,7 @@ formable_nations_mod_category = {
 					value = 25
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }	
 				229 = { add_core_of = ROOT }	
 				230 = { add_core_of = ROOT }	
@@ -22217,7 +22217,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_EUU
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }	
 				2 = { add_core_of = ROOT }
 				6 = { add_core_of = ROOT }
@@ -22511,7 +22511,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				283 = { add_core_of = ROOT }	
 				325 = { add_core_of = ROOT }
 				328 = { add_core_of = ROOT }	
@@ -22731,7 +22731,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_XIO
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				40 = { add_core_of = ROOT }	
 				287 = { add_core_of = ROOT }	
 				330 = { add_core_of = ROOT }	
@@ -22890,7 +22890,7 @@ formable_nations_mod_category = {
 				}
 			set_province_name = { id = 2097 name = "Babylon"}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				454 = { add_core_of = ROOT }
 				455 = { add_core_of = ROOT }
 				553 = { add_core_of = ROOT }
@@ -23137,7 +23137,7 @@ formable_nations_mod_category = {
 					value = 35
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				507 = { add_core_of = ROOT }
 				279 = { add_core_of = ROOT }
 				506 = { add_core_of = ROOT }
@@ -23334,7 +23334,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				448 = { add_core_of = ROOT }
 				661 = { add_core_of = ROOT }
 				449 = { add_core_of = ROOT }
@@ -23743,7 +23743,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 219 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
 				87 = { add_core_of = ROOT }
@@ -24002,7 +24002,7 @@ formable_nations_mod_category = {
 					value = 5
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				184 = { add_core_of = ROOT }
 				211 = { add_core_of = ROOT }
 				212 = { add_core_of = ROOT }
@@ -24083,7 +24083,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 842 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				268 = { add_core_of = ROOT }
 				293 = { add_core_of = ROOT }
 				550 = { add_core_of = ROOT }
@@ -24189,7 +24189,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				333 = { add_core_of = ROOT }
 				335 = { add_core_of = ROOT }
 				336 = { add_core_of = ROOT }
@@ -24364,7 +24364,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 43 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
                 4 = { add_core_of = ROOT }	
                 9 = { add_core_of = ROOT }	
                 39 = { add_core_of = ROOT }	
@@ -24600,7 +24600,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 141 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
 				337 = { add_core_of = ROOT }
@@ -25044,7 +25044,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_EHE
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
                 85 = { add_core_of = ROOT }	
                 86 = { add_core_of = ROOT }	
                 87 = { add_core_of = ROOT }	
@@ -25384,7 +25384,7 @@ formable_nations_mod_category = {
 				}
 			set_province_name = { id = 4801 name = "Ötüken" }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				287 = { add_core_of = ROOT }	
 				330 = { add_core_of = ROOT }	
 				329 = { add_core_of = ROOT }	
@@ -25844,7 +25844,7 @@ formable_nations_mod_category = {
 			add_stability = 0.2
 			set_capital = { state = 41 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Spain & Portugal
 				41 = { add_core_of = ROOT }
 				165 = { add_core_of = ROOT }
@@ -26196,7 +26196,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }	
 				230 = { add_core_of = ROOT }	
 				231 = { add_core_of = ROOT }	
@@ -26358,7 +26358,7 @@ formable_nations_mod_category = {
 			set_capital = { state = 754 }
 			set_province_name = { id = 12732 name = "Skibidi Land" }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				283 = { add_core_of = ROOT }
 				287 = { add_core_of = ROOT }
 				604 = { add_core_of = ROOT }
@@ -26521,7 +26521,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GIT
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }
 				2 = { add_core_of = ROOT }
 				39 = { add_core_of = ROOT }
@@ -26666,7 +26666,7 @@ formable_nations_mod_category = {
 					value = 5
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				192 = { add_core_of = ROOT }
 				192 = { add_core_of = ROOT }
 				196 = { add_core_of = ROOT }
@@ -26877,7 +26877,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GCE
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Germany
 				5 = { add_core_of = ROOT }
 				28 = { add_core_of = ROOT }
@@ -27043,7 +27043,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_DCE
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				37 = { add_core_of = ROOT }
 				99 = { add_core_of = ROOT }
 				100 = { add_core_of = ROOT }
@@ -27217,7 +27217,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_HCE
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				6 = { add_core_of = ROOT }
 				7 = { add_core_of = ROOT }
 				34 = { add_core_of = ROOT }
@@ -27433,7 +27433,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PCE
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Portugal
 				112 = { add_core_of = ROOT }
 				179 = { add_core_of = ROOT }
@@ -27615,7 +27615,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 355 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				47 = { add_core_of = ROOT }
 				49 = { add_core_of = ROOT }
 				77 = { add_core_of = ROOT }
@@ -27943,7 +27943,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available				
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available				
 				415 = { add_core_of = ROOT }
 				552 = { add_core_of = ROOT }
 				456 = { add_core_of = ROOT }
@@ -28112,7 +28112,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				453 = { add_core_of = ROOT }
 				454 = { add_core_of = ROOT }
 				455 = { add_core_of = ROOT }
@@ -28217,7 +28217,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 160 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				44 = { add_core_of = ROOT }
 				103 = { add_core_of = ROOT }
 				105 = { add_core_of = ROOT }
@@ -28376,7 +28376,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				453 = { add_core_of = ROOT }
 				454 = { add_core_of = ROOT }
 				455 = { add_core_of = ROOT }
@@ -28532,7 +28532,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PHE
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				286 = { add_core_of = ROOT }
 				327 = { add_core_of = ROOT }
 				333 = { add_core_of = ROOT }
@@ -28681,7 +28681,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PRS
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				5 = { add_core_of = ROOT }
 				42 = { add_core_of = ROOT }
 				51 = { add_core_of = ROOT }
@@ -28774,7 +28774,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_ZKY
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				268 = { add_core_of = ROOT }
 				293 = { add_core_of = ROOT }
 				550 = { add_core_of = ROOT }
@@ -28938,7 +28938,7 @@ formable_nations_mod_category = {
 					value = 30
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				2 = { add_core_of = ROOT }
 				39 = { add_core_of = ROOT }
 				103 = { add_core_of = ROOT }
@@ -29081,7 +29081,7 @@ formable_nations_mod_category = {
 			add_stability = 0.15
 			set_capital = { state = 41 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				22 = { add_core_of = ROOT }
 				31 = { add_core_of = ROOT }
 				41 = { add_core_of = ROOT }
@@ -29203,7 +29203,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 173 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				41 = { add_core_of = ROOT }
 				118 = { add_core_of = ROOT }
 				165 = { add_core_of = ROOT }
@@ -29304,7 +29304,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 458 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }
 				114 = { add_core_of = ROOT }
 				116 = { add_core_of = ROOT }
@@ -29543,7 +29543,7 @@ formable_nations_mod_category = {
 					value = 30
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				2 = { add_core_of = ROOT }
 				39 = { add_core_of = ROOT }
 				103 = { add_core_of = ROOT }
@@ -29693,7 +29693,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_BRU
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				48 = { add_core_of = ROOT }
 				211 = { add_core_of = ROOT }
 				212 = { add_core_of = ROOT }
@@ -29787,7 +29787,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_ASU
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
 				152 = { add_core_of = ROOT }
 				153 = { add_core_of = ROOT }
@@ -30008,7 +30008,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PSU
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				10 = { add_core_of = ROOT }
 				85 = { add_core_of = ROOT }
 				86 = { add_core_of = ROOT }
@@ -30256,7 +30256,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_FSU
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }
 				14 = { add_core_of = ROOT }
 				15 = { add_core_of = ROOT }
@@ -30430,7 +30430,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_FSA
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				111 = { add_core_of = ROOT }
 				145 = { add_core_of = ROOT }
 				146 = { add_core_of = ROOT }
@@ -30549,7 +30549,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_ARA
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }
 				114 = { add_core_of = ROOT }
 				115 = { add_core_of = ROOT }
@@ -30655,7 +30655,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				6 = { add_core_of = ROOT }
 				7 = { add_core_of = ROOT }
 				8 = { add_core_of = ROOT }
@@ -30764,7 +30764,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				7 = { add_core_of = ROOT }
 				8 = { add_core_of = ROOT }
 				17 = { add_core_of = ROOT }
@@ -31000,7 +31000,7 @@ formable_nations_mod_category = {
 					value = 20
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				6 = { add_core_of = ROOT }
 				8   = { add_core_of = ROOT }
 				14  = { add_core_of = ROOT }
@@ -31302,7 +31302,7 @@ formable_nations_mod_category = {
 					value = 40
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				1 = { add_core_of = ROOT }
 				15 = { add_core_of = ROOT }
 				16 = { add_core_of = ROOT }
@@ -31462,7 +31462,7 @@ formable_nations_mod_category = {
 			add_stability = 0.1
 			set_capital = { state = 324 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				323 = { add_core_of = ROOT }
 				324 = { add_core_of = ROOT }
 				434 = { add_core_of = ROOT }
@@ -31541,7 +31541,7 @@ formable_nations_mod_category = {
 			add_stability = 0.05
 			set_capital = { state = 527 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				328 = { add_core_of = ROOT }
 				525 = { add_core_of = ROOT }
 				527 = { add_core_of = ROOT }
@@ -31620,7 +31620,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_DRU
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				322 = { add_core_of = ROOT }
 				323 = { add_core_of = ROOT }
 				324 = { add_core_of = ROOT }
@@ -31913,7 +31913,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_YUA
 			add_stability = 0.2
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				615 = { add_core_of = ROOT }
 				621 = { add_core_of = ROOT }
 				622 = { add_core_of = ROOT }
@@ -32124,7 +32124,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				328 = { add_core_of = ROOT }
 				408 = { add_core_of = ROOT }
 				409 = { add_core_of = ROOT }
@@ -32283,7 +32283,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_AVA
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
 				43 = { add_core_of = ROOT }
 				45 = { add_core_of = ROOT }
@@ -32383,7 +32383,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_CRM
 			add_stability = 0.05
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				137 = { add_core_of = ROOT }
 				196 = { add_core_of = ROOT }
 				200 = { add_core_of = ROOT }
@@ -32482,7 +32482,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_CHA
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				267 = { add_core_of = ROOT }
 				287 = { add_core_of = ROOT }
 				404 = { add_core_of = ROOT }
@@ -32587,7 +32587,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_KYZ
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				40 = { add_core_of = ROOT }
 				329 = { add_core_of = ROOT }
 				569 = { add_core_of = ROOT }
@@ -32727,7 +32727,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_UYG
 			add_stability = 0.1
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				287 = { add_core_of = ROOT }
 				330 = { add_core_of = ROOT }
                 329 = { add_core_of = ROOT }
@@ -32924,7 +32924,7 @@ formable_nations_mod_category = {
 					value = 15
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
 				230 = { add_core_of = ROOT }
 				231 = { add_core_of = ROOT }
@@ -33108,7 +33108,7 @@ formable_nations_mod_category = {
 		    set_cosmetic_tag = AFN_PML
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				333 = { add_core_of = ROOT }
 				335 = { add_core_of = ROOT }
 				672 = { add_core_of = ROOT }
@@ -33266,7 +33266,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
 				230 = { add_core_of = ROOT }
 				266 = { add_core_of = ROOT }
@@ -33418,7 +33418,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
 				230 = { add_core_of = ROOT }
 				266 = { add_core_of = ROOT }
@@ -33556,7 +33556,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_CHO
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				286 = { add_core_of = ROOT }
 				288 = { add_core_of = ROOT }
 				289 = { add_core_of = ROOT }
@@ -33728,7 +33728,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_TNG
 			add_stability = 0.10
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				283 = { add_core_of = ROOT }
 				287 = { add_core_of = ROOT }
 				591 = { add_core_of = ROOT }
@@ -33898,7 +33898,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GTU
 			add_stability = 0.10
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				49 = { add_core_of = ROOT }
 				164 = { add_core_of = ROOT }
 				184 = { add_core_of = ROOT }
@@ -33995,7 +33995,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GAR
 			add_stability = 0.05
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				230 = { add_core_of = ROOT }
 				354 = { add_core_of = ROOT }
 				800 = { add_core_of = ROOT }
@@ -34108,7 +34108,7 @@ formable_nations_mod_category = {
 				}
 			set_province_name = { id = 2097 name = "New Akkad" }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				291 = { add_core_of = ROOT }
 				344 = { add_core_of = ROOT }
 				350 = { add_core_of = ROOT }
@@ -34375,7 +34375,7 @@ formable_nations_mod_category = {
 				}
 			set_province_name = { id = 12029 name = "Antioch" }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Turkey
 				49 = { add_core_of = ROOT }
 				339 = { add_core_of = ROOT }
@@ -34518,7 +34518,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GAZ
 			add_stability = 0.05
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				229 = { add_core_of = ROOT }
 				230 = { add_core_of = ROOT }
 				419 = { add_core_of = ROOT }
@@ -34616,7 +34616,7 @@ formable_nations_mod_category = {
 					value = 15
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				5 = { add_core_of = ROOT }
 				12 = { add_core_of = ROOT }
 				13 = { add_core_of = ROOT }
@@ -34857,7 +34857,7 @@ formable_nations_mod_category = {
 					value = 50
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				4 = { add_core_of = ROOT }
 				5 = { add_core_of = ROOT }
 				42 = { add_core_of = ROOT }
@@ -35034,7 +35034,7 @@ formable_nations_mod_category = {
 			add_stability = 0.10
 			set_capital = { state = 141 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				38 = { add_core_of = ROOT }
 				124 = { add_core_of = ROOT }
 				138 = { add_core_of = ROOT }
@@ -35181,7 +35181,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_PRU
 			add_stability = 0.10
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				46 = { add_core_of = ROOT }
 				76 = { add_core_of = ROOT }
 				77 = { add_core_of = ROOT }
@@ -35306,7 +35306,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GNO
 			add_stability = 0.10
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				100 = { add_core_of = ROOT }
 				110 = { add_core_of = ROOT }
 				142 = { add_core_of = ROOT }
@@ -35449,7 +35449,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GBR
 			add_stability = 0.10
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				280 = { add_core_of = ROOT }
 				495 = { add_core_of = ROOT }
 				496 = { add_core_of = ROOT }
@@ -35570,7 +35570,7 @@ formable_nations_mod_category = {
 					value = 10
 				}
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				311 = { add_core_of = ROOT }
 				312 = { add_core_of = ROOT }
 				313 = { add_core_of = ROOT }
@@ -35664,7 +35664,7 @@ formable_nations_mod_category = {
 			add_stability = 0.10
 			set_capital = { state = 306 }
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				304 = { add_core_of = ROOT }
 				306 = { add_core_of = ROOT }
 				311 = { add_core_of = ROOT }
@@ -35920,7 +35920,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GUS
 			add_stability = 0.15
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				261 = { add_core_of = ROOT }
 				357 = { add_core_of = ROOT }
 				358 = { add_core_of = ROOT }
@@ -36087,7 +36087,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_GUI
 			add_stability = 0.05
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				301 = { add_core_of = ROOT }
 				302 = { add_core_of = ROOT }
 				487 = { add_core_of = ROOT }
@@ -36314,7 +36314,7 @@ formable_nations_mod_category = {
 			set_cosmetic_tag = AFN_VNS
 			add_stability = 0.20
 			custom_effect_tooltip = core_land
-			hidden_effect = { sound_effect = complete_focus  set_country_flag = unform_available
+			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
 				# Mexico
 				277 = { add_core_of = ROOT }
 				474 = { add_core_of = ROOT }
