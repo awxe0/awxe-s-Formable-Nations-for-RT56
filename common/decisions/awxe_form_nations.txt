@@ -9496,7 +9496,7 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 					    count_triggers = {
-							amount = 29 # "66 States"
+							amount = 36 # "66 States"
 						# USA (15)
 				        361 = { controls_or_subject_of = yes }
 				        374 = { controls_or_subject_of = yes }
