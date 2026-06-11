@@ -1,4 +1,4 @@
-version="1.9 - Crownlands Reborn"
+version="1.10 - Maritime Realms"
 picture="thumbnail"
 tags={
 	"Alternative History"
@@ -12,5 +12,5 @@ dependencies={
 	"The Road to 56"
 }
 name="awxe's Formable Nations for RT56"
-supported_version="1.18.*"
+supported_version="1.19.*"
 remote_file_id="3531061069"
