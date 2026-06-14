@@ -31,7 +31,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled and no
 • Japanese / 日本語 - ✅ 100%  
 • Korean / 韓國語 - ✅ 100%  
 • Portuguese / Português - ✅ 100%  
-• Chinese / 中文 - ✅ 100% (by 鸢一折纸)  
+• Chinese / 中文 - ✅ 100% (by 传奇自由人后藤一里)  
 • Turkish / Türkçe - ✅ 100% (by ClickClick)  
 • Ukrainian / українська - ✅ 100% (by KarumaSL)  
 
@@ -104,6 +104,7 @@ Contact
 For permissions, collaborations or commercial licensing inquiries, please contact:
 - Email: alialsancak37@gmail.com
 - Steam: steamcommunity.com/id/awxe0/
+- Discord: awxe (Please write before sending a friend request.)
 
 By downloading or using this mod, you agree to these terms.
 
