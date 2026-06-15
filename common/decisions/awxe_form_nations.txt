@@ -27037,7 +27037,9 @@ formable_nations_mod_category = {
 				1040 = { add_core_of = ROOT }				
 			}
 			188 = { add_core_of = ROOT }
-			971 = { add_claim_by = ROOT }				
+			213 = { add_claim_by = ROOT }	
+            215 = { add_claim_by = ROOT }	
+            216 = { add_claim_by = ROOT }				
 		}
 	}
 	
