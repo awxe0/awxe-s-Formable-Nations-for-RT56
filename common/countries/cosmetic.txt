@@ -3656,3 +3656,23 @@ AFN_LIV = {
 	color = rgb { 29 117 37 }
 	color_ui = rgb { 29 117 37 }
 }
+
+AFN_MEL = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+
+AFN_POL = {
+	color = rgb { 123 9 7 }
+	color_ui = rgb { 123 9 7 }
+}
+
+AFN_PAC = {
+	color = rgb { 2 2 56 }
+	color_ui = rgb { 2 2 56 }
+}
+
+AFN_TOU = {
+	color = rgb { 248 202 2 }
+	color_ui = rgb { 248 202 2 }
+}
