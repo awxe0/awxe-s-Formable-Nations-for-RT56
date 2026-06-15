@@ -19330,7 +19330,8 @@ formable_nations_mod_category = {
 		        original_tag = TIB	
                 original_tag = KAS		
 		        original_tag = SKK		
-		        original_tag = MPU				
+		        original_tag = MPU
+                original_tag = KAS				
 		    }
 				
 		}
@@ -19560,7 +19561,8 @@ formable_nations_mod_category = {
 		allowed = {				
 		    OR = {				
 		        original_tag = AFG				
-		        original_tag = PAK				
+		        original_tag = PAK
+			    original_tag = KAS
 		    }
 				
 		}
@@ -20439,7 +20441,8 @@ formable_nations_mod_category = {
 		        original_tag = AFG				
 		        original_tag = PAK				
 		        original_tag = TAJ				
-		        original_tag = RAJ				
+		        original_tag = RAJ
+                original_tag = KAS				
 		    }
 				
 		}
