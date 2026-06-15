@@ -8876,6 +8876,7 @@ formable_nations_mod_category = {
 
 		highlight_states = {
 			highlight_state_targets = {
+				# Indochina
 				state = 286
 				state = 671
 				state = 741
@@ -8884,17 +8885,27 @@ formable_nations_mod_category = {
 				state = 289
 				state = 868
 				state = 869
-				
-				state = 288
-				state = 640
 				state = 924
 				state = 925
 				state = 926
 				state = 927
 				state = 928
+				
+				# Siam	
+				state = 724
+				state = 289
+				state = 868
+				state = 869
+				state = 1132
+				state = 1133
+				state = 1134
+				
+				# Burma
+				state = 288
+				state = 640
 				state = 1018
 				state = 1019
-				state = 1020				
+				state = 1020	
 			}
 		}
 		
@@ -8905,19 +8916,28 @@ formable_nations_mod_category = {
 					AND = {
 						# Indochina
 						286 = { controls_or_subject_of = yes }
-						671 = { controls_or_subject_of = yes }						
-						741 = { controls_or_subject_of = yes }						
-						670 = { controls_or_subject_of = yes }
-						924 = { controls_or_subject_of = yes }
+				        671 = { controls_or_subject_of = yes }
+				        741 = { controls_or_subject_of = yes }
+				        670 = { controls_or_subject_of = yes }
+				        724 = { controls_or_subject_of = yes }
+				        289 = { controls_or_subject_of = yes }
+				        868 = { controls_or_subject_of = yes }
+				        869 = { controls_or_subject_of = yes }
+				        924 = { controls_or_subject_of = yes }
 				        925 = { controls_or_subject_of = yes }
 				        926 = { controls_or_subject_of = yes }
 				        927 = { controls_or_subject_of = yes }
 				        928 = { controls_or_subject_of = yes }
-						# SIAM	
+						
+						# Siam	
 						724 = { controls_or_subject_of = yes }
 						289 = { controls_or_subject_of = yes }
 						868 = { controls_or_subject_of = yes }
 						869 = { controls_or_subject_of = yes }
+						1132 = { controls_or_subject_of = yes }
+				        1133 = { controls_or_subject_of = yes }
+				        1134 = { controls_or_subject_of = yes }
+						
 						# Burma
 						288 = { controls_or_subject_of = yes }
 						640 = { controls_or_subject_of = yes }
@@ -8944,26 +8964,34 @@ formable_nations_mod_category = {
 		complete_effect = { capital_scope = { set_state_flag = formable_nations_old_capital }
 			set_cosmetic_tag = FORM_ICH
 			add_stability = 0.15
-			set_capital = { state = 289 }
+			set_capital = { state = 1134 }
 			custom_effect_tooltip = core_land
 			hidden_effect = { sound_effect = formable_complete  set_country_flag = unform_available
+				# Indochina
+				286 = { add_core_of = ROOT }
+				671 = { add_core_of = ROOT }
+				741 = { add_core_of = ROOT }
+				670 = { add_core_of = ROOT }
+				724 = { add_core_of = ROOT }
 				289 = { add_core_of = ROOT }
 				868 = { add_core_of = ROOT }
 				869 = { add_core_of = ROOT }
-				724 = { add_core_of = ROOT }
-				741 = { add_core_of = ROOT }
-				670 = { add_core_of = ROOT }
-				286 = { add_core_of = ROOT }
-				671 = { add_core_of = ROOT }
-				336 = { add_core_of = ROOT }
-				
-				288 = { add_core_of = ROOT }
-				640 = { add_core_of = ROOT }
 				924 = { add_core_of = ROOT }
 				925 = { add_core_of = ROOT }
 				926 = { add_core_of = ROOT }
 				927 = { add_core_of = ROOT }
-				928 = { add_core_of = ROOT }
+				928 = { add_core_of = ROOT }		
+				# Siam	
+				724 = { add_core_of = ROOT }
+				289 = { add_core_of = ROOT }
+				868 = { add_core_of = ROOT }
+				869 = { add_core_of = ROOT }
+				1132 = { add_core_of = ROOT }
+				1133 = { add_core_of = ROOT }
+				1134 = { add_core_of = ROOT }				
+				# Burma
+				288 = { add_core_of = ROOT }
+				640 = { add_core_of = ROOT }
 				1018 = { add_core_of = ROOT }
 				1019 = { add_core_of = ROOT }
 				1020 = { add_core_of = ROOT }				
@@ -15767,7 +15795,11 @@ formable_nations_mod_category = {
 				state = 869
 				state = 924
 				state = 925
-				state = 926				
+				state = 926
+				
+				state = 1132
+				state = 1133
+				state = 1134
 			}
 		}
 		
@@ -15786,7 +15818,11 @@ formable_nations_mod_category = {
 						869 = { controls_or_subject_of = yes }
 						924 = { controls_or_subject_of = yes }
 						925 = { controls_or_subject_of = yes }
-						926 = { controls_or_subject_of = yes }						
+						926 = { controls_or_subject_of = yes }		
+
+                        1132 = { controls_or_subject_of = yes }	
+				        1133 = { controls_or_subject_of = yes }	
+				        1134 = { controls_or_subject_of = yes }							
 					}
 					AND = {
 						is_ai = no
@@ -15819,7 +15855,11 @@ formable_nations_mod_category = {
 				869 = { add_core_of = ROOT }
 				924 = { add_core_of = ROOT }
 				925 = { add_core_of = ROOT }
-				926 = { add_core_of = ROOT }				
+				926 = { add_core_of = ROOT }
+
+                1132 = { add_core_of = ROOT }
+				1133 = { add_core_of = ROOT }
+				1134 = { add_core_of = ROOT }					
 			}
 		}
 	}
@@ -20284,6 +20324,10 @@ formable_nations_mod_category = {
 				state = 1108
 				state = 1109
 				state = 1110
+				
+				state = 1132
+				state = 1133
+				state = 1134
 			}
 		}
 		
