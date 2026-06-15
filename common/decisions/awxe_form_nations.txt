@@ -17802,6 +17802,10 @@ formable_nations_mod_category = {
 					has_global_flag = hide_formable_nations
 				}
 			}
+			OR = {
+				has_cosmetic_tag = FORM_BYZ
+				has_cosmetic_tag = FORM_WRO
+			}
 		}
 
 		highlight_states = {
@@ -22244,6 +22248,9 @@ formable_nations_mod_category = {
 					#has_country_flag = unform_available
 					has_global_flag = hide_formable_nations
 				}
+			}
+			OR = {
+				has_cosmetic_tag = FORM_OTT
 			}
 		}
 
@@ -32169,6 +32176,11 @@ formable_nations_mod_category = {
 					has_global_flag = hide_formable_nations
 				}
 			}
+			OR = {
+				has_cosmetic_tag = AFN_VIK
+				has_cosmetic_tag = AFN_VAN
+				has_cosmetic_tag = AFN_OST
+			}
 		}
 
 		highlight_states = {
@@ -34105,6 +34117,10 @@ formable_nations_mod_category = {
 					#has_country_flag = unform_available
 					has_global_flag = hide_formable_nations
 				}
+			}
+			OR = {
+				has_cosmetic_tag = AFN_LOT
+				has_cosmetic_tag = AFN_BUR
 			}
 		}
 
@@ -38107,6 +38123,10 @@ formable_nations_mod_category = {
 					#has_country_flag = unform_available
 					has_global_flag = hide_formable_nations
 				}
+			}
+			OR = {
+				has_cosmetic_tag = FORM_GRO
+				has_cosmetic_tag = FORM_AUH
 			}
 		}
 
