@@ -19327,7 +19327,10 @@ formable_nations_mod_category = {
 		        original_tag = PAK				
 		        original_tag = SRL				
 		        original_tag = BAN				
-		        original_tag = TIB				
+		        original_tag = TIB	
+                original_tag = KAS		
+		        original_tag = SKK		
+		        original_tag = MPU				
 		    }
 				
 		}
