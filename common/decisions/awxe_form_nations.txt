@@ -26415,7 +26415,6 @@ formable_nations_mod_category = {
 		        original_tag = INS				
 		        original_tag = SGP				
 		        original_tag = SIA				
-		        original_tag = BRN
                 original_tag = SNG		
 		        original_tag = ATJ		
 		        original_tag = SSI				
