@@ -14777,7 +14777,11 @@ formable_nations_mod_category = {
 				state = 992
 				state = 993
                 state = 1041
-				state = 1042				
+				state = 1042
+
+                state = 1136
+				state = 1139
+				state = 1140
 			}
 		}
 		
@@ -14896,7 +14900,11 @@ formable_nations_mod_category = {
 				        992 = { controls_or_subject_of = yes }
 						993 = { controls_or_subject_of = yes }
 						1041 = { controls_or_subject_of = yes }
-					    1042 = { controls_or_subject_of = yes }						
+					    1042 = { controls_or_subject_of = yes }
+
+                        1136 = { controls_or_subject_of = yes }
+				        1139 = { controls_or_subject_of = yes }
+				        1140 = { controls_or_subject_of = yes }						
 					}
 					AND = {
 						has_global_flag = debug_mode
@@ -15043,7 +15051,11 @@ formable_nations_mod_category = {
 				992 = { add_core_of = ROOT }
 				993 = { add_core_of = ROOT }
 				1041 = { add_core_of = ROOT }
-				1042 = { add_core_of = ROOT }				
+				1042 = { add_core_of = ROOT }
+
+                1136 = { add_core_of = ROOT }
+				1139 = { add_core_of = ROOT }
+				1140 = { add_core_of = ROOT }				
 			}
 			629 = { add_core_of = ROOT }
 			686 = { add_core_of = ROOT }
@@ -26953,7 +26965,6 @@ formable_nations_mod_category = {
 				1135 = { add_core_of = ROOT }
 				1143 = { add_core_of = ROOT }			
 			}
-			914 = { add_core_of = ROOT }
 			289 = { add_claim_by = ROOT }	
 			336 = { add_claim_by = ROOT }
 			1134 = { add_claim_by = ROOT }
@@ -37217,8 +37228,7 @@ formable_nations_mod_category = {
                 original_tag = BAN		
 		        original_tag = SNG		
 		        original_tag = ATJ		
-		        original_tag = SSI				
-		        original_tag = FRI				
+		        original_tag = SSI							
 		    }
 				
 		}
@@ -37375,7 +37385,6 @@ formable_nations_mod_category = {
 				1143 = { add_core_of = ROOT }
 			}
 			320 = { add_core_of = ROOT }
-			914 = { add_core_of = ROOT }
 			978 = { add_claim_by = ROOT }
 			733 = { add_claim_by = ROOT }
 			336 = { add_claim_by = ROOT }
@@ -42044,6 +42053,7 @@ formable_nations_mod_category = {
 		        original_tag = LAO		
 		        original_tag = CAM		
 		        original_tag = CPS		
+				original_tag = FRI
 		    }
 		
 		}
@@ -42158,7 +42168,6 @@ formable_nations_mod_category = {
 				1078 = { add_core_of = ROOT }
 			}
 			432 = { add_core_of = ROOT }
-			990 = { add_core_of = ROOT }
 			747 = { add_claim_by = ROOT }
 		}
 	}
