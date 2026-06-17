@@ -15564,20 +15564,117 @@ formable_nations_mod_category = {
 				state = 655
 				state = 657
 				
-				# China
+				# China & Warlords
+				state = 591
+				state = 592
+				state = 593
+				state = 594
 				state = 595
 				state = 596
-				state = 598
-				state = 608
-				state = 614
 				state = 597
+				state = 598
+				state = 599
+				state = 600
+				state = 602
+				state = 606
+				state = 607
+				state = 608	
 				state = 611
 				state = 612
+				state = 614
+				state = 615
+				state = 620
+				state = 749
+				state = 750
+				state = 1112
 				state = 1113
 				state = 1114
+				state = 1115
 				state = 1117
 				state = 1118
-				state = 1122				
+				state = 1122	
+
+                # Indochina
+                state = 286
+                state = 670
+			    state = 671
+				state = 741
+				state = 924
+				state = 925
+				state = 926
+				state = 927
+				state = 928
+				
+				# Siam
+				state = 289
+				state = 724
+				state = 868
+				state = 869
+				state = 1132
+				state = 1133
+				state = 1134
+				
+				# Malaya
+				state = 333
+				state = 914
+				state = 915
+				state = 916
+				state = 951
+				state = 960
+				state = 1014
+				state = 1129
+				state = 1130
+				state = 1131
+				
+				# Indonesia
+				state = 334
+				state = 335
+				state = 446
+				state = 667
+				state = 668
+				state = 669
+				state = 672
+				state = 673
+				state = 738
+				state = 909
+				state = 974
+				state = 975
+				state = 976
+				state = 977
+				state = 978
+				state = 1126
+				state = 1127
+				state = 1128
+				state = 1135
+				state = 1137
+				state = 1142
+				state = 1143
+				
+				# Philippines
+				state = 327
+				state = 623
+				state = 624
+				state = 625
+				state = 626
+				state = 627
+				state = 628
+				state = 1108
+				state = 1109
+				state = 1110
+				
+				# Burma
+				state = 288
+				state = 640
+				state = 1018
+				state = 1019
+				state = 1020
+				
+				# Port Cities
+				state = 326 # Hong Kong
+				state = 721 # Timor
+				state = 728 # Kouang
+				state = 729 # Macau
+				state = 336 # Singapore
 			}
 		}
 		
@@ -15588,7 +15685,7 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-							amount = 44 # "60 States"
+							amount = 58 # "143 States"
 							
 							# Japan & Manchu (37)
 							524 = { controls_or_subject_of = yes }
@@ -15643,20 +15740,117 @@ formable_nations_mod_category = {
 							655 = { controls_or_subject_of = yes }
 							657 = { controls_or_subject_of = yes }
 							
-							# China (13)
-							595 = { controls_or_subject_of = yes }
-							596 = { controls_or_subject_of = yes }
-							598 = { controls_or_subject_of = yes }
-							608 = { controls_or_subject_of = yes }
-							614 = { controls_or_subject_of = yes }
-							597 = { controls_or_subject_of = yes }
-							611 = { controls_or_subject_of = yes }
-							612 = { controls_or_subject_of = yes }
-							1113 = { controls_or_subject_of = yes }
-							1114 = { controls_or_subject_of = yes }
-							1117 = { controls_or_subject_of = yes }
-							1118 = { controls_or_subject_of = yes }
-							1122 = { controls_or_subject_of = yes }
+							# China & Warlords (28)
+				            591 = { controls_or_subject_of = yes }
+				            592 = { controls_or_subject_of = yes }
+				            593 = { controls_or_subject_of = yes }
+				            594 = { controls_or_subject_of = yes }
+				            595 = { controls_or_subject_of = yes }
+				            596 = { controls_or_subject_of = yes }
+				            597 = { controls_or_subject_of = yes }
+				            598 = { controls_or_subject_of = yes }
+				            599 = { controls_or_subject_of = yes }
+				            600 = { controls_or_subject_of = yes }
+				            602 = { controls_or_subject_of = yes }
+				            606 = { controls_or_subject_of = yes }
+				            607 = { controls_or_subject_of = yes }
+				            608 = { controls_or_subject_of = yes }	
+				            611 = { controls_or_subject_of = yes }
+				            612 = { controls_or_subject_of = yes }
+				            614 = { controls_or_subject_of = yes }
+				            615 = { controls_or_subject_of = yes }
+				            620 = { controls_or_subject_of = yes }
+				            749 = { controls_or_subject_of = yes }
+				            750 = { controls_or_subject_of = yes }
+				            1112 = { controls_or_subject_of = yes }
+				            1113 = { controls_or_subject_of = yes }
+				            1114 = { controls_or_subject_of = yes }
+				            1115 = { controls_or_subject_of = yes }
+				            1117 = { controls_or_subject_of = yes }
+				            1118 = { controls_or_subject_of = yes }
+				            1122 = { controls_or_subject_of = yes }	
+
+                            # Indochina (9)
+                            286 = { controls_or_subject_of = yes }
+                            670 = { controls_or_subject_of = yes }
+			                671 = { controls_or_subject_of = yes }
+				            741 = { controls_or_subject_of = yes }
+				            924 = { controls_or_subject_of = yes }
+				            925 = { controls_or_subject_of = yes }
+				            926 = { controls_or_subject_of = yes }
+				            927 = { controls_or_subject_of = yes }
+				            928 = { controls_or_subject_of = yes }
+				
+				            # Siam (7)
+				            289 = { controls_or_subject_of = yes }
+				            724 = { controls_or_subject_of = yes }
+				            868 = { controls_or_subject_of = yes }
+				            869 = { controls_or_subject_of = yes }
+				            1132 = { controls_or_subject_of = yes }
+				            1133 = { controls_or_subject_of = yes }
+				            1134 = { controls_or_subject_of = yes }
+				
+				            # Malaya (10)
+				            333 = { controls_or_subject_of = yes }
+				            914 = { controls_or_subject_of = yes }
+				            915 = { controls_or_subject_of = yes }
+				            916 = { controls_or_subject_of = yes }
+				            951 = { controls_or_subject_of = yes }
+				            960 = { controls_or_subject_of = yes }
+				            1014 = { controls_or_subject_of = yes }
+				            1129 = { controls_or_subject_of = yes }
+				            1130 = { controls_or_subject_of = yes }
+				            1131 = { controls_or_subject_of = yes }
+				
+				            # Indonesia (22)
+				            334 = { controls_or_subject_of = yes }
+				            335 = { controls_or_subject_of = yes }
+				            446 = { controls_or_subject_of = yes }
+				            667 = { controls_or_subject_of = yes }
+				            668 = { controls_or_subject_of = yes }
+				            669 = { controls_or_subject_of = yes }
+				            672 = { controls_or_subject_of = yes }
+				            673 = { controls_or_subject_of = yes }
+				            738 = { controls_or_subject_of = yes }
+				            909 = { controls_or_subject_of = yes }
+				            974 = { controls_or_subject_of = yes }
+				            975 = { controls_or_subject_of = yes }
+				            976 = { controls_or_subject_of = yes }
+				            977 = { controls_or_subject_of = yes }
+				            978 = { controls_or_subject_of = yes }
+				            1126 = { controls_or_subject_of = yes }
+				            1127 = { controls_or_subject_of = yes }
+				            1128 = { controls_or_subject_of = yes }
+				            1135 = { controls_or_subject_of = yes }
+				            1137 = { controls_or_subject_of = yes }
+				            1142 = { controls_or_subject_of = yes }
+				            1143 = { controls_or_subject_of = yes }
+				
+				            # Philippines (10)
+				            327 = { controls_or_subject_of = yes }
+				            623 = { controls_or_subject_of = yes }
+				            624 = { controls_or_subject_of = yes }
+				            625 = { controls_or_subject_of = yes }
+				            626 = { controls_or_subject_of = yes }
+				            627 = { controls_or_subject_of = yes }
+				            628 = { controls_or_subject_of = yes }
+				            1108 = { controls_or_subject_of = yes }
+				            1109 = { controls_or_subject_of = yes }
+				            1110 = { controls_or_subject_of = yes }
+				
+				            # Burma (5)
+				            288 = { controls_or_subject_of = yes }
+				            640 = { controls_or_subject_of = yes }
+				            1018 = { controls_or_subject_of = yes }
+				            1019 = { controls_or_subject_of = yes }
+				            1020 = { controls_or_subject_of = yes }
+				
+				            # Port Cities (5)
+				            326 = { controls_or_subject_of = yes } # Hong Kong
+				            721 = { controls_or_subject_of = yes } # Timor
+				            728 = { controls_or_subject_of = yes } # Kouang
+				            729 = { controls_or_subject_of = yes } # Macau
+				            336 = { controls_or_subject_of = yes } # Singapore
 						}
 					}
 					AND = {
@@ -15730,29 +15924,119 @@ formable_nations_mod_category = {
 				409 = { add_core_of = ROOT } 
 				655 = { add_core_of = ROOT }
 				657 = { add_core_of = ROOT }				
-				# China
-				595 = { add_core_of = ROOT }
-				596 = { add_core_of = ROOT }
-				598 = { add_core_of = ROOT }
-				608 = { add_core_of = ROOT }
-				614 = { add_core_of = ROOT }
-				597 = { add_core_of = ROOT }
-				611 = { add_core_of = ROOT }
-				612 = { add_core_of = ROOT }
-				1113 = { add_core_of = ROOT }
-				1114 = { add_core_of = ROOT }
-				1117 = { add_core_of = ROOT }
-				1118 = { add_core_of = ROOT }
-				1122 = { add_core_of = ROOT }
+				# China & Warlords
+				 591 = { add_core_of = ROOT }
+				 592 = { add_core_of = ROOT }
+				 593 = { add_core_of = ROOT }
+				 594 = { add_core_of = ROOT }
+				 595 = { add_core_of = ROOT }
+				 596 = { add_core_of = ROOT }
+				 597 = { add_core_of = ROOT }
+				 598 = { add_core_of = ROOT }
+				 599 = { add_core_of = ROOT }
+				 600 = { add_core_of = ROOT }
+				 602 = { add_core_of = ROOT }
+				 606 = { add_core_of = ROOT }
+				 607 = { add_core_of = ROOT }
+				 608 = { add_core_of = ROOT }
+				 611 = { add_core_of = ROOT }
+				 612 = { add_core_of = ROOT }
+				 614 = { add_core_of = ROOT }
+				 615 = { add_core_of = ROOT }
+				 620 = { add_core_of = ROOT }
+				 749 = { add_core_of = ROOT }
+				 750 = { add_core_of = ROOT }
+				 1112 = { add_core_of = ROOT }
+				 1113 = { add_core_of = ROOT }
+				 1114 = { add_core_of = ROOT }
+				 1115 = { add_core_of = ROOT }
+				 1117 = { add_core_of = ROOT }
+				 1118 = { add_core_of = ROOT }
+				 1122 = { add_core_of = ROOT }
+                 # Indochina
+                 286 = { add_core_of = ROOT }
+                 670 = { add_core_of = ROOT }
+			     671 = { add_core_of = ROOT }
+				 741 = { add_core_of = ROOT }
+				 924 = { add_core_of = ROOT }
+				 925 = { add_core_of = ROOT }
+				 926 = { add_core_of = ROOT }
+				 927 = { add_core_of = ROOT }
+				 928 = { add_core_of = ROOT }				
+				 # Siam
+				 289 = { add_core_of = ROOT }
+				 724 = { add_core_of = ROOT }
+				 868 = { add_core_of = ROOT }
+				 869 = { add_core_of = ROOT }
+				 1132 = { add_core_of = ROOT }
+				 1133 = { add_core_of = ROOT }
+				 1134 = { add_core_of = ROOT }				
+				 # Malaya
+				 333 = { add_core_of = ROOT }
+				 914 = { add_core_of = ROOT }
+				 915 = { add_core_of = ROOT }
+				 916 = { add_core_of = ROOT }
+				 951 = { add_core_of = ROOT }
+				 960 = { add_core_of = ROOT }
+				 1014 = { add_core_of = ROOT }
+				 1129 = { add_core_of = ROOT }
+				 1130 = { add_core_of = ROOT }
+				 1131 = { add_core_of = ROOT }				
+				 # Indonesia
+				 334 = { add_core_of = ROOT }
+				 335 = { add_core_of = ROOT }
+				 446 = { add_core_of = ROOT }
+				 667 = { add_core_of = ROOT }
+				 668 = { add_core_of = ROOT }
+				 669 = { add_core_of = ROOT }
+				 672 = { add_core_of = ROOT }
+				 673 = { add_core_of = ROOT }
+				 738 = { add_core_of = ROOT }
+				 909 = { add_core_of = ROOT }
+				 974 = { add_core_of = ROOT }
+				 975 = { add_core_of = ROOT }
+				 976 = { add_core_of = ROOT }
+				 977 = { add_core_of = ROOT }
+				 978 = { add_core_of = ROOT }
+				 1126 = { add_core_of = ROOT }
+				 1127 = { add_core_of = ROOT }
+				 1128 = { add_core_of = ROOT }
+				 1135 = { add_core_of = ROOT }
+				 1137 = { add_core_of = ROOT }
+				 1142 = { add_core_of = ROOT }
+				 1143 = { add_core_of = ROOT }				
+				 # Philippines
+				 327 = { add_core_of = ROOT }
+				 623 = { add_core_of = ROOT }
+				 624 = { add_core_of = ROOT }
+				 625 = { add_core_of = ROOT }
+				 626 = { add_core_of = ROOT }
+				 627 = { add_core_of = ROOT }
+				 628 = { add_core_of = ROOT }
+				 1108 = { add_core_of = ROOT }
+				 1109 = { add_core_of = ROOT }
+				 1110 = { add_core_of = ROOT }				
+				 # Burma
+				 288 = { add_core_of = ROOT }
+				 640 = { add_core_of = ROOT }
+				 1018 = { add_core_of = ROOT }
+				 1019 = { add_core_of = ROOT }
+				 1020 = { add_core_of = ROOT }				
+				 # Port Cities
+				 326 = { add_core_of = ROOT } # Hong Kong
+				 721 = { add_core_of = ROOT } # Timor
+				 728 = { add_core_of = ROOT } # Kouang
+				 729 = { add_core_of = ROOT } # Macau
+				 336 = { add_core_of = ROOT } # Singapore
 			}
-			# China
-			743 = { add_core_of = ROOT }
-			# Soviets
-			560 = { add_claim_by = ROOT }
-			637 = { add_claim_by = ROOT }
-			# USA
-			650 = { add_claim_by = ROOT } #attu island
+			733 = { add_claim_by = ROOT } # Andaman
+			560 = { add_claim_by = ROOT } # Nikolayevsk
+			637 = { add_claim_by = ROOT } # Kamchatka
+			650 = { add_claim_by = ROOT } # Attu Island
 			638 = { add_claim_by = ROOT } # Guam
+			1096 = { add_claim_by = ROOT } # New Guinea
+			737 = { add_claim_by = ROOT } # Bismarck
+			1138 = { add_claim_by = ROOT } # Bougainville
 		}
 	}
 
@@ -41519,9 +41803,9 @@ formable_nations_mod_category = {
 				state = 555
 				state = 645
 				state = 648
-				state = 1018
-				state = 1019
-				state = 1020
+				state = 1105
+				state = 1106
+				state = 1107
 				
 				# Philippines
 				state = 327
@@ -41530,17 +41814,17 @@ formable_nations_mod_category = {
 				state = 625
 				state = 627
 				state = 628
-				state = 1025
-				state = 1026
-				state = 1027
+				state = 1108
+				state = 1109
+				state = 1110
 				
 				# Papua
 				state = 523
 				state = 669
 				state = 737
-				state = 979
-				state = 1057
-				state = 1073
+				state = 1096
+				state = 1137
+				state = 1138
 				
 				# Pacific Islands
 				state = 270 # Pitcaim Island
@@ -41567,12 +41851,13 @@ formable_nations_mod_category = {
 				state = 725 # Nauru
 				state = 726 # Samao
 				state = 727 # Line Islands
-				state = 734 # Santa Cruz Islands
+				state = 734 # Tonga
 				state = 738 # Aru Islands
-				state = 948 # Easter Island
-				state = 1070 # Bougainville
-				state = 1071 # Vanuatu
-				state = 1072 # American Samao
+				state = 1074 # Easter Island						
+				state = 1088 # American Samao
+				state = 1089 # Niue
+				state = 1138 # Bougainville
+				state = 1141 # New Hebrides
 			}
 		}
 		
@@ -41582,26 +41867,26 @@ formable_nations_mod_category = {
 				OR = {
 					AND = {
 						count_triggers = {
-						amount = 35 # "63 States"
+						amount = 36 # "64 States"
 						# Japan (18)
 						282 = { controls_or_subject_of = yes }
 						524 = { controls_or_subject_of = yes }
-						526 = { controls_or_subject_of = yes }
-						528 = { controls_or_subject_of = yes }
-						529 = { controls_or_subject_of = yes }
-						530 = { controls_or_subject_of = yes }
-						531 = { controls_or_subject_of = yes }
-						532 = { controls_or_subject_of = yes }
-						533 = { controls_or_subject_of = yes }
-						534 = { controls_or_subject_of = yes }
-						535 = { controls_or_subject_of = yes }
-						536 = { controls_or_subject_of = yes }
-						555 = { controls_or_subject_of = yes }
-						645 = { controls_or_subject_of = yes }
-						648 = { controls_or_subject_of = yes }
-						1018 = { controls_or_subject_of = yes }
-						1019 = { controls_or_subject_of = yes }
-						1020 = { controls_or_subject_of = yes }
+				        526 = { controls_or_subject_of = yes }
+				        528 = { controls_or_subject_of = yes }
+				        529 = { controls_or_subject_of = yes }
+				        530 = { controls_or_subject_of = yes }
+				        531 = { controls_or_subject_of = yes }
+				        532 = { controls_or_subject_of = yes }
+				        533 = { controls_or_subject_of = yes }
+				        534 = { controls_or_subject_of = yes }
+				        535 = { controls_or_subject_of = yes }
+				        536 = { controls_or_subject_of = yes }
+				        555 = { controls_or_subject_of = yes }
+				        645 = { controls_or_subject_of = yes }
+				        648 = { controls_or_subject_of = yes }
+				        1105 = { controls_or_subject_of = yes }
+				        1106 = { controls_or_subject_of = yes }
+				        1107 = { controls_or_subject_of = yes }
 				
 				        # Philippines (9)
 				        327 = { controls_or_subject_of = yes }
@@ -41610,19 +41895,19 @@ formable_nations_mod_category = {
 				        625 = { controls_or_subject_of = yes }
 				        627 = { controls_or_subject_of = yes }
 				        628 = { controls_or_subject_of = yes }
-				        1025 = { controls_or_subject_of = yes }
-				        1026 = { controls_or_subject_of = yes }
-				        1027 = { controls_or_subject_of = yes }
+				        1108 = { controls_or_subject_of = yes }
+				        1109 = { controls_or_subject_of = yes }
+				        1110 = { controls_or_subject_of = yes }
 				
 				        # Papua (6)
 				        523 = { controls_or_subject_of = yes }
 				        669 = { controls_or_subject_of = yes }
 				        737 = { controls_or_subject_of = yes }
-				        979 = { controls_or_subject_of = yes }
-				        1057 = { controls_or_subject_of = yes }
-				        1073 = { controls_or_subject_of = yes }
+				        1096 = { controls_or_subject_of = yes }
+				        1137 = { controls_or_subject_of = yes }
+				        1138 = { controls_or_subject_of = yes }
 				
-				        # Pacific Islands (30)
+				        # Pacific Islands (31)
 				        270 = { controls_or_subject_of = yes } # Pitcaim Island
 				        626 = { controls_or_subject_of = yes } # Palawan
 				        629 = { controls_or_subject_of = yes } # Hawaii
@@ -41647,12 +41932,13 @@ formable_nations_mod_category = {
 				        725 = { controls_or_subject_of = yes } # Nauru
 				        726 = { controls_or_subject_of = yes } # Samao
 				        727 = { controls_or_subject_of = yes } # Line Islands
-				        734 = { controls_or_subject_of = yes } # Santa Cruz Islands
+				        734 = { controls_or_subject_of = yes } # Tonga
 				        738 = { controls_or_subject_of = yes } # Aru Islands
-				        948 = { controls_or_subject_of = yes } # Easter Island
-				        1070 = { controls_or_subject_of = yes } # Bougainville
-				        1071 = { controls_or_subject_of = yes } # Vanuatu
-				        1072 = { controls_or_subject_of = yes } # American Samao
+				        1074 = { controls_or_subject_of = yes } # Easter Island						
+				        1088 = { controls_or_subject_of = yes } # American Samao
+				        1089 = { controls_or_subject_of = yes } # Niue
+				        1138 = { controls_or_subject_of = yes } # Bougainville
+				        1141 = { controls_or_subject_of = yes } # New Hebrides
 						}
 					}
 					AND = {
@@ -41692,9 +41978,9 @@ formable_nations_mod_category = {
 				555 = { add_core_of = ROOT }
 				645 = { add_core_of = ROOT }
 				648 = { add_core_of = ROOT }
-				1018 = { add_core_of = ROOT }
-				1019 = { add_core_of = ROOT }
-				1020 = { add_core_of = ROOT }				
+				1105 = { add_core_of = ROOT }
+				1106 = { add_core_of = ROOT }
+				1107 = { add_core_of = ROOT }				
 				# Philippines
 				327 = { add_core_of = ROOT }
 				623 = { add_core_of = ROOT }
@@ -41702,16 +41988,16 @@ formable_nations_mod_category = {
 				625 = { add_core_of = ROOT }
 				627 = { add_core_of = ROOT }
 				628 = { add_core_of = ROOT }
-				1025 = { add_core_of = ROOT }
-				1026 = { add_core_of = ROOT }
-				1027 = { add_core_of = ROOT }				
+				1108 = { add_core_of = ROOT }
+				1109 = { add_core_of = ROOT }
+				1110 = { add_core_of = ROOT }				
 				# Papua
 				523 = { add_core_of = ROOT }
 				669 = { add_core_of = ROOT }
 				737 = { add_core_of = ROOT }
-				979 = { add_core_of = ROOT }
-				1057 = { add_core_of = ROOT }
-				1073 = { add_core_of = ROOT }				
+				1096 = { add_core_of = ROOT }
+				1137 = { add_core_of = ROOT }
+				1138 = { add_core_of = ROOT }				
 				# Pacific Islands
 				270 = { add_core_of = ROOT } # Pitcaim Island
 				626 = { add_core_of = ROOT } # Palawan
@@ -41737,12 +42023,13 @@ formable_nations_mod_category = {
 				725 = { add_core_of = ROOT } # Nauru
 				726 = { add_core_of = ROOT } # Samao
 				727 = { add_core_of = ROOT } # Line Islands
-				734 = { add_core_of = ROOT } # Santa Cruz Islands
+				734 = { add_core_of = ROOT } # Tonga
 				738 = { add_core_of = ROOT } # Aru Islands
-				948 = { add_core_of = ROOT } # Easter Island
-				1070 = { add_core_of = ROOT } # Bougainville
-				1071 = { add_core_of = ROOT } # Vanuatu
-				1072 = { add_core_of = ROOT } # American Samao
+				1074 = { add_core_of = ROOT } # Easter Island						
+				1088 = { add_core_of = ROOT } # American Samao
+				1089 = { add_core_of = ROOT } # Niue
+				1138 = { add_core_of = ROOT } # Bougainville
+				1141 = { add_core_of = ROOT } # New Hebrides
 			}
 		}
 	}
@@ -41794,18 +42081,13 @@ formable_nations_mod_category = {
 				state = 724
 				state = 868
 				state = 869
-				state = 993
-				state = 994
-				state = 995
-				state = 996
-				state = 997
-				state = 998
-				state = 999
-				state = 1068
-				state = 1069
-				state = 1076
-				state = 1077
-				state = 1078
+				state = 926
+				state = 1018
+				state = 1019
+				state = 1020
+				state = 1132
+				state = 1133
+				state = 1134
 			}
 		}
 		
