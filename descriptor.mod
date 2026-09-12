@@ -1,4 +1,4 @@
-version="1.10 - Maritime Realms"
+version="1.11 - Shadows of the Sahara"
 picture="thumbnail"
 tags={
 	"Alternative History"

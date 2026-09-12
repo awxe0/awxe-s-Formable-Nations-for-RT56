@@ -1,5 +1,7 @@
 <img width="1920" height="1080" alt="AFN - Steam Showcase - Main - 200++" src="https://github.com/user-attachments/assets/eff52d6d-bade-456e-b47a-553978888270" />
 
+<img width="1920" height="1080" alt="AFN - Steam Showcase - Dev History 1 11" src="https://github.com/user-attachments/assets/b80af7b3-d663-49da-8759-9672b1c9120c" />
+
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
 **MOD:** https://steamcommunity.com/sharedfiles/filedetails/?id=3531061069
@@ -8,7 +10,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled and no
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-<img width="616" height="2107" alt="AFN - Steam Panel - List 1 10" src="https://github.com/user-attachments/assets/dbcc18c7-4e18-41a5-a8ba-205c06ca70d5" />
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 11" src="https://github.com/user-attachments/assets/dc1d938c-946e-4b44-ba38-dfaf0a30419f" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
@@ -37,7 +39,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled and no
 
 <img width="600" height="75" alt="AFN - Steam Banners - Compatibility v2" src="https://github.com/user-attachments/assets/2e012a64-d573-45fe-8c27-b64033faa107" />
 
-Compatible with other mods that do not overwrite the same files and use the current version **(MAY Update) of Road to 56.**
+Compatible with other mods that do not overwrite the same files and use the current version **(SEPTEMBER Update) of Road to 56.**
 
 Not compatible with mods that add, modify, or remove states, or include cosmetic (color) files.
 
