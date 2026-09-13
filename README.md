@@ -8,7 +8,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled and no
 
 <img width="600" height="75" alt="AFN - Steam Banners - List v2" src="https://github.com/user-attachments/assets/23688c76-f5cf-44ef-8360-1f8e272ea911" />
 
-<img width="616" height="2107" alt="AFN - Steam Panel - List 1 10" src="https://github.com/user-attachments/assets/dbcc18c7-4e18-41a5-a8ba-205c06ca70d5" />
+<img width="616" height="2107" alt="AFN - Steam Panel - List 1 11" src="https://github.com/user-attachments/assets/dc1d938c-946e-4b44-ba38-dfaf0a30419f" />
 
 <img width="600" height="75" alt="AFN - Steam Banners - Features v2" src="https://github.com/user-attachments/assets/2d096998-47d1-4041-a3a0-942f534867a6" />
 
