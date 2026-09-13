@@ -1,5 +1,7 @@
 <img width="1920" height="1080" alt="AFN - Steam Showcase - Main - 200++" src="https://github.com/user-attachments/assets/eff52d6d-bade-456e-b47a-553978888270" />
 
+<img width="1920" height="1080" alt="AFN - Steam Showcase - Dev History 1 11" src="https://github.com/user-attachments/assets/b80af7b3-d663-49da-8759-9672b1c9120c" />
+
 <img width="600" height="75" alt="AFN - Steam Banners - Main v2" src="https://github.com/user-attachments/assets/e176c3a8-45e7-4264-8be7-8939713b2b9d" />
 
 **MOD:** https://steamcommunity.com/sharedfiles/filedetails/?id=3531061069
@@ -37,7 +39,7 @@ This is the well-known and beloved Formable Nations mod, fully overhauled and no
 
 <img width="600" height="75" alt="AFN - Steam Banners - Compatibility v2" src="https://github.com/user-attachments/assets/2e012a64-d573-45fe-8c27-b64033faa107" />
 
-Compatible with other mods that do not overwrite the same files and use the current version **(MAY Update) of Road to 56.**
+Compatible with other mods that do not overwrite the same files and use the current version **(SEPTEMBER Update) of Road to 56.**
 
 Not compatible with mods that add, modify, or remove states, or include cosmetic (color) files.
 
